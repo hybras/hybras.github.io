@@ -1,10 +1,15 @@
 "use strict";
-let profile = {};
+
+
+class Buses {
+	
+let profile;
 let id;
 let email;
+	
 const busTable = document.getElementById("busTable");
-
-	onSignIn(googleUser) {
+	
+	static onSignIn(googleUser) {
 		alert("SignedIn");
 		profile = googleUser.getBasicProfile();
 		const email = profile.getEmail();
@@ -16,7 +21,7 @@ const busTable = document.getElementById("busTable");
 		const divButton = document.getElementById("SignIn");
 		divButton.hidden = true;
 	}
-	submit() {
+	static submit() {
 		const busList = document.getElementsByName("bus");
 		let bus = 0;
 		for (let busNum of busList) {
@@ -31,4 +36,7 @@ const busTable = document.getElementById("busTable");
 		busCol.innerHTML = `${bus}`;
 		nameCol.innerHTML = `${profile.getName()}: ${id}`;
 	}
+}
+
+	
                                                 //# sourceMappingURL=buses.js.map
