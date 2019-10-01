@@ -12,7 +12,8 @@ class Buses {
 		const divButton = document.getElementById("SignIn");
 		divButton.hidden = true;
 	}
-	static submit() {
+}
+	submit() {
 		const busList = document.getElementsByName("bus");
 		let bus = 0;
 		for (let busNum of busList) {
@@ -27,6 +28,5 @@ class Buses {
 		busCol.innerHTML = `${bus}`;
 		nameCol.innerHTML = `${Buses.profile.getName()}: ${Buses.id}`;
 	}
-}
 Buses.busTable = document.getElementById("busTable");
                                                 //# sourceMappingURL=buses.js.map
