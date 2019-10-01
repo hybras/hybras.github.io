@@ -32,14 +32,14 @@
 				</tr>
 			</tbody>
 		</table>
-		<div id="SignIn" class="g-signin2" data-onsuccess="onSignIn()" style="margin:1ex"></div>
+		<div id="SignIn" class="g-signin2" data-onsuccess="Buses.onSignIn()" style="margin:1ex"></div>
 		<span style="margin: 5px">
 			Bus : <br>
 			<input type="radio" name="bus" value="1"> 1<br>
 			<input type="radio" name="bus" value="2"> 2<br>
 			<input type="radio" name="bus" value="3"> 3
 		</span><br>
-		<span><button onclick="submit()" id="submit" style="margin: 5px">Submit</button></span><br>
+		<span><button onclick="Buses.submit()" id="submit" style="margin: 5px">Submit</button></span><br>
 		<table id="busTable">
 			<thead>
 				<th>Name</th>
