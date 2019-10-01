@@ -13,7 +13,6 @@ class Buses {
 		divButton.hidden = true;
 	}
 	static submit() {
-		alert("Submission");
 		const busList = document.getElementsByName("bus");
 		let bus = 0;
 		for (let busNum of busList) {
