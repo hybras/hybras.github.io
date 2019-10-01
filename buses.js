@@ -1,10 +1,14 @@
 "use strict";
-class Buses {
-	static onSignIn(googleUser) {
+let profile = {};
+let id;
+let email;
+const busTable = document.getElementById("busTable");
+
+	onSignIn(googleUser) {
 		alert("SignedIn");
-		Buses.profile = googleUser.getBasicProfile();
-		const email = Buses.profile.getEmail();
-		Buses.id = email.substring(0, email.lastIndexOf("@"));
+		profile = googleUser.getBasicProfile();
+		const email = profile.getEmail();
+		id = email.substring(0, email.lastIndexOf("@"));
 		if (!email.endsWith("nbtschools.org")) {
 			alert("Not a valid google account");
 			throw new Error("Not a valid google account");
@@ -12,7 +16,6 @@ class Buses {
 		const divButton = document.getElementById("SignIn");
 		divButton.hidden = true;
 	}
-}
 	submit() {
 		const busList = document.getElementsByName("bus");
 		let bus = 0;
@@ -22,11 +25,10 @@ class Buses {
 				break;
 			}
 		}
-		const newRow = Buses.busTable.insertRow();
+		const newRow = busTable.insertRow();
 		const nameCol = newRow.insertCell();
 		const busCol = newRow.insertCell();
 		busCol.innerHTML = `${bus}`;
-		nameCol.innerHTML = `${Buses.profile.getName()}: ${Buses.id}`;
+		nameCol.innerHTML = `${profile.getName()}: ${id}`;
 	}
-Buses.busTable = document.getElementById("busTable");
                                                 //# sourceMappingURL=buses.js.map
