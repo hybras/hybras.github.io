@@ -1,0 +1,9 @@
+# Hybras, AKA Varun Chari
+
+![My profile picture](profile.jpg)
+
+Hello, my name is Varun Chari. I'm a senior in Central Jersey. My interests range from math and science to playing the flute and reading fantasy novels.
+
+## Where's the handle come from?
+
+To be honest, I've been struggling to keep to a single username for a long time. Right now, most of my accounts go by @hybras, though my user account on my computer is called arity. The word hybras doesn't seem to have any meaning. In the Artemis Fowl series, 'Hybras' is the island of demons, cast out of time in order to segregate the violent being from humanity.
