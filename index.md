@@ -1,3 +1,5 @@
+<link rel="shortcut icon" href="profile.jpg" type="image/gif">
+
 # Hybras, AKA Varun Chari
 
 ![My profile picture](profile.jpg)
@@ -10,4 +12,4 @@ To be honest, I've been struggling to keep to a single username for a long time.
 
 ## GPG/PGP Keys
 
-You can find my keys at [keys.openpgp.org](https://keys.openpgp.org), under my [personal email](varunchari@yahoo.com) and [github email](24651269+hybras@users.noreply.github.com). My github key is used only to sign commits and expires yearly.
+You can find my keys at [keys.openpgp.org](https://keys.openpgp.org), under my [personal email](mailto:varunchari@yahoo.com) and [github email](mailto:24651269+hybras@users.noreply.github.com). My github key is used only to sign commits and expires yearly.
