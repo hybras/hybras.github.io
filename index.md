@@ -1,5 +1,3 @@
-<link rel="shortcut icon" href="profile.jpg" type="image/gif">
-
 # Hybras, AKA Varun Chari
 
 ![My profile picture](profile.jpg)
