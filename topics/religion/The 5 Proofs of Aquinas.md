@@ -106,11 +106,12 @@ As an example, certainly the environmental condition of this planet seems to hav
 
 The fundamental premise of the Fifth Way, that inanimate things and processes are acting towards an intelligent end, is untenable. ^[[23](#references)]
 
-Notes
-a. Aquinas' first three ways are called the Cosmological Arguments because each argument starts from there being a cosmos or world which seems to need something to account for it.
-b. The term efficient cause was used by Thomas because he was influenced by Aristotelian philosophy. According to Aristotle, to have an adequate understanding of something we need to know four types of causes: the final cause, the formal cause, the material cause, and the efficient cause. As an example of this let us study a pen. It's final cause is the function of the pen, it is used for writing. It's formal cause, is its shape or form that allows it to fulfil its final cause (e.g. it's long slender shape which allows a human hand to hold it.) The material cause refers to the actual material that made it, for obviously the material must be strong enough to have a human hand holding it without bending, it's got to be impermeable to ink etc. The efficient cause is the the motion or action that begins or creates it, thus if it is a rare pen, the master craftsman in Switzerland is the efficient cause.
-When we speak today about scientific causes, we are talking mainly about what Aristotle would term efficient causes. Thus I have done away with the adjective in my subsequent discussion of cause.
-c. Although the term "Cosmological Argument" is used to refer to the first three ways of Aquinas, it is also used specifically to refer to the third way.
+## Notes
+
+a. Aquinas' first three ways are called the Cosmological Arguments because each argument starts from there being a cosmos or world which seems to need something to account for it.  
+b. The term efficient cause was used by Thomas because he was influenced by Aristotelian philosophy. According to Aristotle, to have an adequate understanding of something we need to know four types of causes: the final cause, the formal cause, the material cause, and the efficient cause. As an example of this let us study a pen. It's final cause is the function of the pen, it is used for writing. It's formal cause, is its shape or form that allows it to fulfil its final cause (e.g. it's long slender shape which allows a human hand to hold it.) The material cause refers to the actual material that made it, for obviously the material must be strong enough to have a human hand holding it without bending, it's got to be impermeable to ink etc. The efficient cause is the the motion or action that begins or creates it, thus if it is a rare pen, the master craftsman in Switzerland is the efficient cause.  
+When we speak today about scientific causes, we are talking mainly about what Aristotle would term efficient causes. Thus I have done away with the adjective in my subsequent discussion of cause.  
+c. Although the term "Cosmological Argument" is used to refer to the first three ways of Aquinas, it is also used specifically to refer to the third way.  
 
 ## References
 
