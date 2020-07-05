@@ -4,12 +4,8 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+I'm Varun Chari, a Rust enthusiast heading to UMD, class of 2024. I'm head over heels for Rust.
 
-### More Information
+## Contact me
 
-A place to include any other types of information that you'd like to include about yourself.
-
-### Contact me
-
-[email@domain.com](mailto:email@domain.com)
+[varunchari@yahoo.com](mailto:varunchari@yahoo.com)
