@@ -1,4 +1,4 @@
-# ![Stogas Bar Code Solutions](<https://siernos.com/_borders/new-stogas-logo2.gif> =307x221)
+# ![Stogas Bar Code Solutions](https://siernos.com/_borders/new-stogas-logo2.gif =307x221)
 
 Stogas Bar Code & 2D Solutions specializes in customized CLEI™ Code labels.  Here are some of the benefits of using our service:
 
