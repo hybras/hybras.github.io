@@ -10,6 +10,10 @@ Sorry we never got to have that meeting about how you guys would take over!
     1. You will need to use the password reset (Ms. Dhrolia's is the recovery email)
     1. All passwords are in the [password manager](https://passwords.google.com).
     1. Login to Chrome browser with the account (should happen automatically) and activate sync. This autofills passwords.
+1. There are club and board shared google drives.
+    1. Dhrolia is admin. Have her add you guys
+    1. **There are a lot of important documents here**, including records of our work, publicity stuff, and HackNB planning.
+    1. Remove us oldies from the drives
 1. Github
     1. We have a [github organization](https://github.com/nbttech)
     1. Github creds should be with the google account. The browser will autofill login. You can also check the password manager
