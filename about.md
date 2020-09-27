@@ -3,9 +3,13 @@ layout: page
 title: About
 permalink: /about/
 ---
-BTW: **Add UMD and Scholar's image links**
+<a href="https://www.umd.edu"><img src="https://brand.umd.edu/trademarks/marks/gr/informal.gif" height="50"></a>
+<a href="https://scholars.umd.edu"><img src="http://www.geol.umd.edu/sgc/sharedimages/sunspot.gif" height="50"></a>
 
-I'm Varun Chari, a [CS major](https://www.cs.umd.edu/) @ [UMD](https://www.umd.edu), class of 2024. I also happen to be in the [Scholar's living and learning program](https://scholars.umd.edu), under [Science 🥼, Discovery 🔍 & the Universe 🌌](https://scholars.umd.edu/programs/sdu). Did I mention that links are the best? They are.
+
+I'm Varun Chari, a [CS major](https://www.cs.umd.edu/) @ [UMD](https://www.umd.edu), class of 2024. I also happen to be in the [Scholar's living and learning program](https://scholars.umd.edu), under [Science 🥼, Discovery 🔍 & the Universe 🌌](https://scholars.umd.edu/programs/sdu).
+
+I love learning new programming languages and math. I read in my free time, though there hasn't been [much of that lately](https://weheartit.com/entry/164749997).
 
 Feel free to call me `hybras`, It's my 2nd name at this point. In the [Artemis Fowl bookseries, by Eoin Colfer](https://www.eoincolfer.com/artemis-fowl), the island of Hybras is the home of demons, exiled from the timeline. I guess I just liked the name (I don't really know, I began using the name years after reading the books).
 
