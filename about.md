@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-I'm Varun Chari, a Rust enthusiast heading to UMD, class of 2024. I'm head over heels for Rust.
+I'm Varun Chari, a CS major @ UMD, class of 2024.
 
 ## Contact me
 
