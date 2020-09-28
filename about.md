@@ -6,6 +6,9 @@ permalink: /about/
 <a href="https://www.umd.edu"><img src="https://brand.umd.edu/trademarks/marks/gr/informal.gif" height="50"></a>
 <a href="https://scholars.umd.edu"><img src="http://www.geol.umd.edu/sgc/sharedimages/sunspot.gif" height="50"></a>
 
+<figure><img src="/images/holy_war.jpg" style="text-align: center;" height="100" alt="Me preparing to fight bees in my yard."><figcaption>
+ <em>Me preparing to fight bees in my yard.</em>
+ </figcaption></figure>
 
 I'm Varun Chari, a [CS major](https://www.cs.umd.edu/) @ [UMD](https://www.umd.edu), class of 2024. I also happen to be in the [Scholar's living and learning program](https://scholars.umd.edu), under [Science 🥼, Discovery 🔍 & the Universe 🌌](https://scholars.umd.edu/programs/sdu).
 
