@@ -6,7 +6,8 @@ permalink: /about/
 <a href="https://www.umd.edu"><img src="https://brand.umd.edu/trademarks/marks/gr/informal.gif" height="50"></a>
 <a href="https://scholars.umd.edu"><img src="http://www.geol.umd.edu/sgc/sharedimages/sunspot.gif" height="50"></a>
 
-<figure><img src="/images/holy_war.jpg" style="text-align: center;" height="100" alt="Me preparing to fight bees in my yard."><figcaption>
+<figure><img src="/images/holy_war.jpg" style="display: block; margin-left: auto;
+margin-right: auto;" height="100" alt="Me preparing to fight bees in my yard."><figcaption>
  <em>Me preparing to fight bees in my yard.</em>
  </figcaption></figure>
 
