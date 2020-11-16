@@ -3,13 +3,12 @@ layout: page
 title: About
 permalink: /about/
 ---
-<a href="https://www.umd.edu"><img src="https://brand.umd.edu/trademarks/marks/gr/informal.gif" height="50"></a>
-<a href="https://scholars.umd.edu"><img src="http://www.geol.umd.edu/sgc/sharedimages/sunspot.gif" height="50"></a>
 
-<figure><img src="/images/holy_war.jpg" style="display: block; margin-left: auto;
-margin-right: auto;" height="100" alt="Me preparing to fight bees in my yard. Selfie from Sep, 2020"><figcaption>
- <em>Me preparing to fight bees in my yard. Selfie from Sep, 2020</em>
- </figcaption></figure>
+[![UMD Link](https://brand.umd.edu/trademarks/marks/gr/informal.gif){:height="50"}](https://www.umd.edu)
+[![UMD Scholars Link](http://www.geol.umd.edu/sgc/sharedimages/sunspot.gif){:height="50"}](https://scholars.umd.edu)
+
+![Me preparing to fight bees in my yard. Selfie from Sep, 2020](/images/holy_war.jpg){:  height="100" style="display: block; margin-left: auto;
+margin-right: auto;" title="Me preparing to fight bees in my yard. Selfie from Sep, 2020"}
 
 I'm Varun Chari, a [CS major](https://www.cs.umd.edu/) @ [UMD](https://www.umd.edu), class of 2024. I also happen to be in the [Scholar's living and learning program](https://scholars.umd.edu), under [Science 🥼, Discovery 🔍 & the Universe 🌌](https://scholars.umd.edu/programs/sdu).
 
