@@ -1,7 +1,6 @@
 ---
 title: Scholars Excursion
 layout: page
-summary: Thoughts about a presentation refuting Intelligent Design
 ---
  
 [![Link To CFI's page](https://centerforinquiry.org/wp-content/uploads/2020/08/lents-sip-300x176.jpg)](https://centerforinquiry.org/news/intelligent-design-and-science-denial-nathan-lents-on-the-next-skeptical-inquirer-presents/)  
