@@ -9,4 +9,4 @@ sd "url: https://www.terpconnect.umd.edu" "url: https://hybras.github.io" _confi
 sd "baseurl: \"/~vchari\"" "baseurl: \"\"" _config.yml
 sd "avatar: /~vchari/images/profile.jpg" "avatar: /images/profile.jpg" _config.yml
 
-sshpass -f ~/.umd scp -r _site  umdb:~/../pub
+sshpass -f ~/.umd scp -r _site/* umd:~/../pub
