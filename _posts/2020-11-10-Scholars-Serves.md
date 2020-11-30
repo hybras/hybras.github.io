@@ -3,6 +3,7 @@ title: Scholars Servers
 layout: post
 categories:
     - scholars
+date: 2020-11-10
 ---
 
 ## The Issue
