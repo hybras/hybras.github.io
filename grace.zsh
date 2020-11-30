@@ -2,7 +2,7 @@
 sd "url: https://hybras.github.io" "url: https://www.terpconnect.umd.edu" _config.yml
 sd "baseurl: \"\"" "baseurl: \"/~vchari\"" _config.yml
 
-jekyll build
+bundle exec jekyll build --incremental
 
 sd "url: https://www.terpconnect.umd.edu" "url: https://hybras.github.io" _config.yml
 sd "baseurl: \"/~vchari\"" "baseurl: \"\"" _config.yml
