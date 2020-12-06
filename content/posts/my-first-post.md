@@ -11,7 +11,7 @@ This is a [hugo](https://gohugo.io) site using the [Beautiful Hugo](https://them
 
 ## How's it going to far?
 
-Hugo has too many config options. :exploding_head: However, the defaults seem excellent. For example, I can use \\( \KaTeX \\). I have my IDE set up to use autocomplete for emoji `:shortcodes:`. Also, hugo is friggin fast :exclamation:
+Hugo has too many config options 🤯. However, the defaults seem excellent. For example, I can use \\( \KaTeX \\). I have my IDE set up to use autocomplete for emoji `:shortcodes:`. Also, hugo is friggin fast ❗
 
 ## What's left?
 
