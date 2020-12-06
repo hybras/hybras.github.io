@@ -1,8 +1,8 @@
-baseurl = "https://pages.gitlab.io/hugo/"
+baseurl = "https://hybras.gitlab.io"
 contentdir    = "content"
 layoutdir     = "layouts"
 publishdir    = "public"
-title = "Beautiful Hugo"
+title = "Hybras' Site"
 canonifyurls  = true
 
 DefaultContentLanguage = "en"
@@ -10,6 +10,7 @@ theme = "beautifulhugo"
 metaDataFormat = "yaml"
 pygmentsUseClasses = true
 pygmentCodeFences = true
+enableEmoji = true
 #disqusShortname = "XXX"
 #googleAnalytics = "XXX"
 
