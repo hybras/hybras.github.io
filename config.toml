@@ -34,25 +34,25 @@ pygmentCodeFences = true
 #  desc = "Hexagon"
 
 [Author]
-  name = "Some Person"
-  email = "youremail@domain.com"
-  facebook = "username"
-  googleplus = "+username" # or xxxxxxxxxxxxxxxxxxxxx
-  gitlab = "username"
-  github = "username"
-  twitter = "username"
-  reddit = "username"
-  linkedin = "username"
-  xing = "username"
-  stackoverflow = "users/XXXXXXX/username"
-  snapchat = "username"
-  instagram = "username"
-  youtube = "user/username" # or channel/channelname
-  soundcloud = "username"
-  spotify = "username"
-  bandcamp = "username"
-  itchio = "username"
-  keybase = "username"
+  name = "hybras"
+  email = "vchari@terpmail.umd.edu"
+  gitlab = "hybras"
+  github = "hybras"
+  twitter = "hybras1"
+  reddit = "id9seeker"
+  linkedin = "varun-chari"
+  stackoverflow = "users/10725115/hybras"
+  # facebook = "username"
+  # googleplus = "+username" # or xxxxxxxxxxxxxxxxxxxxx
+  # xing = "username"
+  # snapchat = "username"
+  # instagram = "username"
+  # youtube = "user/username" # or channel/channelname
+  # soundcloud = "username"
+  # spotify = "username"
+  # bandcamp = "username"
+  # itchio = "username"
+  # keybase = "username"
 
 
 [[menu.main]]
