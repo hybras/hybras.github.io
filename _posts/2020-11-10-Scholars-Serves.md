@@ -1,5 +1,5 @@
 ---
-title: Scholars Servers
+title: Scholars Serves
 layout: post
 categories:
     - scholars
