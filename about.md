@@ -5,7 +5,7 @@ permalink: /about/
 ---
 
 [![UMD Link](https://brand.umd.edu/trademarks/marks/gr/informal.gif){:height="50"}](https://www.umd.edu)
-[![UMD Scholars Link](http://www.geol.umd.edu/sgc/sharedimages/sunspot.gif){:height="50"}](https://scholars.umd.edu)
+[![UMD Scholars Link](https://www.geol.umd.edu/sgc/sharedimages/sunspot.gif){:height="50"}](https://scholars.umd.edu)
 
 ![Me preparing to fight bees in my yard. Selfie from Sep, 2020](/images/holy_war.jpg){:  height="100" style="display: block; margin-left: auto;
 margin-right: auto;" title="Me preparing to fight bees in my yard. Selfie from Sep, 2020"}
