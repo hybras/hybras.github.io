@@ -1,6 +1,7 @@
 ---
 title: About me
 subtitle: Jersey Boy at ❤️
+date: "2020-09-27"
 ---
 
 <style>
@@ -15,7 +16,11 @@ body {
 
 <img src="/holy_war.jpg" title="Me preparing to fight bees in my yard. Selfie from Sep, 2020" height="150" >Me preparing to fight bees in my yard. Selfie from Sep, 2020</img>
 
-I'm Varun Chari, a [CS major](https://www.cs.umd.edu/) @ [UMD](https://www.umd.edu), class of 2024. I also happen to be in the [Scholar's living and learning program](https://scholars.umd.edu), under [Science 🥼, Discovery 🔍 & the Universe 🌌](https://scholars.umd.edu/programs/sdu).
+I'm Varun Chari, a [CS major](https://www.cs.umd.edu/) @ [UMD](https://www.umd.edu), class of 2024. I also happen to be in the [Scholar's living and learning program](https://scholars.umd.edu), under [Science 🥼, Discovery 🔍 & the Universe 🌌](https://scholars.umd.edu/programs/sdu). For my freshmen year, I'm attending remotely.
+
+I hope to meet other students with different experiences than me, so we can share ideas and perspectives. I want to step outside my comfort zone of CS/Math. So far I've taken a business course, and next semester I'm dipping my toes in philosophy.
+
+I joined SDU to learn about the ethical consideration of scientific research. Science doesn't exist in a vacuum, the discoveries made and funding given are usually influenced by more than just scientific curiosity. The other reason was the awe of being able to learn about our universe and the biggest scales.
 
 I love learning new programming languages and math. I read in my free time, though there hasn't been [much of that lately](https://weheartit.com/entry/164749997).
 
