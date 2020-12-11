@@ -11,12 +11,9 @@ body {
 
 </style>
 
-[![UMD Link](https://brand.umd.edu/trademarks/marks/gr/informal.gif)](https://www.umd.edu)
+<a href="https://www.umd.edu"><img style="width: 50px;" src="https://brand.umd.edu/trademarks/marks/gr/informal.gif" title="UMD Link"></img></a><a href="https://scholars.umd.edu"><img style="width: 50px;" src="https://www.geol.umd.edu/sgc/sharedimages/sunspot.gif" title="UMD Scholars Link"></img></a>
 
-[![UMD Scholars Link](https://www.geol.umd.edu/sgc/sharedimages/sunspot.gif)](https://scholars.umd.edu)
-
-![Me preparing to fight bees in my yard. Selfie from Sep, 2020](/images/holy_war.jpg "Me preparing to fight bees in my yard. Selfie from Sep, 2020"){:  height="100" style="display: block; margin-left: auto;
-margin-right: auto;" title="Me preparing to fight bees in my yard. Selfie from Sep, 2020"}
+<img src="/holy_war.jpg" title="Me preparing to fight bees in my yard. Selfie from Sep, 2020" height="100" >Me preparing to fight bees in my yard. Selfie from Sep, 2020</img>
 
 I'm Varun Chari, a [CS major](https://www.cs.umd.edu/) @ [UMD](https://www.umd.edu), class of 2024. I also happen to be in the [Scholar's living and learning program](https://scholars.umd.edu), under [Science 🥼, Discovery 🔍 & the Universe 🌌](https://scholars.umd.edu/programs/sdu).
 
