@@ -1,0 +1,12 @@
+---
+title: From Me to Scholars...
+date: "2020-09-27"
+tags:
+    - scholars
+---
+
+Hello Scholars! To be honest, it blows my mind that this program (and specifically SDU) even exists! Every public school has science classes. But its pretty rare to have a science teacher who is passionate about science itself, more than just memorization of subject matter. I was very lucky to have a such a teacher. I suppose I've always been curious (though, who isn't?), but she got me excited about thinking as a scientist, and testing the limits of what we know.
+
+Getting people excited about science seems to be very hard (well, it is for me. `anecdote * n != data`). On top of that, people *chronically* (under/over)estimate what science is capable of. If this were 1500 CE, and you told me that we would be flying to other planets, communicating across the globe, editing life itself, I'd assume you were insane. On the other end, people (myself included) are routinely deceived by sensationalist press about ✨groundbreaking research✨ into new diets or evolutionary history.
+
+So I guess what I want from Scholars is to learn how to communicate scientific knowledge, and help others distinguish what is scientifically supported from what is not.
