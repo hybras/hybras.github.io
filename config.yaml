@@ -14,6 +14,11 @@ enableEmoji: true
 # disqusShortname: XXX
 # googleAnalytics: XXX
 
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
 Params:
   subtitle: "Musings, Failures, Life"
   logo: profile.jpg
