@@ -1,3 +1,3 @@
-# Front Page Content
+# Home Page
 
-Welcome to my site. There's both blog posts and pages here.
+For now, this site hosts write-ups from College Park Scholar's. Hopefully other stuff gets added over time.
