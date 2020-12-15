@@ -1,3 +1,3 @@
 # Home Page
 
-This site hosts write-ups from College Park Scholar's, as well as short posts about my time @ University of Maryland, College Park. All content here is from me, not endorsed by the university, and views contained herein are my own (despite being hosted on the university's servers).
+Welcome to my site, I'm `Varun Chari`. You can check my [about page](page/about) for more info, or see my [blog posts](posts/).
