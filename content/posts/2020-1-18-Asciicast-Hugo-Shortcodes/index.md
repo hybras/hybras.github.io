@@ -1,9 +1,11 @@
 ---
 title: "Hugo shortcodes for asciinema"
 date: 2021-01-18T21:02:53-05:00
-asciinema: true
+asciicast: true
 tags: ["hugo"]
+description: "A quick and dirty hugo shortcode for asciinema"
 ---
+
 This article assumes you know what [Asciinema](https://asciinema.org) is, how to embed its [player widget script](https://asciinema.org/docs/embedding), and use the [`<asciinema-player>` tag](https://github.com/asciinema/asciinema-player/tree/master#self-hosting-quick-start). It also assumes you know how to create [hugo shortcodes](https://gohugo.io/templates/shortcode-templates).
 
 Shortcodes I already found:
@@ -18,19 +20,18 @@ Shortcodes I already found:
 
 So what do I want from _my_ shortcode?
 
-1. 1 positional parameter for the source cast XOR named parameters
-   1. Build Error when the above is violated
+1. 1 positional parameter XOR named parameters
 2. Self hosted casts
-3. Don't redundantly set parameters / No default values / use asciicasts defaults
+3. Use asciicasts defaults
 4. Attributes that accept urls should be marked safe (`safeURL`)
 
-This is the shortcode I came up with:
+This is the shortcode I came up with. It checks if named parameters are used, and if so checks for the presence of each of the and includes the corresponding attribute. The `src` parameter is mandatory. Otherwise, it checks that only 1 positional param is present and assigns it to `src`.
 
 ```html
 <p>
     <asciinema-player 
         {{ if .IsNamedParams }} 
-            src="{{ with .Get "src" | safeURL}}{{ . }}{{ end }}"
+            src="{{ with .Get "src" | safeURL}}{{ . }}{{ else }}{{ errorf "missing value for 'src': %s" .Position }}{{ end }}"
             {{ if .Get "cols" }}cols="{{ .Get "cols" }}"{{ end }} 
             {{ if .Get "rows" }}rows="{{ .Get "rows" }}"{{ end }}
             {{ if .Get "autoplay" }}autoplay="{{ .Get "autoplay" }}"{{ end }}
@@ -53,12 +54,12 @@ This is the shortcode I came up with:
 </p>
 ```
 
-Note that I am defying the asciinema docs, placing the `defer`red script in `<head>`, instead of at the end of `<body>`. Because I am checking if `.Param "asciinema"` is set, make to sure to include `asciinema: true` in either your front matter, or site-wide in your config.{toml, yaml, json}. This makes sure the assets are only loaded when needed. I included the css and js in my `<head>` like so:
+Note that I am defying the asciinema docs, placing the `defer`red script in `<head>`, instead of at the end of `<body>`. Because I am checking if `.Param "asciicast"` is set, make to sure to include `asciicast: true` in either your front matter, or site-wide in your config. This makes sure the assets are only loaded when needed. I included the css and js in my `<head>` like so:
 
 ```html
-{{ if .Param "asciinema" }}
-<link rel="stylesheet" type="text/css" href="{{ .Site.BaseURL }}/asciinema-player.css" />
-<script src="{{ .Site.BaseURL }}/asciinema-player.js" defer></script>
+{{ if .Param "asciicast" }}
+<link rel="stylesheet" type="text/css" href="{{ .Site.BaseURL }}css/asciinema-player.css" />
+<script src="{{ .Site.BaseURL }}js/asciinema-player.js" defer></script>
 {{ end }}
 ```
 
@@ -67,7 +68,7 @@ If you find [`<asciinema-player>`'s defaults](https://github.com/asciinema/ascii
 Here's an example. Note that it resizes upon loading, and doesn't preload.
 
 ```html
-{{</* asciinema src="cast.cast" font-size="medium" */>}}
+{{</* asciicast src="cast.cast" font-size="medium" */>}}
 ```
 
-{{< asciinema src="cast.cast" font-size="medium" >}}
+{{< asciicast src="cast.cast" font-size="medium" >}}
