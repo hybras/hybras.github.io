@@ -20,6 +20,13 @@
 			},
 			"problemMatcher": [],
 			"label": "hugo: Serve draft site"
+		},
+		{
+			"type": "hugo",
+			"task": "server",
+			"group": "build",
+			"problemMatcher": [],
+			"label": "hugo: Serve site"
 		}
 	]
 }
