@@ -4,5 +4,8 @@
         "asciinema",
         "shortcode",
         "shortcodes"
-    ]
+    ],
+    "[markdown]": {
+        "editor.quickSuggestions": true
+    }
 }
