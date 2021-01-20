@@ -6,6 +6,8 @@ tags: ["hugo"]
 description: "A quick and dirty hugo shortcode for asciinema"
 ---
 
+> Find the finished theme at [the repo](https://gitlab.com/hybras/hugo-asciinema)
+
 This article assumes you know what [Asciinema](https://asciinema.org) is, how to embed its [player widget script](https://asciinema.org/docs/embedding), and use the [`<asciinema-player>` tag](https://github.com/asciinema/asciinema-player/tree/master#self-hosting-quick-start). It also assumes you know how to create [hugo shortcodes](https://gohugo.io/templates/shortcode-templates).
 
 Shortcodes I already found:
