@@ -8,9 +8,9 @@ description: "A quick and dirty hugo shortcode for asciinema"
 
 > Find the finished theme at [the repo](https://gitlab.com/hybras/hugo-asciinema)
 
-This article assumes you know what [Asciinema](https://asciinema.org) is, how to embed its [player widget script](https://asciinema.org/docs/embedding), and use the [`<asciinema-player>` tag](https://github.com/asciinema/asciinema-player/tree/master#self-hosting-quick-start). It also assumes you know how to create [hugo shortcodes](https://gohugo.io/templates/shortcode-templates).
+[Asciinema](https://asciinema.org) records and replays your terminal sessions. It makes it easy to share shell scripts and their output, which is a boon for documenting complex workflows. Best of all, it can be easily embedded using a  [script](https://asciinema.org/docs/embedding) or the [`<asciinema-player>` tag](https://github.com/asciinema/asciinema-player/tree/master#self-hosting-quick-start). I wanted create [hugo shortcodes](https://gohugo.io/templates/shortcode-templates) (templates for the [hugo](https://gohugo.io) static site generator).
 
-Shortcodes I already found:
+Here are some shortcodes I already found:
 
 1. In a [blog post from Tony Lykke](https://www.tonylykke.com/posts/2018/06/20/embedding-asciinema-casts-in-hugo/) (which also describes how to self host asciinema in hugo)
    1. con: it expects all parameters to be named (i.e. the shortcode is not [_flexible_](https://gohugo.io/templates/shortcode-templates/#positional-vs-named-parameters))
