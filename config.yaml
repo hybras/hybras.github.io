@@ -12,7 +12,7 @@ pygmentsUseClasses: true
 pygmentCodeFences: true
 enableEmoji: true
 # disqusShortname: XXX
-# googleAnalytics: XXX
+googleAnalytics: G-SL7P0NKJVB
 
 markup:
   goldmark:
