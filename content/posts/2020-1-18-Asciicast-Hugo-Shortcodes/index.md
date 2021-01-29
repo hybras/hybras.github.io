@@ -8,7 +8,7 @@ description: "A quick and dirty hugo shortcode for asciinema"
 
 > Find the finished theme at [the repo](https://gitlab.com/hybras/hugo-asciinema)
 
-[Asciinema](https://asciinema.org) records and replays your terminal sessions. It makes it easy to share shell scripts and their output, which is a boon for documenting complex workflows. Best of all, it can be easily embedded using a  [script](https://asciinema.org/docs/embedding) or the [`<asciinema-player>` tag](https://github.com/asciinema/asciinema-player/tree/master#self-hosting-quick-start). I wanted create [hugo shortcodes](https://gohugo.io/templates/shortcode-templates) (templates for the [hugo](https://gohugo.io) static site generator).
+[Asciinema](https://asciinema.org) records and replays your terminal sessions. It makes it easy to share shell scripts and their output, which is a boon for documenting complex workflows. Best of all, it can be easily embedded using a  [script](https://asciinema.org/docs/embedding) or the [`<asciinema-player>` tag](https://github.com/asciinema/asciinema-player/tree/master#self-hosting-quick-start). I wanted create a [hugo shortcode](https://gohugo.io/templates/shortcode-templates) (template for the [hugo](https://gohugo.io) static site generator) that makes using and self hosting asciinema easy for hugo users.
 
 Here are some shortcodes I already found:
 
@@ -18,16 +18,16 @@ Here are some shortcodes I already found:
 2. [Shortcode](https://github.com/laozhu/hugo-nuo/blob/master/layouts/shortcodes/asciinema.html) from the [Hugo Nuo theme](https://github.com/laozhu/hugo-nuo)
    1. pro: well documented and flexible
    2. con: only supports the remote player
-   3. con: too flexible (it allows all parameters to be positional)
+   3. con: *too* flexible. It allows *all* parameters to be positional, which I consider bad design when more than a 2 parameters are expected
 
 So what do I want from _my_ shortcode?
 
 1. 1 positional parameter XOR named parameters
 2. Self hosted casts
-3. Use asciicasts defaults
+3. Use asciicast defaults
 4. Attributes that accept urls should be marked safe (`safeURL`)
 
-This is the shortcode I came up with. It checks if named parameters are used, and if so checks for the presence of each of the and includes the corresponding attribute. The `src` parameter is mandatory. Otherwise, it checks that only 1 positional param is present and assigns it to `src`.
+This is the shortcode I came up with. It checks if named parameters are used, and if so checks for the presence of each of them and includes the corresponding attribute. The `src` parameter is mandatory. Otherwise, it checks that only 1 positional param is present and assigns it to `src`.
 
 ```html
 <p>
@@ -56,7 +56,7 @@ This is the shortcode I came up with. It checks if named parameters are used, an
 </p>
 ```
 
-Note that I am defying the asciinema docs, placing the `defer`red script in `<head>`, instead of at the end of `<body>`. Because I am checking if `.Param "asciicast"` is set, make to sure to include `asciicast: true` in either your front matter, or site-wide in your config. This makes sure the assets are only loaded when needed. I included the css and js in my `<head>` like so:
+Note that I am defying the asciinema docs, placing the `defer`red script in `<head>`, instead of at the end of `<body>`. Because I am checking if `.Param "asciicast"` is set, make to sure to include `asciicast: true` in either your front matter, or site-wide in your config. This ensures the assets are only loaded when needed. I included the css and js in my `<head>` like so:
 
 ```html
 {{ if .Param "asciicast" }}
@@ -65,7 +65,7 @@ Note that I am defying the asciinema docs, placing the `defer`red script in `<he
 {{ end }}
 ```
 
-If you find [`<asciinema-player>`'s defaults](https://github.com/asciinema/asciinema-player/tree/master#asciinema-player-element-attributes) unintuitive, you can easily pick more sensible defaults.
+If you find [`<asciinema-player>`'s defaults](https://github.com/asciinema/asciinema-player/tree/master#asciinema-player-element-attributes) unintuitive, you can easily pick more sensible defaults. All of the parameters can and should be altered to match your site.
 
 Here's an example. Note that it resizes upon loading, and doesn't preload.
 
