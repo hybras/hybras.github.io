@@ -1,11 +1,11 @@
 {
-    "cSpell.words": [
-        "asciicast",
-        "asciinema",
-        "shortcode",
-        "shortcodes"
-    ],
-    "[markdown]": {
-        "editor.quickSuggestions": true
-    }
+	"cSpell.words": [
+		"asciicast",
+		"asciinema",
+		"shortcode",
+		"shortcodes"
+	],
+	"[markdown]": {
+		"editor.quickSuggestions": true
+	}
 }

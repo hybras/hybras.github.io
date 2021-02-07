@@ -7,8 +7,8 @@ tags:
 
 ## The Issue
 
-Poll workers skew towards the elderly, and the current pandemic makes its risky for those with compromised immune systems to interact with hundreds of strangers.  
-The underlying issue is that people ages 18-29 are not as politically active as older citizens. We don't vote as much, we don't run for elected office as much, and we don't work as poll workers as much. This means that our pandemic caused a shortage of poll workers. The underlying issue is that voting is downright difficult in this country. Ideally, all adults would be automatically / immediately eligible to vote. In practice, voter registration is time consuming / confusing, political parties don't campaign as frequently to younger voters, and employed individuals may have difficulty taking time off to vote on a Tuesday.  
+Poll workers skew towards the elderly, and the current pandemic makes its risky for those with compromised immune systems to interact with hundreds of strangers.
+The underlying issue is that people ages 18-29 are not as politically active as older citizens. We don't vote as much, we don't run for elected office as much, and we don't work as poll workers as much. This means that our pandemic caused a shortage of poll workers. The underlying issue is that voting is downright difficult in this country. Ideally, all adults would be automatically / immediately eligible to vote. In practice, voter registration is time consuming / confusing, political parties don't campaign as frequently to younger voters, and employed individuals may have difficulty taking time off to vote on a Tuesday.
 There is enormous incentive for politicians (of both parties) to disenfranchise voters who disagree with their policies. When voters are {not aware of , incapable of voting in their best interests}, politicians can enact policies that increase their power at the expense of the citizenry. As such, [Congress is literally not a democracy](https://represent.us/action/no-the-problem/). And of course, echo chambers online have fueled misinformation, polarization, and obscured [broad agreement](https://www.npr.org/2019/06/07/730183531/poll-majority-want-to-keep-abortion-legal-but-they-also-want-restrictions) on certain issues.
 
 ## Myself
@@ -22,5 +22,5 @@ To other people considering service experiences, my message is that a little tim
 ## Additional reflection
 
 1. I guess it was a bit of both. I wanted to help other people, but I was also really curious to see how elections are run. Part of it was also availability: I was reached out to so I didn't have to go searching for opportunities.
-2. NJ implemented universal mail in voting for the election (I also mailed in my ballot), so the people I helped  had terrible mail service, didn't trust the mail, or couldn't reach a drop box. That felt super weird, to be checking people in when I didn't even vote in-person myself.
+2. NJ implemented universal mail in voting for the election (I also mailed in my ballot), so the people I helped had terrible mail service, didn't trust the mail, or couldn't reach a drop box. That felt super weird, to be checking people in when I didn't even vote in-person myself.
 3. I felt proud of myself for participating afterwards, because the whole "operation" was run extremely efficiently. There were / are allegations of election fraud, but knowing the number of people involved from both parties makes me scoff. I also found out that people had blocked our highways a couple days earlier while I was working, which was extremely infuriating.

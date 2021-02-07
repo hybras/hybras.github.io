@@ -10,4 +10,3 @@
 Compare them using [Babelmark](https://johnmacfarlane.net/babelmark2/)
 [Kramdown](https://kramdown.gettalong.org/)
 https://takuti.me/note/hugo-kramdown-and-katex
-

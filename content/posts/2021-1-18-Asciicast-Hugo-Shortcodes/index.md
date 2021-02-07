@@ -8,19 +8,19 @@ description: "A quick and dirty hugo shortcode for asciinema"
 
 > Find the finished theme at [the repo](https://gitlab.com/hybras/hugo-asciinema)
 
-[Asciinema](https://asciinema.org) records and replays your terminal sessions. It makes it easy to share shell scripts and their output, which is a boon for documenting complex workflows. Best of all, it can be easily embedded using a  [script](https://asciinema.org/docs/embedding) or the [`<asciinema-player>` tag](https://github.com/asciinema/asciinema-player/tree/master#self-hosting-quick-start). I wanted create a [hugo shortcode](https://gohugo.io/templates/shortcode-templates) (template for the [hugo](https://gohugo.io) static site generator) that makes using and self hosting asciinema easy for hugo users.
+[Asciinema](https://asciinema.org) records and replays your terminal sessions. It makes it easy to share shell scripts and their output, which is a boon for documenting complex workflows. Best of all, it can be easily embedded using a [script](https://asciinema.org/docs/embedding) or the [`<asciinema-player>` tag](https://github.com/asciinema/asciinema-player/tree/master#self-hosting-quick-start). I wanted create a [hugo shortcode](https://gohugo.io/templates/shortcode-templates) (template for the [hugo](https://gohugo.io) static site generator) that makes using and self hosting asciinema easy for hugo users.
 
 Here are some shortcodes I already found:
 
 1. In a [blog post from Tony Lykke](https://www.tonylykke.com/posts/2018/06/20/embedding-asciinema-casts-in-hugo/) (which also describes how to self host asciinema in hugo)
-   1. con: it expects all parameters to be named (i.e. the shortcode is not [_flexible_](https://gohugo.io/templates/shortcode-templates/#positional-vs-named-parameters))
+   1. con: it expects all parameters to be named (i.e. the shortcode is not [*flexible*](https://gohugo.io/templates/shortcode-templates/#positional-vs-named-parameters))
    2. con: Resets the default params
 2. [Shortcode](https://github.com/laozhu/hugo-nuo/blob/master/layouts/shortcodes/asciinema.html) from the [Hugo Nuo theme](https://github.com/laozhu/hugo-nuo)
    1. pro: well documented and flexible
    2. con: only supports the remote player
    3. con: *too* flexible. It allows *all* parameters to be positional, which I consider bad design when more than a 2 parameters are expected
 
-So what do I want from _my_ shortcode?
+So what do I want from *my* shortcode?
 
 1. 1 positional parameter XOR named parameters
 2. Self hosted casts
