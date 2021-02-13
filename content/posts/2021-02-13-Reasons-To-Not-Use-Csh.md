@@ -66,7 +66,7 @@ is the Bourne shell.
 
 [[TOC]]
 
-1. The Ad Hoc Parser
+## The Ad Hoc Parser
 
 	The biggest problem of the C shell (and TCSH) it its ad hoc parser.
 Now this information won't make you immediately switch shells.
@@ -245,7 +245,7 @@ And we are just getting warmed up. The C shell a time bomb, gang...
 	Tick... Tick... Tick...
 
 
-2. Multiple-line quoting difficult
+## Multiple-line quoting difficult
 
 
 	The C shell complaints if strings are longer than a line.
@@ -379,7 +379,7 @@ surprise. That's the C shell - one never knows where the next surprise
 will be.
 
 
-3. Quoting can be confusing and inconsistent
+## Quoting can be confusing and inconsistent
 
 	The Bourne shell has three types of quotes:
 
@@ -517,7 +517,7 @@ You use this to make sure you get quotes correctly specified in aliases.
 	Larry Wall calls this backslashitis. What a royal pain.
 	Tick.. Tick.. Tick..
 
-4. If/while/foreach/read cannot use redirection
+## If/while/foreach/read cannot use redirection
 
    The Bourne shell allows complex commands to be combined with pipes.
    The C shell doesn't. Suppose you want to choose an argument to grep.
@@ -569,7 +569,7 @@ complex command, like the single line with the "if" statement. It's
 much nicer recalling and editing the entire complex command. But
 that's for interactive shells, and outside the scope of this essay.
 
-5. Getting input a line at a time
+## Getting input a line at a time
 
 	Suppose you want to read one line from a file. This simple
 task is very difficult for the C shell. The C shell provides one way
@@ -616,7 +616,7 @@ The workaround usually means creating several smaller scripts instead
 of one script. 
 
 
-6. Aliases are line oriented
+## Aliases are line oriented
 
 	Aliases MUST be one line. However, the "if" WANTS to be on
 multiple lines, and quoting multiple lines is a pain. Clearly the work
@@ -647,7 +647,7 @@ script/file.
 
 Tick..Tick..Tick..
 
-7. Limited file I/O redirection
+## Limited file I/O redirection
 
 	The C shell has one mechanism to specify standard output and
 standard error, and a second to combine them into one stream. It can
@@ -671,7 +671,7 @@ I suggest you read his examples. See
 http://www.faqs.org/faqs/unix-faq/shell/csh-whynot/
 
 
-8. Poor management of signals and subprocesses
+## Poor management of signals and subprocesses
 
 	The C shell has very limited signal and process management.
 
@@ -754,7 +754,7 @@ of a child process and use it in a script. The wait command
 waits for ALL processes, not the ones your specify. It just can't
 handle the job.
 
-9. Fewer ways to test for missing variables
+## Fewer ways to test for missing variables
 
 	The C shell provides a way to test if a variable exists -
    using the $?var name:
@@ -804,7 +804,7 @@ $	echo ${A=default}
 
 	These also support the ":" to test for null values.
 
-10. Inconsistent use of variables and commands.
+## Inconsistent use of variables and commands.
 
 	The Bourne shell has one type of variable. The C shell has seven:
 
