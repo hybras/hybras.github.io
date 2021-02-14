@@ -1,0 +1,9 @@
+{"version": 2, "width": 76, "height": 42, "timestamp": 1613325618, "idle_time_limit": 0.1, "env": {"SHELL": "/home/linuxbrew/.linuxbrew/bin/zsh", "TERM": "xterm-256color"}}
+[0.157699, "o", "% "]
+[1.306666, "o", "echo '$HOME"]
+[1.307491, "o", "'"]
+[2.803668, "o", "\r\r\n"]
+[2.803792, "o", "$HOME\r\n"]
+[2.804279, "o", "% "]
+[4.030728, "o", "^D\b\bexit"]
+[4.031154, "o", "\r\n"]

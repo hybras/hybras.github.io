@@ -1,0 +1,7 @@
+{"version": 2, "width": 135, "height": 28, "timestamp": 1613344444, "idle_time_limit": 0.1, "env": {"SHELL": "/home/linuxbrew/.linuxbrew/bin/zsh", "TERM": "xterm-256color"}}
+[0.151368, "o", "% "]
+[1.568617, "o", "if ($?A && (\"$A\" =~ ?*)) then"]
+[2.524369, "o", "\r\r\n"]
+[2.524478, "o", "A: Undefined variable.\r\n"]
+[2.524526, "o", "% "]
+[4.971202, "o", "^D\b\bexit\r\n"]
