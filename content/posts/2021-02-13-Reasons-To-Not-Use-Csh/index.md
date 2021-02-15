@@ -7,7 +7,10 @@ tags: ["csh"]
 asciicast: true
 ---
 
-> Here is the [Original Text](https://grymoire.com/Unix/CshTop10.txt).\
+> Here is the [Original Text](https://grymoire.com/Unix/CshTop10.txt).
+
+<!-- dprint-ignore-start -->
+
 > I have done my best to format this document as well formed markdown, readable as `md` and `html`. Contact me with fixes and formatting errors.
 >
 > - The original document used `$` and `%` to denote shell type
@@ -15,6 +18,8 @@ asciicast: true
 > - I have replaced "quoted" code width `<code>` tags
 > - I have *italicised* and **bolded** certain statements
 > - I have de-indented paragraphs
+
+<!-- dprint-ignore-end -->
 
 Written by Bruce Barnett, With MAJOR help from
 
@@ -436,7 +441,7 @@ Speaking of which... The Bourne shell allows you to combine several lines onto a
 if true;then grep a;else grep b; fi
 ```
 
-This has several advantages. Commands in a makefile - see make(1) - have to be on one line. Trying to put a C shell `if` command in a makefile is painful.  Also - if your shell allows you to recall and edit previous commands, then you can use complex commands and edit them. The C shell allows you to repeat only the first part of a complex command, like the single line with the `if` statement. It's much nicer recalling and editing the entire complex command. But that's for interactive shells, and outside the scope of this essay.
+This has several advantages. Commands in a makefile - see make(1) - have to be on one line. Trying to put a C shell `if` command in a makefile is painful. Also - if your shell allows you to recall and edit previous commands, then you can use complex commands and edit them. The C shell allows you to repeat only the first part of a complex command, like the single line with the `if` statement. It's much nicer recalling and editing the entire complex command. But that's for interactive shells, and outside the scope of this essay.
 
 ## Getting input a line at a time
 
@@ -446,11 +451,11 @@ Suppose you want to read one line from a file. This simple task is very difficul
 set ans = $<
 ```
 
-The trouble is - this ALWAYS reads from standard input.  If a terminal is attached to standard input, then it reads from the terminal.  If a file is attached to the script, then it reads the file.
+The trouble is - this ALWAYS reads from standard input. If a terminal is attached to standard input, then it reads from the terminal. If a file is attached to the script, then it reads the file.
 
-But what do you do if you want to specify the filename in the middle of the script?  You can use "head -1" to get a line. but how do you read the next line? You can create a temporary file, and read and delete the first line. How ugly and extremely inefficient. On a scale of 1 to 10, it scores -1000.
+But what do you do if you want to specify the filename in the middle of the script? You can use "head -1" to get a line. but how do you read the next line? You can create a temporary file, and read and delete the first line. How ugly and extremely inefficient. On a scale of 1 to 10, it scores -1000.
 
-Now what if you want to read a file, and ask the user something during this?  As an example - suppose you want to read a list of filenames from a pipe, and ask the user what to do with some of them? Can't do this with the C shell - `$<` reads from standard input. Always. The Bourne shell does allow this. Simply use
+Now what if you want to read a file, and ask the user something during this? As an example - suppose you want to read a list of filenames from a pipe, and ask the user what to do with some of them? Can't do this with the C shell - `$<` reads from standard input. Always. The Bourne shell does allow this. Simply use
 
 ```bash
 read ans </dev/tty
@@ -532,9 +537,9 @@ The C shell can be used to catch all signals, or ignore all signals. All or none
 
 Many programs have (or need) sophisticated signal handling. Sending a `-HUP` signal might cause the program to re-read configuration files. Sending a `-USR1` signal may cause the program to turn debug mode on and off. And sending `-TERM` should cause the program to terminate. The Bourne shell can have this control. The C shell cannot.
 
-Have you ever had a script launch several sub-processes and then try to stop them when you realized you make a mistake?  You can kill the main script with a Control-C, but the background processes are still running. You have to use "ps" to find the other processes and kill them one at a time. That's the best the C shell can do. The Bourne shell can do better. Much better.
+Have you ever had a script launch several sub-processes and then try to stop them when you realized you make a mistake? You can kill the main script with a Control-C, but the background processes are still running. You have to use "ps" to find the other processes and kill them one at a time. That's the best the C shell can do. The Bourne shell can do better. Much better.
 
-A good programmer makes sure all of the child processes are killed when the parent is killed.  Here is a fragment of a Bourne shell program that launches three child processes, and passes a `-HUP` signal to all of them so they can restart.
+A good programmer makes sure all of the child processes are killed when the parent is killed. Here is a fragment of a Bourne shell program that launches three child processes, and passes a `-HUP` signal to all of them so they can restart.
 
 ```bash
 PIDS=""
@@ -556,7 +561,7 @@ You can also wait for those processes to terminate using the wait command:
 wait "$PIDS"
 ```
 
-Notice you have precise control over which children you are waiting for. The C shell waits for all child processes. Again - all or none - those are your choices. But that's not good enough.  Here is an example that executes three processes. If they don't finish in 30 seconds, they are terminated - an easy job for the Bourne shell:
+Notice you have precise control over which children you are waiting for. The C shell waits for all child processes. Again - all or none - those are your choices. But that's not good enough. Here is an example that executes three processes. If they don't finish in 30 seconds, they are terminated - an easy job for the Bourne shell:
 
 ```bash
 MYID=$$
@@ -639,13 +644,13 @@ These also support the `:` to test for null values.
 
 The Bourne shell has one type of variable. The C shell has seven:
 
-- Regular variables     - $a
-- Wordlist variables    - $a[1]
+- Regular variables - $a
+- Wordlist variables - $a[1]
 - Environment variables - $A
-- Alias arguments       - !1
-- History arguments     - !1
+- Alias arguments - !1
+- History arguments - !1
 - Sub-process variables - %1
-- Directory variables   - ~user
+- Directory variables - ~user
 
 These are not treated the same. For instance, you can use the `:r` modifier on regular variables, but on some systems you cannot use it on environment variables without getting an error. Try to get the process ID of a child process using the C shell:
 
@@ -654,7 +659,7 @@ program &
 echo "I just created process %%"
 ```
 
-It doesn't work. And forget using ~user variables for anything complicated. Can you combine the `:r` with history variables? No. I've already mentioned that quoting alias arguments is special. These variables and what you can do with them is not consistent.  Some have very specific functions. The alias and history variables use the same character, but have different uses.
+It doesn't work. And forget using ~user variables for anything complicated. Can you combine the `:r` with history variables? No. I've already mentioned that quoting alias arguments is special. These variables and what you can do with them is not consistent. Some have very specific functions. The alias and history variables use the same character, but have different uses.
 
 This is also seen when you combine built-ins. If you have an alias "myalias" then the following lines may generate strange errors (as Tom has mentioned before):
 
@@ -664,7 +669,7 @@ kill -1 `cat file`
 time | echo
 ```
 
-In general, using pipes, backquotes and redirection with built-in commands  is asking for trouble., i.e.
+In general, using pipes, backquotes and redirection with built-in commands is asking for trouble., i.e.
 
 ```csh
 echo "!1"
