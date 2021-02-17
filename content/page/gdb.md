@@ -2,9 +2,8 @@
 title: GDB Cheat Sheet
 author:  Marc Haisenko
 ---
-[markdown]: https://www.markdownguide.org/
 
-> This page is an html/[markdown] friendly version of [Marc Haisenko's GDB Cheat Sheet](https://darkdust.net/index.php/writings/gdb). If you [google "GDB Cheat Sheet"](https://www.google.com/search?q=gdb+cheat+sheet), nearly every link and image is some version of his original pdf.
+> This page is an html/[markdown](https://www.markdownguide.org/) friendly version of [Marc Haisenko's GDB Cheat Sheet](https://darkdust.net/index.php/writings/gdb). If you [google "GDB Cheat Sheet"](https://www.google.com/search?q=gdb+cheat+sheet), nearly every link and image is some version of his original pdf.
 
 ## Running
 
@@ -112,6 +111,10 @@ author:  Marc Haisenko
 `x/nfu <address>`
 : Print memory.
 
+<!-- dprint-ignore-start -->
+
+<!-- markdownlint-disable MD007-->
+
   - `n`: How many units to print (default 1).
   - `f`: Format character (like "print").
   - `u`: Unit.
@@ -122,6 +125,10 @@ author:  Marc Haisenko
   - `h`: Half-word (two bytes)
   - `w`: Word (four bytes)
   - `g`: Giant word (eight bytes))
+
+<!-- markdownlint-enable MD007-->
+
+<!-- dprint-ignore-end -->
 
 ## Format
 
