@@ -182,9 +182,17 @@ author:  Marc Haisenko
 `list`
 : Shows the current or given source context. The filename may be omitted. If last is omitted the context starting at start is printed instead of centered around it.
 
-- `list <filename>:<function>`
-- `list <filename>:<line_number>`
-- `list <first>,<last>`
+<!-- dprint-ignore-start -->
+
+<!-- markdownlint-disable MD007-->
+
+  - `list <filename>:<function>`
+  - `list <filename>:<line_number>`
+  - `list <first>,<last>`
+
+<!-- markdownlint-enable MD007-->
+
+<!-- dprint-ignore-end -->
 
 `set listsize <count>`
 : Set how many lines to show in "list".
@@ -194,9 +202,17 @@ author:  Marc Haisenko
 `handle <signal> <options>`
 : Set how to handle signals. Options are:
 
-- `(no)print`: (Don't) print a message when signals occurs.
-- `(no)stop`: (Don't) stop the program when signals occurs.
-- `(no)pass`: (Don't) pass the signal to the program.
+<!-- dprint-ignore-start -->
+
+<!-- markdownlint-disable MD007-->
+
+  - `(no)print`: (Don't) print a message when signals occurs.
+  - `(no)stop`: (Don't) stop the program when signals occurs.
+  - `(no)pass`: (Don't) pass the signal to the program.
+
+<!-- markdownlint-enable MD007-->
+
+<!-- dprint-ignore-end -->
 
 ## Informations
 
