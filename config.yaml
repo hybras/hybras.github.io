@@ -18,6 +18,7 @@ markup:
   goldmark:
     renderer:
       unsafe: true
+      hardWraps: true
 
 Params:
   subtitle: "Musings, Failures, Life"
