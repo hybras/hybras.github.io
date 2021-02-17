@@ -111,24 +111,16 @@ author:  Marc Haisenko
 `x/nfu <address>`
 : Print memory.
 
-<!-- dprint-ignore-start -->
+- `n`: How many units to print (default 1).
+- `f`: Format character (like "print").
+- `u`: Unit.
 
-<!-- markdownlint-disable MD007-->
+Unit is one of:
 
-  - `n`: How many units to print (default 1).
-  - `f`: Format character (like "print").
-  - `u`: Unit.
-
-  Unit is one of:
-
-  - `b`: Byte
-  - `h`: Half-word (two bytes)
-  - `w`: Word (four bytes)
-  - `g`: Giant word (eight bytes))
-
-<!-- markdownlint-enable MD007-->
-
-<!-- dprint-ignore-end -->
+- `b`: Byte
+- `h`: Half-word (two bytes)
+- `w`: Word (four bytes)
+- `g`: Giant word (eight bytes))
 
 ## Format
 
@@ -182,17 +174,9 @@ author:  Marc Haisenko
 `list`
 : Shows the current or given source context. The filename may be omitted. If last is omitted the context starting at start is printed instead of centered around it.
 
-<!-- dprint-ignore-start -->
-
-<!-- markdownlint-disable MD007-->
-
-  - `list <filename>:<function>`
-  - `list <filename>:<line_number>`
-  - `list <first>,<last>`
-
-<!-- markdownlint-enable MD007-->
-
-<!-- dprint-ignore-end -->
+- `list <filename>:<function>`
+- `list <filename>:<line_number>`
+- `list <first>,<last>`
 
 `set listsize <count>`
 : Set how many lines to show in "list".
@@ -202,17 +186,9 @@ author:  Marc Haisenko
 `handle <signal> <options>`
 : Set how to handle signals. Options are:
 
-<!-- dprint-ignore-start -->
-
-<!-- markdownlint-disable MD007-->
-
-  - `(no)print`: (Don't) print a message when signals occurs.
-  - `(no)stop`: (Don't) stop the program when signals occurs.
-  - `(no)pass`: (Don't) pass the signal to the program.
-
-<!-- markdownlint-enable MD007-->
-
-<!-- dprint-ignore-end -->
+- `(no)print`: (Don't) print a message when signals occurs.
+- `(no)stop`: (Don't) stop the program when signals occurs.
+- `(no)pass`: (Don't) pass the signal to the program.
 
 ## Informations
 
