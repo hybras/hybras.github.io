@@ -1,4 +1,5 @@
 baseurl: "https://hybras.gitlab.io"
+# baseurl: "https://www.terpconnect.umd.edu/~vchari/"
 contentdir: content
 layoutdir: layouts
 publishdir: public
