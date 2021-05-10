@@ -4,7 +4,7 @@ author: ""
 type: ""
 date: 2021-05-09T20:24:48-04:00
 subtitle: ""
-image: "/posts/2021-05-09-Scholars-Serves/box transfer.jpg"
+image: "/posts/2021-05-09-scholars-serves/box transfer.jpg"
 tags: ["scholars"]
 bigimg:
     - desc: "My Brother"
