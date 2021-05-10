@@ -1,0 +1,27 @@
+---
+title: "Scholars Serves"
+author: ""
+type: ""
+date: 2021-05-09T20:24:48-04:00
+subtitle: ""
+image: "/posts/2021-05-09-Scholars-Serves/box transfer.jpg"
+tags: ["scholars"]
+bigimg:
+    - desc: "My Brother"
+      src: "box transfer.jpg"
+    - desc: "Volunteer Coordinator"
+      src: "with sudha aunty.jpg"
+---
+
+> Depending on ur browser, the above image carousel might not work. My web dev skills are lacking. Here are the images linked.
+
+{{< figure src="box transfer.jpg" alt="My Brother handing over boxes" width="500px">}}
+{{< figure src="with sudha aunty.jpg" alt="Posing with the day manager" width="500px">}}
+
+This spring, my brother made sandwich bags for [Elijah's Promise](https://elijahspromise.org/), a local soup kitchen. His friends had other obligations, so I helped him out.
+
+They weren't anything special: a peanut butter and jelly sandwich, and occasional fruits, cheese, crackers, and juice. We crowdsourced the supplies from my brothers friends, neighbors, and stuff we had in our pantry. The whole packing took ~4 hours.
+
+Elijah's promise is a lot more than a soup kitchen (my brother and I volunteer there about once a year). They offer cooking classes, hot meals, collaborate with local hospitals to provide fresh produce for members of some program, accept sandwich bag donations, cater, and teach gardening/farming and healthy eating. They really are a community powerhouse, covering food from just about every angle.
+
+My volunteering reminded me that I'm fairly lucky to never worry about going hungry. Elijah's Promise is literally trying to fight hunger from multiple fronts 24 / 7. I keep thinking, I can contribute more, but usually don't. I think finding a group of people to do these things together is helpful. This event, and most of my volunteering in high school were with clubs or group's of friends. Of course, I am being a little selfish. Me not having friends isn't an excuse to volunteer more. 🤞Hopefully I can spend more time on causes I want to support this summer, now that everyone is vaccinated 💉.
