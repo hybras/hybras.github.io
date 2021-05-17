@@ -13,6 +13,11 @@ What comes to mind when you think "Karen"? A middle aged white woman? Someone ma
    2. Then went on to fake a concern that other people might not know if the store was open, and listed *every other store on the block that had their signs lit*, which wasn't even all of them (cherry-picking mom?).
 2. Whenever we go out to eat
    1. She always orders *warm* water. No problems there.
-   2. On the off chance the waiter serves 😠 room temp water my mom will glare at the waiter, refuse to drink it, and demands it be warmed.
+   2. On the off chance the waiter serves room temp water my mom will glare 😠 at the waiter, refuse to drink it, and demands it be warmed.
    3. Ditto for minor mistakes in food delivery / groceries.
       1. Once we ordered red apples, and green ones were sent instead. Mind you, the apples were fine. My mother got a food refund after admonishing the business owner.
+3. Incident with a 🖌 painter
+   1. Mom wanted the house painted
+   2. She selected a set of colors that were hard to distinguish
+   3. She complained that the painter was using the wrong color many time
+   4. Halfway through, she switched colors, claiming that our kitchen needed a lighter one because it recieved more light. The color she picked was almost identical to a color the painter had made by mixing white and the previously picked color.
