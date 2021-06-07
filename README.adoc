@@ -1,0 +1,3 @@
+= My Personal Site
+
+This site was initially markdown. https://matthewsetter.com/technical-documentation/asciidoc/convert-markdown-to-asciidoc-with-kramdoc/[I converted it to asciidoc]
