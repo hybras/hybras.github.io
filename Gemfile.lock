@@ -1,0 +1,31 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    asciidoctor (2.0.15)
+    asciidoctor-diagram (2.1.2)
+      asciidoctor (>= 1.5.7, < 3.x)
+      asciidoctor-diagram-ditaamini (~> 1.0.0)
+      asciidoctor-diagram-plantuml (~> 1.2021)
+      rexml
+    asciidoctor-diagram-ditaamini (1.0.0)
+    asciidoctor-diagram-plantuml (1.2021.5)
+    asciidoctor-html5s (0.5.0)
+      asciidoctor (>= 1.5.7, < 3.0)
+      thread_safe (~> 0.3.4)
+    kramdown (1.17.0)
+    kramdown-asciidoc (1.0.1)
+      kramdown (~> 1.17.0)
+    rexml (3.2.5)
+    thread_safe (0.3.6)
+
+PLATFORMS
+  x64-mingw32
+
+DEPENDENCIES
+  asciidoctor
+  asciidoctor-diagram
+  asciidoctor-html5s
+  kramdown-asciidoc
+
+BUNDLED WITH
+   2.2.15

@@ -20,6 +20,8 @@ markup:
     renderer:
       unsafe: true
       hardWraps: true
+  asciidocExt:
+    extensions: ["asciidoctor-html5s", "asciidoctor-diagram"]
 
 Params:
   subtitle: "Musings, Failures, Life"
