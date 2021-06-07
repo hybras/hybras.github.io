@@ -13,6 +13,7 @@ test:
 
 pages:
   script:
+  - gem install asciidoctor-html5s
   - hugo
   artifacts:
     paths:
