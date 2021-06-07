@@ -1,0 +1,25 @@
+= My First Hugo Post!!!
+:date: 2020-12-06
+:subtitle: Beginning with hugo
+:tags: ["hugo"]
+
+== What is this?
+
+This is a https://gohugo.io[hugo] site using the https://themes.gohugo.io/beautifulhugo/[Beautiful Hugo].
+
+== How's it going to far?
+
+Hugo has too many config options 🤯.
+However, the defaults seem excellent.
+For example, I can use \( \KaTeX \).
+I have my IDE set up to use autocomplete for emoji `:shortcodes:`.
+Also, hugo is friggin fast ❗
+
+== What's left?
+
+* +++<input type="checkbox" class="task-list-item-checkbox" disabled="disabled">++++++</input>+++Setup other themes
+* +++<input type="checkbox" class="task-list-item-checkbox" disabled="disabled">++++++</input>+++Transfer posts from my github jekyll site.
+* +++<input type="checkbox" class="task-list-item-checkbox" disabled="disabled">++++++</input>+++Enable other goldmark / features
+* +++<input type="checkbox" class="task-list-item-checkbox" disabled="disabled">++++++</input>+++Learn more about Hugo
+* +++<input type="checkbox" class="task-list-item-checkbox" disabled="disabled">++++++</input>+++Add my favicon
+* +++<input type="checkbox" class="task-list-item-checkbox" disabled="disabled">++++++</input>+++And more!
