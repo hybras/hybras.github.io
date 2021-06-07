@@ -21,7 +21,7 @@ markup:
       unsafe: true
       hardWraps: true
   asciidocExt:
-    extensions: ["asciidoctor-html5s", "asciidoctor-diagram"]
+    extensions: ["asciidoctor-html5s"]
 
 Params:
   subtitle: "Musings, Failures, Life"

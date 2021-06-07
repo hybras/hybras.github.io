@@ -1,11 +1,12 @@
 # All available Hugo versions are listed here: https://gitlab.com/pages/hugo/container_registry
-image: registry.gitlab.com/pages/hugo:latest
+image: klakegg/hugo:asciidoctor-ci
 
 variables:
   GIT_SUBMODULE_STRATEGY: recursive
 
 test:
   script:
+  - gem install asciidoctor-html5s
   - hugo
   except:
   - master
