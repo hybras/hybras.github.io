@@ -1,7 +1,9 @@
-= Rust's Small Standard Library
-:pp: {plus}{plus}
-:summary: A short commentary on what is(n't) in rust's std
-:tags: ["rust"]
+---
+title: Rust's Small Standard Library
+date: 2021-03-10
+summary: A short commentary on what is(n't) in rust's std
+tags: ["rust"]
+---
 
 ____
 Most of this content is unoriginal, though I'm unable to find it all in one place like this.

@@ -1,6 +1,8 @@
-= Scholars Reflection: Semester 1
-:date: 2020-12-10
-:tags: ["scholars"]
+---
+title: "Scholars Reflection: Semester 1"
+date: 2020-12-10
+tags: ["scholars"]
+---
 
 Scholar's was easily my most chill class this semester.
 My Thursday's were packed, but it was still the best part of my day to come to class and discuss pseudoscience.

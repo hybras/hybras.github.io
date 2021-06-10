@@ -1,11 +1,10 @@
-= Perseverance's Landing
-:author:
-:bigimg: [{"desc"=>"Mission", "src"=>"mission-parts.jpg"}, {"desc"=>"Rocket Stages", "src"=>"rocket stage.jpg"}]
-:date: 2021-02-14 16:15:54 -0400
-:image: /posts/2021-02-14-perseverance/mission-parts.jpg
-:subtitle:
-:tags: ["scholars"]
-:type:
+---
+title: Perseverance's Landing
+bigimg: [{"desc": "Mission", "src": "mission-parts.jpg"}, {"desc": "Rocket Stages", "src": "rocket stage.jpg"}]
+date: 2021-02-14 16:15:54 -0400
+image: /posts/2021-02-14-perseverance/mission-parts.jpg
+tags: ["scholars"]
+---
 
 {{< figure src="rocket stage.jpg" caption="A NASA rendering of what Perseverance looks like exiting Earth's atmosphere" link="https://mars.nasa.gov/mars2020/spacecraft/launch-vehicle/">}}
 

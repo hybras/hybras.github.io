@@ -1,6 +1,8 @@
-= From Me to Scholars...
-:date: 2020-09-27
-:tags: ["scholars"]
+---
+title: From Me to Scholars...
+date: 2020-09-27
+tags: ["scholars"]
+---
 
 Hello Scholars!
 To be honest, it blows my mind that this program (and specifically SDU) even exists!

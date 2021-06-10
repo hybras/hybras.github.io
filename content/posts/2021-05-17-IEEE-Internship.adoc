@@ -1,10 +1,8 @@
-= IEEE Internship
-:author:
-:date: 2021-05-17 10:34:55 -0400
-:image:
-:subtitle:
-:tags: ["job"]
-:type:
+---
+title: IEEE Internship
+date: 2021-05-17 10:34:55 -0400
+tags: ["job"]
+---
 
 ____
 My mom used to work at IEEE.

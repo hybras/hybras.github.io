@@ -1,6 +1,8 @@
-= Scholars Serves
-:date: 2020-11-10
-:tags: ["scholars"]
+---
+title: Scholars Serves
+date: 2020-11-10
+tags: ["scholars"]
+---
 
 == The Issue
 

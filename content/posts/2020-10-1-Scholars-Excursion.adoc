@@ -1,6 +1,8 @@
-= Scholars Excursion
-:date: 2020-10-01
-:tags: ["scholars"]
+---
+title: Scholars Excursion
+date: 2020-10-01
+tags: ["scholars"]
+---
 
 image::https://centerforinquiry.org/wp-content/uploads/2020/08/lents-sip-300x176.jpg[Link To CFI's page,link=https://centerforinquiry.org/news/intelligent-design-and-science-denial-nathan-lents-on-the-next-skeptical-inquirer-presents/]
 

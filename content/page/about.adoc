@@ -1,6 +1,8 @@
-= About me
-:date: 2020-09-27
-:subtitle: Jersey Boy at ❤️
+---
+title: About me
+date: 2020-09-27
+subtitle: Jersey Boy at ❤️
+---
 
 {{< figure src="https://brand.umd.edu/trademarks/marks/gr/informal.gif" alt="UMD Link" link="https://www.umd.edu" width="50px" >}}{{< figure src="https://www.geol.umd.edu/sgc/sharedimages/sunspot.gif" alt="UMD Scholars Link" link="https://scholars.umd.edu" width="50px" >}}
 

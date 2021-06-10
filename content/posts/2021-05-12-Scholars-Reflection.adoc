@@ -1,6 +1,8 @@
-= Scholars Reflection
-:date: 2021-05-12 22:44:16 -0400
-:tags: ["scholars"]
+---
+title: Scholars Reflection
+date: 2021-05-12 22:44:16 -0400
+tags: ["scholars"]
+---
 
 == Branching out
 

@@ -1,5 +1,7 @@
-= GDB Cheat Sheet
-:author: Marc Haisenko
+---
+title: GDB Cheat Sheet
+author: Marc Haisenko
+---
 
 ____
 This page is an html/https://www.markdownguide.org/[markdown] friendly version of https://darkdust.net/index.php/writings/gdb[Marc Haisenko's GDB Cheat Sheet].

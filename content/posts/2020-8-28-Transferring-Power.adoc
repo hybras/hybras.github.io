@@ -1,5 +1,7 @@
-= Transfer of power
-:date: 2020-09-27
+---
+title: Transfer of power
+date: 2020-08-28
+---
 
 Sorry we never got to have that meeting about how you guys would take over!
 

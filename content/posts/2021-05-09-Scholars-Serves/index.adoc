@@ -1,11 +1,10 @@
-= Scholars Serves
-:author:
-:bigimg: [{"desc"=>"My Brother", "src"=>"box transfer.jpg"}, {"desc"=>"Volunteer Coordinator", "src"=>"with sudha aunty.jpg"}]
-:date: 2021-05-09 20:24:48 -0400
-:image: /posts/2021-05-09-scholars-serves/box transfer.jpg
-:subtitle:
-:tags: ["scholars"]
-:type:
+---
+title: Scholars Serves
+bigimg: [{"desc": "My Brother", "src": "box transfer.jpg"}, {"desc": "Volunteer Coordinator", "src": "with sudha aunty.jpg"}]
+date: 2021-05-09 20:24:48 -0400
+image: /posts/2021-05-09-scholars-serves/box transfer.jpg
+tags: ["scholars"]
+---
 
 ____
 Depending on ur browser, the above image carousel might not work.

@@ -1,3 +1,5 @@
-= Home Page
+---
+title: Home Page
+---
 
 Welcome to my site, I'm `Varun Chari`. You can check my link:page/about[about page] for more info, or see my link:posts/[blog posts].
