@@ -4,9 +4,10 @@ date: 2020-09-27
 subtitle: Jersey Boy at ❤️
 ---
 
-{{< figure src="https://brand.umd.edu/trademarks/marks/gr/informal.gif" alt="UMD Link" link="https://www.umd.edu" width="50px" >}}{{< figure src="https://www.geol.umd.edu/sgc/sharedimages/sunspot.gif" alt="UMD Scholars Link" link="https://scholars.umd.edu" width="50px" >}}
+image:https://brand.umd.edu/trademarks/marks/gr/informal.gif[UMD Link,50,link="https://www.umd.edu"] image:https://www.geol.umd.edu/sgc/sharedimages/sunspot.gif[UMD Scholars Link,50,link="https://scholars.umd.edu"]
 
-{{< figure src="/holy_war.jpg" caption="Me preparing to fight bees in my yard. Selfie from Sep, 2020" width="150px" class="center">}}
+.Me preparing to fight bees in my yard. Selfie from Sep, 2020
+image::/holy_war.jpg[Close Up Photo,150]
 
 I'm Varun Chari, a https://www.cs.umd.edu/[CS major] @ https://www.umd.edu[UMD], class of 2024. I also happen to be in the https://scholars.umd.edu[Scholar's living and learning program], under https://scholars.umd.edu/programs/sdu[Science 🥼, Discovery 🔍 & the Universe 🌌]. For my freshmen year, I'm attending remotely.
 
