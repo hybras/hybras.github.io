@@ -1,0 +1,45 @@
+---
+title: Resume
+---
+
+TIP: My links are in the footer
+
+I’d like to pursue research/ internship opportunities during my undergrad in order to expand upon what I learn in my classes. I am attending University of Maryland, College Park in the Class of 2024, majoring in Computer Science, minoring in Math. I am in College Park Scholars at UMD. I’m driven, a team player, and love learning new languages and technologies. 
+
+== Experience
+
+* FRC Team 25, Raider Robotix - Lead Programmer, coded 2019 and 2020 seasons
+* Tech Club - Developed a web app/site that allows students to sign up for the late bus.
+* Cyber Security Specialization from NYU Tandon, through Coursera
+
+== Computer Skills
+
+* Currently working on a rust port of the protonvpn client
+* Rust, JVM Languages(Java, Kotlin, etc), Python, C++
+* Linux Shells and Environments
+* See my github account for my work, most notably my work for Robotics, Tech Club, and personal projects
+
+== Academics
+
+* Taken Statistics classes in python and r that used data science libraries
+ ** Both in college, and through Columbia University’s Science Honors Program
+* National Merit Scholarship - Commended Student
+* 2019 - National AP Scholar, AP Scholar with Distinction 
+* Awards: American Regions Math League, May 2019 - 3rd Place (team award)
+
+
+== Princeton Algorithmic Thinking - 35 hrs/week, 4 weeks
+
+* Rigorous Summer program taught by Professor Rajiv Gandhi of Rutgers University.
+* Equivalent to an introductory Comp Sci course, covers combinatorics, probability, number theory. 
+
+
+== High School extracurriculars/clubs
+
+* Tech Club - President & Founder
+ ** We developed a web app/ site that allows students to sign up for the late bus
+* High school Raider Robotix Team - Lead Programmer, Electrical team; 10 hrs/week, school year
+ ** Follow us at Raider Robotix | FRC Team 25
+   * Represented the school at FRC Nationals at St Louis in April 2017
+* Math Team - Vice President
+ ** Participated in AMC 10 in 9th grade, was school’s 2nd place scorer
