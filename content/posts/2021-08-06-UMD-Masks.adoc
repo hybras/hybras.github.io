@@ -1,0 +1,40 @@
+---
+title: "UMD Masks"
+date: 2021-08-06T20:24:13-04:00
+draft: true
+---
+
+:stem: latexmath
+
+
+____
+My university announced that masks are required again as the delta variant of covid 19 spreads in the US.
+https://www.princegeorgescountymd.gov/ArchiveCenter/ViewFile/Item/3474[This is _not_ a university decision, it is a decision of my school's county].
+https://web.archive.org/web/20210807003540/https://umd.edu/covid-19-dashboard[UMD's overall vaccination rate is ~85%, and ~95% for those on campus].
+____
+
+I'm so frustrated with my country right now.
+I want the fucking FBI to roll out in their vans and start darting people with the vaccine (a useless fantasy).
+I gave up a year of my life, like so many Americans.
+I'm tired
+
+Other countries never had outbreaks or managed to contain them.
+China welded people's doors shut to keep them home.
+I look around and see plenty of people who never had to give up anything for nearly as long as I did.
+I'm jealous.
+
+Call them whatever.
+Republicans, conservatives, evangelicals, conspiracy theorists, anti-vaxxers.
+The words have meanings, but they doesn't matter.
+Anti-vaxxers are ruining it for all of us.
+I'm angry.
+
+My university is _so damn close_ to being 100% vaccinated.
+We're among the least likely to get ill.
+But we try to be good.
+If I infected someone's granny I'd never forgive myself.
+But between me and that granny there's half the country not giving a shit.
+
+I will comply will PG County's laws.
+But the urge to be a self centered asshole like ~stem:[\frac{1}{2}] of my country grows stronger.
+Why should I reward their behavior by protecting them?
