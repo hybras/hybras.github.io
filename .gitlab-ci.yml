@@ -14,9 +14,8 @@ test:
 pages:
   script:
   - gem install asciidoctor-html5s
-  - apk add sshpass
+  - apk add -y openssh sshpass
   - hugo --baseURL="https://www.terpconnect.umd.edu/~vchari/"
-  - ls -R
   - sshpass -p $SSHPASS scp -oStrictHostKeyChecking=no -r public/* vchari@terpconnect.umd.edu:~/../pub
   - hugo
   artifacts:
