@@ -2,6 +2,7 @@ image: klakegg/hugo:asciidoctor-ci
 
 variables:
   GIT_SUBMODULE_STRATEGY: recursive
+  SSHPASS: $SSHPASS
 
 test:
   script:
