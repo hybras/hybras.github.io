@@ -13,7 +13,7 @@ test:
 pages:
   script:
   - gem install asciidoctor-html5s
-  - apk install sshpass
+  - apk add sshpass
   - hugo --baseURL="https://www.terpconnect.umd.edu/~vchari/"
   - sshpass -e scp -r public/* vchari@terpconnect.umd.edu:~/../pub
   - hugo
