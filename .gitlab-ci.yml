@@ -1,4 +1,3 @@
-# All available Hugo versions are listed here: https://gitlab.com/pages/hugo/container_registry
 image: klakegg/hugo:asciidoctor-ci
 
 variables:
@@ -14,6 +13,9 @@ test:
 pages:
   script:
   - gem install asciidoctor-html5s
+  - apk install sshpass
+  - hugo --baseURL="https://www.terpconnect.umd.edu/~vchari/"
+  - sshpass -e scp -r public/* vchari@terpconnect.umd.edu:~/../pub
   - hugo
   artifacts:
     paths:
