@@ -4,7 +4,7 @@ title: Resume
 
 TIP: My links are in the footer
 
-I’d like to pursue research/ internship opportunities during my undergrad in order to expand upon what I learn in my classes. I am attending University of Maryland, College Park in the Class of 2024, majoring in Computer Science, minoring in Math. I am in College Park Scholars at UMD. I’m driven, a team player, and love learning new languages and technologies. 
+I’d like to pursue research/ internship opportunities during my undergrad in order to expand upon what I learn in my classes. I am attending University of Maryland, College Park in the Class of 2024, majoring in Computer Science. I am in College Park Scholars at UMD. I’m driven, a team player, and love learning new languages and technologies. 
 
 == IEEE Internship - Summer 2021
 
@@ -28,7 +28,6 @@ I’d like to pursue research/ internship opportunities during my undergrad in o
 
 * School: University of Maryland, College Park
 * Major: Computer Science
-* Minor: Math
 
 == Other Experience
 
