@@ -1,4 +1,4 @@
-image: klakegg/hugo:asciidoctor-ci
+image: registry.gitlab.com/hybras/hybras.gitlab.io
 
 variables:
   GIT_SUBMODULE_STRATEGY: recursive
@@ -6,15 +6,12 @@ variables:
 
 test:
   script:
-  - gem install asciidoctor-html5s
   - hugo
   except:
   - master
 
 pages:
   script:
-  - gem install asciidoctor-html5s
-  - apk add openssh sshpass
   - hugo --baseURL="https://www.terpconnect.umd.edu/~vchari/"
   - sshpass -p $SSHPASS scp -oStrictHostKeyChecking=no -r public/* vchari@terpconnect.umd.edu:~/../pub
   - hugo
