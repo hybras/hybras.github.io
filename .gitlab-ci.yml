@@ -11,6 +11,7 @@ test:
   - master
 
 pages:
+  image: registry.gitlab.com/hybras/hybras.gitlab.io
   script:
   - hugo --baseURL="https://www.terpconnect.umd.edu/~vchari/"
   - sshpass -p $SSHPASS scp -oStrictHostKeyChecking=no -r public/* vchari@terpconnect.umd.edu:~/../pub
