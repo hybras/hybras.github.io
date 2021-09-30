@@ -1,7 +1,6 @@
 ---
 title: "Terpconnect Site"
 date: 2021-09-29
-draft: true
 ---
 
 WARNING: When your making a website, it does not Just Work™. All filenames must be exact, all casing must be identical (FILE.JPG and file.jpg are not the same). Everything must be in the right place. Every opening tag/quote needs a closing one. You're used to software handling these things for you, that's ok.
