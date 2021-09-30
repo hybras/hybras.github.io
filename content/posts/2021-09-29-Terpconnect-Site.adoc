@@ -68,9 +68,11 @@ Remember that most (pretty much all) html <tags> need to be opened and closed </
 
 NOTE: Editing and uploading are two separate, independent steps. Your site will look exactly the same no matter where it is. If ur site doesn't work on ur computer, it wont work on terpconnect.
 
+Install nothing. All upload/download software ever is a deception.
+
 * macOS finder can connect to terpconnect "Using your operating system")
 * Everyone (including mac ppl) can use webdav ("Using a Web Browser
 ")
 ** Their guide says don't use chrome, ignore that its outdated
 
-https://www.geol.umd.edu/sgc/resources/uploadguide.html
+https://www.geol.umd.edu/sgc/resources/uploadguide.html[SGC Upload Guide]
