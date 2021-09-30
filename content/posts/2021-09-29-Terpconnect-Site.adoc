@@ -9,7 +9,6 @@ When your making a website, it does not Just Work™. All filenames must be exac
 
 Every piece of technology here has been continuously used longer than you've been alive (in some cases twice as old as you). There are no bugs, no kinks, no errors. Only your mistakes. Own up to them.
 
-
 == Make a folder
 
 Make a folder *just for your site* You can call it whatever, and keep it wherever, but it should only have ur site's files inside.
