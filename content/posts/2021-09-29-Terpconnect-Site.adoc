@@ -25,8 +25,6 @@ When downloading the html files in chrome, u can right click on the page, click 
 
 == Editing your site
 
-NOTE: Editing and uploading are two separate, independent steps. Your site will look exactly the same no matter where it is.
-
 You have 2 options. It roughly depends on whether ur a cs/ce/math major / how technical u r. 
 
 . Downloading an editor and editing on your computer. 
@@ -49,6 +47,14 @@ IMPORTANT: Splash page must be renamed to `index.html`. `index` is special. When
 . Open the page ur editing in a browser (prefer chrome but idc). Reload whenever u make changes to it
 . Format the page's source code (google "$MYEDITOR format document"). This indents stuff and makes it easier to read. 
 
+=== Use a website editor
+
+. Go to https://replit.com/[repl.it]
+. Make an account
+. make an html project / repl
+. Upload ur files (not the folder the files are in, just the files).
+. When ur done editing, download the files as a zip, unzip them, and replace your original folder with the unzipped copy.
+
 === Actually Editing
 
 * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img[images]
@@ -59,6 +65,8 @@ IMPORTANT: Splash page must be renamed to `index.html`. `index` is special. When
 Remember that most (pretty much all) html <tags> need to be opened and closed </tags>. 
 
 == Uploading
+
+NOTE: Editing and uploading are two separate, independent steps. Your site will look exactly the same no matter where it is. If ur site doesn't work on ur computer, it wont work on terpconnect.
 
 * macOS finder can connect to terpconnect "Using your operating system")
 * Everyone (including mac ppl) can use webdav ("Using a Web Browser
