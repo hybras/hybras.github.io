@@ -16,12 +16,9 @@ Make a folder *just for your site* You can call it whatever, and keep it whereve
 
 == Download the files
 
-When downloading the html files in chrome, u can right click on the page, click `view source`, and then hit `ctrl + s` \ `cmd + s`
-
-. Main page: http://www.astro.umd.edu/~peel/ePortfolio/genericsplashpage.html -> Rename it to `index.html`
-. Reflection Page: http://www.astro.umd.edu/~peel/ePortfolio/genericreflectionpage.html
-. Styling: http://www.astro.umd.edu/~peel/ePortfolio/genericportfoliostyle.css
-
+. https://www.astro.umd.edu/~peel/ePortfolio[Open peels template dir]
+. Right click each file/link and click "save link as" / "download linked file"
+. Rename `genericsplashpage.html` -> `index.html`
 
 == Editing your site
 
