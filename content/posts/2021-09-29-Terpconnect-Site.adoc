@@ -66,7 +66,7 @@ NOTE: Editing and uploading are two separate, independent steps. Your site will 
 
 Install nothing. All upload/download software ever is a deception.
 
-* macOS finder can connect to terpconnect "Using your operating system")
+* macOS finder can connect to terpconnect ("Using your operating system")
 * Everyone (including mac ppl) can use webdav ("Using a Web Browser
 ")
 ** Their guide says don't use chrome, ignore that its outdated
