@@ -2,6 +2,7 @@
 title: "UMD Masks"
 date: 2021-08-06T20:24:13-04:00
 draft: true
+tags: ["diary"]
 ---
 :stem: latexmath
 
