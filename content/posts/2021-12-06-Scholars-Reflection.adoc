@@ -1,0 +1,14 @@
+---
+title: "Scholars Reflection"
+date: 2021-12-06T16:46:56-05:00
+---
+
+In person classes were such a rush. At first, it felt surreal to see other people and class and my professors in person, even if I didn't interact with them. 
+
+All at once, the social aspect of college came into play. Thanks to SDU, I made friends with the other Peer Mentors. And quickly after that, I made friends with people in my CMSC351 class. Whenever I think about, it still feels weird hanging out with people after a year alone. That's my insecurities talking.
+
+The coronavirus pandemic shone a light on how science is communicated with the public. I am thoroughly disappointed. It felt like journalists were constantly putting words in scientists mouths, which resulted on the loss of lives. Anti vaxxers were enraged in part due to the vaccine requiring 2 shots, instead of other vaccines which require 1. This inconsistency was derided as an example of how scientists keep moving the goalposts. But I didn't read anything suggesting that the vaccine would ever be a single shot. The amount of (dis|mis)information that emerged from news outlets and politicians, and the efforts public health officials had to go to convince people otherwise, made me lose a little bit of faith in our institutions. 
+
+We talked a little bit about scientific methods in my statistics class, and how to design good experiments. We did discuss when its valid to make certain assumptions, when to apply certain heuristics. We discussed a little of this in SDU, which was cool. 
+
+In Asian American studies, we talked about "biological racism", the idea that difference between races were something we could scientifically confirm. We talked about how scientists, even biologists can hold misconceptions if their work doesn't directly deal with a topic, ie its impossible to think critically all the time. We discussed research the suggested an african tribe was more likely to have genotype considered favorable for running. A followup study pointed out that the difference between groups only occurred when looking at homozygous genotypes, and for heterozygous genotypes (the allele was dominant) there was little difference between races. I didn't have the scientific knowledge to realize that the first study had essentially cherry picked its data. I had to wait for the science to settle a bit, emphasizing that listening to trendy science articles is a recipe for disaster.
