@@ -1,6 +1,7 @@
 ---
 title: "Scholars Reflection"
-date: 2021-12-06T16:46:56-05:00
+date: "2021-12-06T16:46:56-05:00"
+tags: ["scholars"]
 ---
 
 In person classes were such a rush. At first, it felt surreal to see other people and class and my professors in person, even if I didn't interact with them. 
