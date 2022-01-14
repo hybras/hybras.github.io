@@ -34,6 +34,7 @@ Params:
   readingTime: true
   wordCount: true
   # gcse: '012345678901234567890:abcdefghijk'
+
 Author:
   name: hybras
   email: vchari@terpmail.umd.edu
@@ -69,3 +70,9 @@ menu:
     - name: Tags
       url: tags
       weight: 3
+
+security:
+  enableInlineShortcodes: false
+  exec:
+    allow:
+    - '^asciidoctor$'
