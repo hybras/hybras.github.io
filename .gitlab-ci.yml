@@ -1,4 +1,4 @@
-image: klakegg/hugo:asciidoctor-ci
+image: klakegg/hugo:asciidoctor
 
 variables:
   GIT_SUBMODULE_STRATEGY: recursive
