@@ -1,4 +1,6 @@
-image: klakegg/hugo:asciidoctor
+image:
+  name: klakegg/hugo:asciidoctor
+  entrypoint: [""]
 
 variables:
   GIT_SUBMODULE_STRATEGY: recursive
