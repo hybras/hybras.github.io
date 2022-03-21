@@ -1,5 +1,5 @@
 build:
-    hugo
+    docker run --rm -v $(pwd):/src hybras.dev/docker:latest
 
 server:
-    hugo server -D
+    docker run --rm -p 1313:1313 -v $(pwd):/src hybras.dev/docker:latest server -D
