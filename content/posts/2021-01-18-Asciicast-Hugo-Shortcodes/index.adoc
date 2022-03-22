@@ -84,11 +84,10 @@ If you find https://github.com/asciinema/asciinema-player/tree/master#asciinema-
 All of the parameters can and should be altered to match your site.
 
 Here's an example.
-Note that it resizes upon loading, and doesn't preload.
 
 [source,html]
 ----
-{{</* asciicast src="cast.cast" font-size="medium" */>}}
+{{</* asciicast src="cast.cast" preload=true */>}}
 ----
 
-{{< asciicast src="cast.cast" font-size="medium" >}}
+{{< asciicast src="cast.cast" preload=true >}}

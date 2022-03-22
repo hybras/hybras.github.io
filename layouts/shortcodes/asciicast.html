@@ -1,23 +1,41 @@
-<p>
-<asciinema-player 
+{{ $missing_src := "missing value for 'src': %s" }}
+{{ $missing_0 := "missing value for positional param '0' (corresponds to 'src' ): %s" }}
+{{ $src := "" }}
+
 {{ if .IsNamedParams }}
-    src="{{ with .Get "src" | safeURL}}{{ . }}{{ else }}{{ errorf "missing value for 'src': %s" .Position }}{{ end }}"
-    {{ if .Get "cols" }}cols="{{ .Get "cols" }}"{{ end }} 
-    {{ if .Get "rows" }}rows="{{ .Get "rows" }}"{{ end }}
-    {{ if .Get "autoplay" }}autoplay="{{ .Get "autoplay" }}"{{ end }}
-    {{ if .Get "preload" }}preload="{{ .Get "preload" }}"{{ end }}
-    {{ if .Get "loop" }}loop="{{ .Get "loop" }}"{{ end }}
-    {{ if .Get "start-at" }}start-at="{{ .Get "start-at" }}"{{ end }}
-    {{ if .Get " speed" }}speed="{{ .Get "speed" }}"{{ end }}
-    {{ if .Get "idle-time-limit" }}idle-time-limit="{{ .Get "idle-time-limit" }}"{{ end }}
-    {{ if .Get "poster" }}poster="{{ .Get "poster" | safeURL }}"{{ end }}
-    {{ if .Get "font-size" }}font-size="{{ .Get "font-size" }}"{{ end }}
-    {{ if .Get "theme" }}theme="{{ .Get "theme" | safeURL }}"{{ end }}
-    {{ if .Get "title" }}title="{{ .Get "title" | safeURL }}"{{ end }}
-    {{ if .Get "author" }}author="{{ .Get "author" | safeURL }}"{{ end }}
-    {{ if .Get "author-url" }}author-url="{{ .Get "author-url" | safeURL }}"{{ end }}
-    {{ if .Get "author-img-url" }}author-img-url="{{ .Get "author-img-url" | safeURL }}"{{ end }}
+    {{ with .Get "src" | safeURL}}{{ $src = . }}
+    {{ else }}{{ errorf $missing_src .Position }}
+    {{ end }}
 {{ else }}
-src="{{ if len .Params | eq 1 }}{{ .Get 0 }}{{ else }}{{ errorf "missing value for positional param '0' (corresponds to 'src'): %s" .Position }}{{ end }}"
-{{ end }}/>
-</p>
+    {{ if len .Params | eq 1 }}{{ $src = .Get 0}}
+    {{ else }}{{ errorf $missing_0 .Position }}
+    {{ end }}
+{{ end }}
+
+<div id="{{ $src }}"></div>
+
+
+{{ if .IsNamedParams }}
+<script>
+    AsciinemaPlayer.create(
+        "{{ $src }}",
+        document.getElementById("{{ $src }}"),
+        {
+            {{ if .Get "cols" }}cols: {{ .Get "cols" }}, {{ end }}
+            {{ if .Get "rows" }}rows: {{ .Get "rows" }}, {{ end }}
+            {{ if .Get "autoplay" }}autoplay: {{ .Get "autoplay" }}, {{ end }}
+            {{ if .Get "preload" }}preload: {{ .Get "preload" }}, {{ end }}
+            {{ if .Get "loop" }}loop: {{ .Get "loop" }}, {{ end }}
+            {{ if .Get "start-at" }}startAt: {{ .Get "start-at" }}, {{ end }}
+            {{ if .Get "speed" }}speed: {{ .Get "speed" }}, {{ end }}
+            {{ if .Get "idle-time-limit" }}idleTimeLimit: {{ .Get "idle-time-limit" }}, {{ end }}
+            {{ if .Get "theme" }}theme: "{{ .Get "theme" }}", {{ end }}
+            {{ if .Get "poster" }}poster: "{{ .Get "poster" }}", {{ end }}
+            {{ if .Get "fit" }}fit: "{{ .Get "fit" }}", {{ end }}
+            {{ if .Get "font-size" }}fontSize: "{{ .Get "font-size" }}", {{ end }}
+        }
+    )
+</script>
+{{ else }}
+    <script>AsciinemaPlayer.create("{{ $src }}", document.getElementById("{{ $src }}"));</script>
+{{ end }}
