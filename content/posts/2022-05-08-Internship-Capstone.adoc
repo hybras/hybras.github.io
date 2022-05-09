@@ -1,0 +1,25 @@
+---
+title: Scholars Capstone - IEEE Internship
+date: 2022-05-05
+tags: ["scholars"]
+---
+
+* How (if at all) has the capstone project changed the way you look at the world?
+
+My capstone was a software engineering internship at IEEE's IT department at their Piscataway, NJ office. I found the position on IEEE's job site, applied, interviewed, and got the position over the span of last April iirc. I applied to a couple dozen places and IEEE was one of the few that got back to me, much less followed up.
+
+I was immediately assigned a "buddy" (an employee who would assign and supervise my work). My buddy was a chill person. Initially I got mostly pet projects and busywork, to assess my familiarity with various technologies and bring me up to speed.
+
+One of my started projects was scraping news articles from IEEE's homepage and extracting their title and summary. That project was really useful because it taught me how to use https://www.selenium.dev/[Selenium], a library that lets you use websites from code by controlling the browser. Setting up for this project also helped me setup my work laptop for coding.
+
+My final project was working on a chat bot my buddy had worked on. I identified phrases to test all of its features, and variations of those phrases that might trip up our natural language processor (we were using https://cloud.google.com/dialogflow/[Dialogflow]). I added tests that checked whether all these phrases worked, which included extracting the bot's output and actually checking the answers. For example, to test the calendar based queries, I added events to my calendar, and made sure the bot could tell me about them (when, where, what).
+
+Working at IEEE was fairly chill. I texted / emailed my buddy regularly and attended a couple of weekly meetings (one with my boss, and another with the department). Both were mostly just status updates of what people were working on. Working remote was a boon.
+
+I did go the office slightly less than once a week. Most people didn't bother to come in, so I tried to time when I came in for days when either my buddy, boss, or fellow interns were there. The boss of a another team in the IT department invited me and another intern to spend the day during their monthly meeting. That was really fun, I got to socialize with other employees, and some of their presentations were interesting (mostly migrating / replacing old software).
+
+My internship didn't use a single thing I learnt from my degree. To be fair, I expected as much. Our professors make a show about code quality, but ultimately if it gets the job done they don't care how janky it is (in addition to other skills I had to learn on my own).
+
+My internship gave me a better idea of what kinds of software jobs I'd like to work on. The workload and culture was great, but in the future I'd prefer to focus on things I'm more passionate about like developing open source software.
+
+The project made me feel much more cynical about finding a job. Coding for work was more draining than I thought. It took away my desire to work on hobby projects. I should work on my resume and interview skills so I might get more opportunities, but I'm not sure how to avoid being a code monkey.
