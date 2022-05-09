@@ -4,8 +4,6 @@ date: 2022-05-05
 tags: ["scholars"]
 ---
 
-* How (if at all) has the capstone project changed the way you look at the world?
-
 My capstone was a software engineering internship at IEEE's IT department at their Piscataway, NJ office. I found the position on IEEE's job site, applied, interviewed, and got the position over the span of last April iirc. I applied to a couple dozen places and IEEE was one of the few that got back to me, much less followed up.
 
 I was immediately assigned a "buddy" (an employee who would assign and supervise my work). My buddy was a chill person. Initially I got mostly pet projects and busywork, to assess my familiarity with various technologies and bring me up to speed.
