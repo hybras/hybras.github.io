@@ -7,7 +7,9 @@ title: Hybras' Site
 canonifyurls: true
 
 DefaultContentLanguage: en
-theme: beautifulhugo
+theme:
+  - beautifulhugo
+  - hugo-asciinema
 metaDataFormat: yaml
 pygmentsUseClasses: true
 pygmentCodeFences: true
