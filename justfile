@@ -1,3 +1,6 @@
+docker:
+    docker build . --tag hybras.dev/docker:latest
+
 build:
     docker run --rm -v $(pwd):/src hybras.dev/docker:latest
 
