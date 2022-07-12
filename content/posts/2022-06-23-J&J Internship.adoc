@@ -1,0 +1,26 @@
+---
+title: "J&J Internship"
+date: 2022-06-23
+---
+
+I got an internship at Johnson and Johnson, an American medical company.
+
+NOTE: J&J (alternatively shortened to JnJ) is a massive company, with dozens of sub brands that they are constantly acquiring, merging, and splitting. They have dozens of offices around the world, and my colleagues regularly refer to the regions in which we operate. Some of these locations (like Raritan, NJ where I work) are campuses with multiple buildings and many amenities (cafeteria, gym, volleyball, tennis, patio and god knows what else). The employees are treated extremely well in this massive setup.
+
+== The Lead Up
+
+I delayed in filling out the necessary paperwork prior to starting. HR contacted me by cell, which I felt crossed my boundaries. They also repeatedly emailed me with reminders to fill out the paperwork, sometimes before said paperwork arrived! Ultimately, they slapped me with a deadline of noon, and informed me of this deadline the morning of. I was blindsided because I required a third party to verify what I'd filled, so I scrambled to find someone. In the end it all worked out. My start date was delayed by one day, but everything was mostly ready anyways to I showed up on my initially listed start date.
+
+== First Day / Week
+
+I had a buddy assigned who is very proactive. They showed me our part of the office, introduced me to coworkers, and gave me meetings to sit in on and take notes. They also explained the kind of work they do. It was here I realized that this was not a software engineering position.
+
+== My mistake
+
+I _assumed_ that this would be a software engineering internship, like the other opportunities I applied for, and like my last internship. My interviewer explained I would be doing other things. I thought they meant other things *as well*, but nope. I learnt this over my first couple of days.
+
+== What I'm doing
+
+* I've been assigned to help manage the rollout for a site of ours. It initially will be an ad for a product. As functionality is developed it will become the product itself, plus maybe some tutorials. We already have a couple designers (an employee and a contractor thats should be an employee now on how long they've been with us) and a developer who we hired through some contracting site. The dev has also worked with JnJ many times (including a few other projects concurrently with this one). My job is to sit and look busy here while they do the actual work. They are adults and can speak for themselves. Occasionally I mediate a question or two because the product manager doesn't care/know much about implementation.
+
+* I'm trying to organize some kind of volunteering event. JnJ has a "credo" for ethical conduct and volunteering is called "credo" events. I think its posturing. But volunteering is fun and a great way to connect with my colleagues.
