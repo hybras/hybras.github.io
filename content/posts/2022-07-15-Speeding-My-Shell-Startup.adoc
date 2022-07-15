@@ -16,7 +16,7 @@ hyperfine --warmup 1 "zsh --login --interactive  -c exit"
 
 == Troubleshooting my plugins
 
-By selectively disabling https://github.com/hybras/dotfiles/blob/e6f7a6f5af2b4c3bce9c68a0f2b2b4a513a004d8/dot_config/sheldon/plugins.toml[my plugins] and my [plugin manager](https://github.com/hybras/dotfiles/blob/668c22087dbf2ea75a276004dc20e5ad03ab998a/dot_config/zsh/executable_dot_zshrc#L28) I obtained the following timings chart
+By selectively disabling https://github.com/hybras/dotfiles/blob/e6f7a6f5af2b4c3bce9c68a0f2b2b4a513a004d8/dot_config/sheldon/plugins.toml[my plugins] and my https://github.com/hybras/dotfiles/blob/668c22087dbf2ea75a276004dc20e5ad03ab998a/dot_config/zsh/executable_dot_zshrc#L28[plugin manager] I obtained the following timings chart
 
 |===
 | Plugin / Command | Time
