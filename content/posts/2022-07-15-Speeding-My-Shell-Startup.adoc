@@ -59,9 +59,9 @@ This call to homebrew took *130ms*. I finally found a cash cow. Inlining it like
 |===
 | Plugin / Command | Time
 
-| Sheldon and plugins | 40 ms
-| `brew shellenv` | 130 ms
-| Functions and completions | 30 ms
+| Sheldon and plugins | 40 ms (reduced)
+| `brew shellenv` | 130 ms (removed)
+| Functions and completions | 30 ms (untouched)
 |===
 
 I love homebrew, but goddamn is it slow. It is so much slower than other package managers, and other programs in general. Benchmarking `brew --help` and `brew list` (list installed packages) confirms this. I attribute this to brew being a ruby program. Here, the problem was compounded by homebrew not being part of the os (unlike linux package managers like apt, yum, apk), which means I must add it to my environment variables on shell startup. There's nothing I can do to speed brew up, so I'll settle for working around it.
