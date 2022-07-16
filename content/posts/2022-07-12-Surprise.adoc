@@ -2,6 +2,7 @@
 title: "Surprise Love"
 date: 2022-07-12
 tags: ["diary"]
+draft: true
 ---
 
 This happened in sometime in Sep - Dec 2021, I don't remember exactly. I was reminded of it by something else.
