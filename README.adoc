@@ -4,6 +4,5 @@ This site was initially markdown. https://matthewsetter.com/technical-documentat
 
 == Todo
 
-* custom docker image
-* spiffed up gemfiles
-* install gems with bundler
+* https://github.com/asciidoctor/asciidoctor-extensions-lab[Extensions lab markdown link syntax]
+
