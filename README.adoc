@@ -2,7 +2,18 @@
 
 This site was initially markdown. https://matthewsetter.com/technical-documentation/asciidoc/convert-markdown-to-asciidoc-with-kramdoc/[I converted it to asciidoc]
 
+== Building
+
+This site is built using hugo and asciidoctor (as a ruby gem, not from a system package manager). 
+
 == Todo
 
 * https://github.com/asciidoctor/asciidoctor-extensions-lab[Extensions lab markdown link syntax]
+* https://utteranc.es
+* asciicast no js svg falback
 
+== Themeing
+https://retrolog.io/blog/creating-a-hugo-theme-from-scratch/
+https://draft.dev/learn/creating-hugo-themes
+https://gohugobrasil.netlify.app/themes/creating/
+https://bwaycer.github.io/hugo_tutorial.hugo/tutorials/creating-a-new-theme/
