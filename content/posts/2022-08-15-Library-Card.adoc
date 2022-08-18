@@ -1,0 +1,17 @@
+---
+title: "Library Card"
+date: 2022-08-18T19:45:54-04:00
+draft: true
+---
+
+I lost my local library card.
+Not to worry, my library could renew / issue cards online!
+
+I filled out an online form. Good to go right? Nope
+It said (after I filled it out), that it would take 1-2 weeks to process.
+I waited a week then purchased a library card in person.
+They only took cash. I understand that the government cant rely on payment processors, but why does that mean cash only? Uggh. Thankfully I had someone else to cover the small fee.
+Two weeks after I filled out the form I received a reply stating that I already had a card, with my username *and password* in plaintext. Thanks library 👍!
+All this to discover the book I wanted was at a neighboring library and that I would have to wait a week to get it shipped.
+
+I pirated the book.
