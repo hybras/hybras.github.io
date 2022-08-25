@@ -16,10 +16,13 @@ test:
 pages:
   script:
   - gem install asciidoctor-html5s
-  - apk add openssh sshpass
+  - apk add openssh sshpass gzip brotli
   - hugo --baseURL="https://www.terpconnect.umd.edu/~vchari/"
   - sshpass -e scp -oStrictHostKeyChecking=no -r public/* vchari@terpconnect.umd.edu:~/../pub
-  - hugo
+  - hugo --minify
+  - find public -type f -regex '.*\.\(htm\|html\|txt\|text\|js\|css\)$' -exec gzip -f -k {} \;
+  - find public -type f -regex '.*\.\(htm\|html\|txt\|text\|js\|css\)$' -exec brotli -f -k {} \;
+
   artifacts:
     paths:
     - public
