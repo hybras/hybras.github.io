@@ -2,6 +2,7 @@
 title: "Courtship"
 date: 2022-10-11T13:11:41-04:00
 tags: ['diary']
+draft: true
 ---
 
 Yesterday I went to hangout with a man I was interested in. He was in one of my math classes. We'd been hanging out before, but usually related to class. This was the first time we'd hung out without any pretext. I asked him if he was free sometime, and he asked me to come over _immediately_.
