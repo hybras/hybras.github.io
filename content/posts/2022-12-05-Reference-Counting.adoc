@@ -1,0 +1,12 @@
+---
+title: "Reference Counting"
+date: 2022-12-05T11:31:34-05:00
+---
+
+NOTE: Its incredibly cringe talking in programmer terms.
+
+My apartment door cannot be locked from the outside. It is electronic and the battery has died. We've devised a system, where we will lock the door from the inside once everyone is home for the night. Terrible, I know. Its like we're using reference counting on the open door, and once all references are dropped the door is dropped (locked).
+
+Except I closed the door last night before one of my mates got back, leaving him with a dangling pointer. We had to try the door "dozens of times" till it revived and opened. Call that a weak reference.
+
+And call me a bad roomate. 
