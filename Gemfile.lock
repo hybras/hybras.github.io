@@ -1,7 +1,7 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    asciidoctor (2.0.17)
+    asciidoctor (2.0.18)
     asciidoctor-html5s (0.5.1)
       asciidoctor (>= 1.5.7, < 3.0)
       thread_safe (~> 0.3.4)
