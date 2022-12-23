@@ -9,4 +9,4 @@ My apartment door cannot be locked from the outside. It is electronic and the ba
 
 Except I closed the door last night before one of my mates got back, leaving him with a dangling pointer. We had to try the door "dozens of times" till it revived and opened. Call that a weak reference.
 
-And call me a bad roomate. 
+And call me a bad roomate.
