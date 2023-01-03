@@ -4,7 +4,7 @@ author: Marc Haisenko
 ---
 
 ____
-This page is an html/https://www.markdownguide.org/[markdown] friendly version of https://darkdust.net/index.php/writings/gdb[Marc Haisenko's GDB Cheat Sheet].
+This page is an https://asciidoc.org/[asciidoc] version of https://darkdust.net/index.php/writings/gdb[Marc Haisenko's GDB Cheat Sheet].
 If you https://www.google.com/search?q=gdb+cheat+sheet[google "GDB Cheat Sheet"], nearly every link and image is some version of his original pdf.
 ____
 
