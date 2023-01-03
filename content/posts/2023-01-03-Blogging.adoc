@@ -1,0 +1,18 @@
+---
+title: "Multiple Feeds"
+date: 2023-01-03T11:13:56-05:00
+tags: ['meta']
+---
+
+When I started this blog, I wanted it to be exclusively technical stuff. I like good technical content. This blog has instead devolved into my diary. Some of these posts I keep private, some I publish.Its easier to write about my personal life, and I find it rewarding.
+
+On other people's blogs, I usually skip past the non technical stuff. No hate, just not what I want. I wanted to be the kind of person who puts out good stuff, so I decided I just write technical stuff only when good ideas came by. No need to pressure myself to put out content.
+
+In order to avoid "bothering" my nonexistent audience, I wondered if I could create multiple rss feeds. Turns out hugo already creates separate feeds for every tag/category on your site, in addition to the usual one for your entire site. So uh ... yeah I don't have to do anything.
+
+Further googling revealed that you can use templating to generate arbitrary feeds.
+
+== Sources
+
+* https://pakstech.com/blog/hugo-rss/
+** This person takes advantage of the multiple feed feature to create a page displaying links to every feed.
