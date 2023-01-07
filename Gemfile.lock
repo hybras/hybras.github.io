@@ -17,7 +17,7 @@ GEM
     thread_safe (0.3.6)
 
 PLATFORMS
-  arm64-darwin-21
+  arm64-darwin-22
 
 DEPENDENCIES
   asciidoctor
@@ -25,4 +25,4 @@ DEPENDENCIES
   kramdown-asciidoc
 
 BUNDLED WITH
-   2.3.11
+   2.4.3
