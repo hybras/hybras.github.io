@@ -1,0 +1,45 @@
+---
+title: "Homebrew Bump"
+date: 2023-01-07T13:59:13-05:00
+tags: ['homebrew']
+---
+
+NOTE: Skip the bit at the end of you don't want to know how deranged I am.
+
+I have a https://github.com/hybras/homebrew-tap["homebrew tap"] (https://docs.brew.sh/Formula-Cookbook#homebrew-terminology[package repository for the homebrew package manager]).
+
+I have a github workflow on the repository that checks for outdated packages and opens PRs with updated versions. All this functionality is built into homebrew itself, so the github workflow delegates to brew. This has the added convenience that I can test everything locally without needing to https://github.com/nektos/act[simulate the github actions environment].
+
+https://github.com/hybras/homebrew-tap/actions/runs/3645674628[For a month now, the workflow has been failing.]
+
+[quote]
+----
+brew bump --open-pr kdeconnect
+Error: No available formula with the name "kdeconnect". Did you mean kt-connect?
+----
+
+My casks (packages for gui and prebuilt software) were not being detected. Attempting to upgrade these packages simply reported that they didn't exist. I was unable to reproduce the failure on my machine (a mac). Every step succeeded locally: checking for an updated version, editing the package manifest to refer to it, and opening a pr with the change.
+
+Unfortunately, homebrew's intelligence (and it truly is the smartest package manager ever) got in the way here. Out of desperation, I attempted to reproduce the issue using the homebrew docker image. This succeeded. It was here I remembered that Casks are invariably macos specific software, and homebrew smartly ignores these on linux. This allows the same package repositories to be used on mac and linux (formulas, the other package type, can detect the os and alter their build logic accordingly). The github workflow was running on ubuntu linux, so homebrew ignored my casks. Fine, makes sense. Switching the os that the github workflow ran on from linux to macos solved the issue.
+
+Just one problem with this hypothesis. Why did it break _now_? Prior to this one month of breakage, the workflow had been running on linux just fine for 5-6 months. None of the github actions I was using made any breaking or major changes (if any). Did something change with the github actions environment? Did homebrew's behavior change?
+
+I suspected the later. I used the docker images to track this down to homebrew version 3.6.5 (which was very expensive, each was 1.1gb in size). Searching the changelogs yielded a https://github.com/Homebrew/brew/pull/13941[PR that implicitly added the `--formula` flag when running on linux] (limiting all actions to just formula). This PR was merged into https://github.com/Homebrew/brew/releases/tag/3.6.5[version 3.6.5]. I found the PR by searching the changelog for the keywords "bump" and "cask". The height of technological achievement. The PR mentions some of homebrew's CI tests broke (gee).
+
+Given this, https://github.com/Homebrew/brew/issues/14341[I'm going to open an issue myself]. I _don't_ expect a reversal of the PR. I hope maybe there is some override I'm unaware of, or maybe a better way. I want bumping cask versions to be possible on linux because none of the functionality appears to be macos specific.
+
+I'm concerned that switching the github runner os to macos might have other side effects on the github workflow. It also feels strange running CI on macos, although I should've expected given that almost everything on my tap is macos software (and homebrew was a macos package first). Most likely, its me that needs to change and get over this discomfort.
+
+And now for stream of consciousness garbage.
+
+TIP: Oh woe is you Varun! You had to change to macos in CI, boohoo. U literally use a mac because you don't even like linux!
+
+WARNING: I can have different preferences between my local machine and CI!
+
+TIP: The only reason you think this is weird is because of familiarity
+
+WARNING: Well, doesn't github charge for macos minutes in CI or something?
+
+TIP: You run this CI workflow like once a week. You can run it less frequently if you want. Chances are you'll stay under whatever free tier limits github sets. You don't even have any payment info on github. They can't charge you.
+
+WARNING: Fine. fine. I'll keep the github issue open so they know they hurt my feelings. But I wont make a scene or ask anything of the homebrew maintainers.
