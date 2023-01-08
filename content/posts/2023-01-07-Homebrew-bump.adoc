@@ -28,7 +28,7 @@ I suspected the later. I used the docker images to track this down to homebrew v
 
 Given this, https://github.com/Homebrew/brew/issues/14341[I'm going to open an issue myself]. I _don't_ expect a reversal of the PR. I hope maybe there is some override I'm unaware of, or maybe a better way. I want bumping cask versions to be possible on linux because none of the functionality appears to be macos specific.
 
-I'm concerned that switching the github runner os to macos might have other side effects on the github workflow. It also feels strange running CI on macos, although I should've expected given that almost everything on my tap is macos software (and homebrew was a macos package first). Most likely, its me that needs to change and get over this discomfort.
+I'm concerned that switching the github runner os to macos might have other side effects on the github workflow. It also feels strange running CI on macos, although I should've expected given that almost everything on my tap is macos software (and homebrew was a macos package manager first). Most likely, its me that needs to change and get over this discomfort.
 
 And now for stream of consciousness garbage.
 
