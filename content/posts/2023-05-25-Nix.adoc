@@ -1,0 +1,149 @@
+---
+title: "Nix"
+date: 2023-05-25T19:19:22-04:00
+tags: ['nix']
+---
+
+So I've been using nix on my mac (so not nixos) for a few weeks now. Here are my thoughts.
+
+WARNING: I was too lazy to provide explanations or sources for a lot of this rambling. Enjoy as I pull it out of my ass.
+
+== Goals
+
+=== Provide a light weight specification of a system
+
+Nix expressions/flakes certainly beat dockerfiles here.
+
+While simple dockerfiles (copying files, installing/building packages) are very readable, the complexity frequently balloons.
+
+=== Dockerfiles Bad
+
+Dockerfiles are a mix between shell scripts and docker commands. Shell scripts are not readable enough to be used like this. Unlike normal languages where I can create my own types and functions, I have to mentally create abstractions to understand large dockerfiles. Dockerfiles do a bad job of managing complexity (not justifying this, but think abstractions, code reuse, etc)
+
+Nix wins here because there's a configuration language (I won't explain the benefits of configuration languages) and an expression is itself pure (the language itself need not be functional). The output of a config script is ..  the config. We don't have to look at what the config would do to understand what it means (I don't have to analyze the downloads and filesystem changes to understand what packages are being installed).
+
+This is not true about docker. Docker cannot enforce this separation between evaluating the config script and doing what the resulting config says. This is because we don't know what arbitrary shell scripts do (https://mgree.github.io/papers/popl2020_smoosh.pdf[maybe the PL people will save us here]). There are many docker tools dedicated to analyzing images: looking for vulnerabilities, splitting changes by layer, etc. Another benefit is that you don't need to worry about caching (as much). If the set of changes we need to make is the same, it doesn't matter how the configuration calculated it. Reordering statements or refactoring configuration (or their moral equivalents in nix) will not trigger costly rebuilds.
+
+This does mean we need to reevaluate entire nix expressions on change (what we're caching are the changes specified by the description that evaluation gives us, not what subexpressions evaluate too). This is not a problem for 98% of scripts, because they are small enough that nix config evaluation speed is not the bottleneck.
+
+== Useability
+
+=== Nix lang
+
+==== Typing
+
+While, the nix language (and its usages) are an improvement, I'm not satisfied. The type system sucks (its similar to that of javascript, where everything is an Object™️), which hinder autocomplete and composition. Its a common practice to pass closures around. I will occasionally run into the issue where I'm 2-3 closures deep, and I forget who is wrapping what.
+
+I would have liked to see better/real static typing, gradual typing, and generics/parametric polymorphism. However, since I'm not really a pl person, I'm not sure how these would look like in practice. Things like calculating a fixed point, doing ungodly key/value manipulations, or summoning internet resources (tarballs, imports), are somewhat common.
+
+==== Syntax
+
+The colon is used to denote abstraction (denoting an anonymous function). So `a: a` is the identity function in nix lang. Unfortunately, this is infix and is harder to read. Haskell, rust, ocaml, and _lambda calculus_ all do something like `fun x -> x`. There's a leading token to denote the function. Java is in the same boat as nix, but they avoid the issue by only parsing for lambdas when the expected type of an expression is a function ("implements a functional interface"). This works because of Java's limited (previously nonexistent) type inference.
+
+Whitespace (juxtaposition) is used to denote function application _and_ list element separation. `f x` is a function call, `[f x]` is a list with 2 elements.
+
+==== Evaluation Speed
+
+The language is slow. I haven't inspected the implementation, so I don't fully understand why. While laziness was supposed to help here (and indeed, I've had fun with Haskell), it seems to have been not enough.
+
+This isn't a problem for most user code or packages. The bottlenecks are usually downloading/building dependencies, because most expressions are small/simple. It is a mild annoyance when iteratively writing an expression (perhaps you're editing dependencies or build logic).
+
+This is a problem for nixpkgs (the default package repository), which is structured as a single giant expression (packages are keys in this key-value store). Apparently it needs to be this way in order to facilitate dependency management and overriding packages.
+
+There is https://github.com/tweag/nickel[Nickel], an https://github.com/nickel-lang[alternative] to https://github.com/nickel-lang/nickel-nix[Nix Lang], https://www.tweag.io/blog/tags/nickel/[from tweag]. There's also a https://tvl.fyi/blog/rewriting-nix[reimplementation] of Nix itself (package manager, language, and all).
+
+=== CLI
+
+The command line interface is hot garbage.
+
+Many flags are unintuitively named, subcommands are often passed as flags (even _git_ figured this one out, its `apt install` not `apt --install`), and common actions require a bevy of flags instead of those being passed by default.
+Not to mention that many commands are split across multiple executables.
+My path currently contains 11 executables with the `nix-` prefix, though it seems only 3-4 are user facing (and one is the daemon).
+
+There is a new cli, all under a shiny `nix` command.
+While it is very ergonomic, it doesn't support everything (i.e. imperatively installing a package).
+Its not always clear if and how commands translate between the old and new cli.
+
+=== User Configuration
+
+This might just be marketing miscommunication (I read a number of blogs and tweets whilst learning), but I got the impression nix could manage not just my system configuration (packages, services, etc), but my user environment ("dotfiles", etc).
+
+It turns out user configuration is managed by a third party tool: https://github.com/nix-community/home-manager[home manager].
+Home Manager (and https://github.com/LnL7/nix-darwin[nix darwin] for those using the package manager on macos) are also defacto standards for those using nix for personal use
+
+== Security
+
+WARNING: A cyber security professional should take a look at nix
+
+Nix is possibly the greatest security risk since ... ever? Like imagine all the things that could go wrong if you added a script engine to a package manager.
+
+* It is a massive blob of unvetted c++
+* It downloads scripts from the internet
+** Like how browsers download/run javascript. The risk is less since we evaluate configuration.
+* Its a package manager, so all the usual risk there
+* It also manages other system config, so it requires arbitrary access to the filesystem. `apt` would never edit your dotfiles, but nix might.
+
+== Learning Nix (pedagogical clarity)
+
+Learning was extremely hard.
+
+Installing was hard because there are variations:
+
+* Single or multi user?
+* Flake support?
+* The new `nix` cli?
+
+I used a https://zero-to-nix.com/concepts/nix-installer[third party installer] that made clear what changes were being made and made it easy to undo/uninstall.
+I uninstalled multiple times to make sure no funny business was going on, since it wasn't as simple as deleting `/nix`.
+
+There is a _lot_ of terminology. Even for someone coming from a functional programming background, there was a lot of nix's architecture that wasn't clear to me. I use "expression" a lot in this article, but I'm definitely using it wrong.
+
+Packages exist in many forms, with similar language being used to refer to all of these forms: the package manifest, the serialization thereof, the package archive, and the final unpacked directory in the nix store.
+
+The fact that there is a https://nixos.org/guides/nix-pills/[nix pills book] with 20 chapters and a somewhat obtuse https://nixos.org/manual/nix/stable/advanced-topics/distributed-builds.html[reference] does not bode well for nix's complexity.
+
+I read dozens of articles before piecing it all together, and boy was the borg ugly. There is massive variation in writing quality, features used (flakes, nix lang features, 3rd party libraries and tools), and documentation detail. Some articles just vomit their nix code.
+
+== Links
+
+TIP: These are roughly listed in reading order.
+
+* Julia Evans gentle intro
+** https://jvns.ca/blog/2023/02/28/some-notes-on-using-nix/
+** https://jvns.ca/blog/2023/03/03/how-do-nix-builds-work-/
+
+* Tutorial Series: https://ianthehenry.com/posts/how-to-learn-nix/
+** Thorough, well written, stream of consciousness (which highlights common misconceptions and questions)
+
+* Official / Pseudo Official Stuff
+** https://zero-to-nix.com/
+** https://nix.dev
+** https://nixos.org/guides/nix-pills/
+** https://nixos.org/manual/nix/stable
+
+* Companies using/contributing to nix. They have articles about advanced features, use cases, and a variety of topics
+** https://www.tweag.io/blog/tags/nix/
+** https://determinate.systems
+
+* Packaging software / Developer Environments in nix. _Note which sources use flakes_
+** https://fasterthanli.me/series/building-a-rust-service-with-nix[Rust binary and docker container]
+** https://www.breakds.org/post/build-rust-package/
+** https://srid.ca/rust-nix
+** https://kalbas.it/2019/02/26/manage-a-static-website-with-hugo-and-nix/
+** https://yannherklotz.com/nix-for-coq[Coq]
+** https://flyx.org/nix-flakes-latex[LaTeX]
+** https://www.breakds.org/category/nix/[C++, Python, Rust]
+** https://www.breakds.org/post/flake-part-1-packaging/
+
+* Flakes: making nix environments and builds reproducible, instead of just deterministic & pure)
+** https://serokell.io/blog/practical-nix-flakes
+** https://zimbatm.com/notes/summary-of-nix-flakes-vs-original-nix
+** https://terranix.org/documentation/getting-startet-with-nix-flakes/
+** https://www.breakds.org/post/flake-part-1-packaging/
+
+* More Links
+** https://wiki.nikiv.dev/package-managers/nix/
+** https://r6.ca/blog/20140422T142911Z.html
+** https://zameermanji.com/blog/2023/3/26/using-nix-without-root/
+** https://checkoway.net/musings/nix/
+** https://www.bekk.christmas/post/2021/16/dotfiles-with-nix-and-home-manager
