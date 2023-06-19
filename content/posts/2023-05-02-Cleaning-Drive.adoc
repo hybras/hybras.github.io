@@ -39,7 +39,7 @@ I realized I still remained uncomfortably close to a full drive, and proceeded t
 ** Rust caches in particular were larger
 ** There was one opam switch. I'm using nix for this use case now.
 
-* Misc  packages
+* Misc packages
 ** Rstudio, Intellij Idea, steam, etc (each > 1gb)
 ** Rust, go, ocaml: these are managed by nix on a per project level rather than globally.
-
+** https://github.com/avast/retdec[retdec], gcc, pandoc
