@@ -1,0 +1,135 @@
+---
+title: "The Egg Is Cracked"
+date: 2023-06-17
+draft: true
+---
+
+This post is a big doozy (for me). For members of the trans and autistic communities, its very run of the mill.
+
+== Childhood
+
+=== Elementary School
+
+I've always known something is _off_ about me.
+I didn't get along with boys as well as I should have in elementary school.
+I hung out with girls when possible (each gender thought the other had cooties in elementary school).
+I remember practicing my catwalk at a baby sitters.
+There's a photo of me wearing a sari on the fridge.
+I was very nerdy and quiet.
+I played with my mom's makeup, bangles, pins, combs.
+I remember going to parties and being annoyed by typical boy activities, like shouting, wrestling, gaming, etc. It felt so aggressive and performative. There was one birthday party (at a fellow nerd's house, Sid), where I chose to read a book instead. The nerd had a begrudging respect at my choice, but everyone else (including my parents) ripped into me. Later in life, it became clear the other nerd was very hard working, whilst I was coasting by on some "natural intelligence".
+
+=== Middle School
+
+My mom put/forced me into every gifted program imaginable (my teachers were more reserved but still noticed _something_).
+In 4th, 5th, and 6th grade, I got into trouble for reading during class. Material was boring and/or not challenging (tho in 6th I really had no excuse).
+As I got older (middle school, high school), my "natural ability" didn't do the same tricks for me. STEM classes remained stupidly easy, but my motivation and focus were lacking. I pushed myself due to Indian immigrant child pressure. Language arts was very hard, learning about the "deeper meanings" behind stuff felt like black magic / my teacher pulling stuff out of my ass.
+My grades on my assignments became _highly_ variable, an A+ here, a C- there. In math classes, arithmetic errors frequently tripped me up despite my understanding of the material.
+
+In 8th grade, I could no longer deny something was up. I'd had my first crush in 6th grade on a boy, but itd taken months to realize thats what it was. Itd taken many months more to admit to myself that I was gay. I was so afraid of what it meant. Boys were suppoed to like girls. I knew that from every peace of media, every single adult's blatant heterosexuality, and the annoying comments my peers made about women. I nervously abstained from these puberty/sexism driven comments. I hoped no one would notice how uncomfortable I felt. I didn't know any queer people. A couple classmate boys had rumors following them due their high pitched voices / "effeminacy", but I didn't understand why that would make someone gay. I didn't know gay children are frequently non-conforming as well (I didn't know anything about queer people, except that gay people were gay. I didn't even know trans people existed).
+
+A couple boys were teasing/bullying me on the bus in 8th grade, something about kissing a girl? (idrc). I blurted out "I'm gay". It came out with too much spittle, followed with 2 seconds of silence. One of my teasers switched to homophobic jokes ("go suck a cock then"). The rest remained silent. Word spread around the bus maybe, maybe slightly farther than that, but died out within a few days. The other nerd (who rode the same bus) would later say "mad respect for coming out, and knowing who you are". This was maybe a year later? Lol, little did he know.
+
+In health class, we were talking about American politics and the presidential election (I think the 2016 election was coming up). I tried to say that the country was too bigoted to support a women's candidacy. I came out as "ew women, no". A girl began debate-attacking me, asking what I had against women. The health teacher understood and articulated what I meant. Thank you Mr. Lepski, I was not ready to be cancelled in 7th/8th grade.
+
+In 7th or 8th grade english, I wrote a story from the perspective of a girl. I don't remember the plot, the story was poorly written. But my teacher complimented the "unique perspective" and the fact that it didn't feel forced or cliche. I also made a poster about a random scene (a monster hunting someone?) in 9th? grade. I didn't even think about the victim's gender, and left it "indeterminate" when someone (a bi person) asked.
+
+=== High school
+
+I joined the math club in high school, went to competitions, and finally saw what I considered "real genius" (I was average in my opinion). I noticed the geniuses felt .. _off_ .. in a way that felt strange/familiar. I tried out coding (an older kid bullied me into trying) and found it easy. It seemed strange that there were efforts like "hour of code" and "scratch" to teach something so straightforward.
+
+==== Encounters of the other kind
+
+In high school, I joined the marching band. A potpourri of the school's wierdos. I wouldn't be surprised if it was the only school organization that didn't have a gender/racial skew. It definitely was the largest. I became more comfortable expressing myself during high school (as noted by my calc bc / multivariate calc teacher). A handful of other adults noticed as well, though in hindsight the change was probably modest.
+
+I also saw in passing other queer people. The 2 white boys who had rumours came out. The color guard had 1-2 gay boys of color. I met this person I can only describe as "fat, black, loud, and proud" whilst waiting for the late bus. I forget their gender/sexuality/affiliation. There was a tom boyish girl I become close to in marching band. Amini (pronounced Ahminee?)? I think she came out as lesbian, but I never thought to ask. We clicked on personality (though that probably wasn't a coincidence).
+
+Grades and school anxiety continued to rule my life. Motivation dropped to near zero. I pushed through when possible using fear/procrastination, comparing myself to other kids, and good old fashioned parental scolding. The variability of my grades kept me on edge. I was never certain if I'd end up with an A/B/C that marking period.
+
+During 10th grade english, the boys and I were making crass jokes. Someone said something sexual? about me. Another classmate said "that's a weird thing to say about another man *wink wink*." I felt a visceral cringe permeate my body.
+
+==== Calc
+
+I tested out of pre-calc in my high school but I missed the cutoff for BC by 2 points. I didn't study at all for the test, and assumed I'd knock it out of the park. I technically did, given that I forgot to bring a calculator. The same teacher, Gonch, taught Calc AB/BC. I asked her to switch into BC, and she accused me of competing with Sid (who'd also tested out and from whom I'd gotten the idea to do so). She was only 70% right. While my mom pushed me to ask, I chose to do so out of the first week of boredom in AB. On the first day, a boy didn't know that stem:[\ln \left(1\right)=0], as logarithms do regardless of base. I knew I was in the wrong place at that moment.
+
+The calc teacher quickly recognized I was "gifted/wierd" and stopped asking me to participate. At some point in the year, I volunteered to go to the board because a problem looked interesting. She was so pleased/shocked that she forgot she'd already assigned another student to do it. She overrode his protest (it was the log guy) with "He never goes up, let him do it". I derived the differentiation rules myself and turned in my proofs. She left comments and a hint on how to differentiate the natural logarithm (I needed help).
+
+I heard from past students that you could ask her to take the BC exam despite being in AB. She was retiring at the schoolyear's halfway point, so my time to do so was running out. My anxiety mounting, I asked. She said yes without batting an eye. Even though we didn't really talk, I felt _seen_.
+
+The teacher who took over from Gonch, Werner, was very conventional. We didn't get along, but there were no issues. She issued me practice for the BC exam once I told her I'd be taking it.
+
+==== Physics (kinda, sorta)
+
+From the start of junior year, there were issues with Biolsi. He was very my way or the highway.
+During a projectile motion lab, we were supposed to shoot marbles onto a piece of paper, and verify the results against the kinematics equations. We were supposed to measure the distance traveled using the mark on the paper and a meter stick. I eye balled it for a few trials. The teacher noticed and forbade this. I pointed out that the error wouldn't have been enough to be a problem.
+Later on an exam, I used the antiderivative for absolute value (which is not commonly taught), instead of splitting an integral into the regions where it was above/below the horizontal axis. He marked it wrong, and I argued for points. Other students had to intervene before he accepted my answer.
+
+I was fed up with him. I wrote a "letter" (the principal called it a character assassination) detailing his many flaws (titled "Biolsi!!!!") and handed it in after class. He gave it to the science department supervisor, who escalated it to the vice principal and principle. I had smart/asian privilege with Ms. Lamagra, the science supervisor, so I arrogantly assumed it would not be escalated beyond her. She called me to her office to tell me otherwise. I could see the pain on her face as she told me. It might've been the only time I made eye contact during the entire conversation.
+
+The principal and vice rushed to the physics teachers defense. It didn't matter how eloquent I was, I was still an (arrogant?) child. My mom was ready to go to bat for me, like always, till she read the letter and understood the hole I'd dug for myself. Not that I wanted her help. I wanted to rage against the education system! How could this imbecile be allowed to teach! I think if another student echoed my concerns, something might have happened. But everyone was (understandably) too afraid. Why did I feel so strongly, out of everyone? Why did I not feel the same fear / self preservation instinct?
+
+I was given detention, run by my homeroom teacher. She was shocked a "good kid" like me was there.
+
+The other students (especially Sid) commended my "balls", and lamented my stupidity at thinking I could achieve change.
+
+I was then reassigned to AP bio for the remainder of junior. I returned to physics senior year, ready to not let _any_ teacher get the best of me like that.
+
+During some other lesson, I wanted to ask a question (I almost never had one, so I was very impatient). He ignored me till the end. I became hysterical and walked out. I should've been more composed and patient. He also could've given me more grace. He considered me a problem child. I ran out of class. I spent the next period wandering school. I thoguht gathered myself enough to return for Mulivariate Calc (w/ Werner), but I kept my head down for the whole class. Sid had told her a bit of what'd transpired. Werner told me no one should feel like I do when making genuine efforts to learn, especially someone like me.
+
+=== Biology (spit, phlegm)
+
+Following the physics debacle, I was reassigned to AP Bio. It was much larger because the kids with med school aspirations were more forward thinking/pressured/numerous. When I entered class for the first time, everyone clapped. I gave them a bow and flourish. Biology was worse. Biondo was much worse than Biolsi.
+
+I began taking notes in the first/second day. The teacher noticed I didn't have the "notes template" and _stopped me from taking notes_. How was I supposed to know that? The templates were poorly formatted and fill in the blank. I spent a lot of class time reformatting and rewriting them.
+
+I received poor grades on my lab write-ups. Other students could notice no discernable difference (other than writing style). The only white girl in class received high scores on labs (though average on exams). Her lab grades were noted with indignation by the hard workers in class (which didn't include me lol). There was only a vague rubric for lab assignments.
+
+On the first major assignment, we were assigned a protein to make a poster about. But the poster required so much info it'd have been better as a paper. I wrote about half to 2/3 as much as everyone else and included a TLDR. Biondo called me into the hall to talk. I found that ridiculous and returned to class.
+
+Once again, I was reported to the vice principal, ostensibly for the TLDR . He was much less willing to talk. He reaffirmed my "insubordination" and "disregard for rules/formality". I noted that real research papers had abstracts. He said that didn't matter. Once again, I received detention. My homeroom teacher clutched her pearls a second time.
+
+The last incident with Biondo came when we had a couple of student teachers. They taught a lesson about Hardy-Weinberg equilibrium, and gave a worksheet they'd written. I pointed out that one of the problems was impossible, the given proportions of alleles was impossible (and more importantly, different methods yielded solutions that differed more than a reasonable expectation of calculation inaccuracy). I tried to explain using the quadratic formula / geometry / nice picture. They "thanked me" for noticing and said to use the stated method. As they walked away, I muttered "this is what happens when you neglect basic mathematics when training teachers".
+
+Biondo called me into the hall a few days later. She was much more direct, informing me I'd already been written up. There was no followup with the vice principal this time. I was sent straight to detention. This time my homeroom teacher wasn't there.
+
+I finished out the year with my motivation utterly drained. I dreaded school, and being tripped up in some new debacle. I kept my head low out of shame / defeat. We took a practice test halhway through the year that I nearly aced, despite not studying and it covering material we hadn't reached. Sid got a perfect score. No one else came close.
+
+I got one of the lowest (relatively) scores on our easy last assignment, despite it being pretty easy.
+
+=== PACT
+
+I applied to a couple of programs for the summer after Junior year.
+
+One at rutgers DIMACS, which focused on pure math and math research, and another taught by a rutgers computer science professor (but conducted at Princeton). Both piqued my interest, but PACT was very expensive. I half assed the DIMACS application questions and turned them in. The director said my application showed potential, and gave me a second chance to redo the questions. I asked the PACT professor to reveal whether I was admitted early, so I could decide (I was). Utterly spent from the previous year, I declined the gracious second chance from DIMACS. My parents shelled out for PACT.
+
+On the first day, we were in a sweltering lecture hall with no AC. The professor told us he'd taught in India with no AC, so we'd just have to focus hard like his Indian students. He then had us say our names. He practiced the names of the first couple rows, then just heard the rest. At the end, he recited all our names with only a handful of pauses. On the second day, I hadn't gotten enough sleep and closed my eyes. Not a second passed before he called on me. Clearly, I was in the presence of no ordinary man. I resolved to pay attention to every word (sleep permitting).
+
+For the first time in years, I was introduced to genuinely new material. Some of the students were already familiar (screw asian pressure). I quickly caught up. I felt so alive. These questions were interesting, and the answers were provided (but not solutions). There was no pressure to be right. No pressure to finish first, though I did anyways. A friend from middle school (who'd gone to a diff high school) was there along with many of his classmates. I joined their group and became fast friends. We became a well oiled machine, racing through problem sets. Soon I was racing ahead on my own.
+
+At the end of program, the professor gave a talk about the value of education, especially for the most disadvantaged students. He drew on his experience teaching Indian students (as in, back in india, not 2nd gen immigrants in America) and minority students in the US. It was an apt topic, since he was speaking to the some of the most privileged students, the children of asian immigrants. Afterwards, he asked me about what I'd gotten out of the program. With the weight of the past school year still palpable, I broke down and thanked him for the summer and for giving me and opportunity to shine. I was surprised he remembered that I'd also applied to DIMACS.
+
+=== Senior Year and Covid Freshmen Year
+
+Skip
+
+=== College
+
+I became part of a guy friend group. We lived in the same dorm and had a couple classes together. One guy in the group took me under his wing. He also made fun of me a lot. I cried a couple times then called him out. He acted butthurt. We "forgave" (quotes not necessarily malicious) each other. It was the first of many such incidents. Whilst talking with him, I mentioned a growing wall between me and other people. Complete inability to relate with them. Dating. Work. All a blank void.
+
+I joined every queer org. I met queer people and felt at home.
+
+I struggled with social anxiety and joined a therapy group. I contemplated suicide. I'm probably depressed.
+
+I switched to they/them pronouns. Masculinity felt abhorrent and I shed it faster than a lizard leaving its decoy tail. I made an nb friend who felt like the world to me. I refused to wear men's formal clothing, borrowing dresses from friends. Talking to women felt like a breath of fresh air.
+
+Multiple people mentioned I was a little weird, but paid them no mind. It was college after all. Then I meant some (diagnosed) autistic people and felt stirrings. It was only in my last semester (a few months ago), when I came across a healthygamergg video discussing the correlation between being trans and autistic.
+
+I'd always had difficulty imagining a future for myself. I imagined myself as a woman, especially an older woman, and things clicked. I haven't shed the nb label yet. I don't want to invite violence and transphobia, or give cultural trappings of gender too much power over me. But who knows.
+
+I started reading about trans and autistic experiences. The nerdiness. The lack of eye contact. The day dreaming. The non verbal communication / lack of verbal communication. My childhood vomiting. My revulsion at the texture of sabudhana kichdi. First coming out as gay. Then coming out again as trans. Identifying with trans and women content, and the minor things associated with the other gender. First ironically, then more seriously. I paint my nails, grow my hair, and wear dresses, among other things.
+
+== Trans / Autism
+
+Am I trans? well ... if I had to pick a side, thats an easy choice: woman. But maybe I don't want to be put in a box? Not sure yet what ways (other than socially) I want to transition.
+
+Am I autistic? I need to get tested to know. Heresay from others isn't enough. Though now that I'm aware, I feel like I notice it in a lot more people (esp with hindsight). Pretty sure Biolsi and his son are autistic too. He brought his son towards the end of the year. The son spent the whole day playing with equipment. He didn't make eye contact or speak unless explicitly addressed (and usually only in spanish). He then hid under a table and I had to coax him out. Makes me feels a _teeny_ bit of sympathy for Biolsi. Hope the kid turns out all right.
