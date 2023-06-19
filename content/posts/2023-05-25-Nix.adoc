@@ -52,6 +52,10 @@ This is a problem for nixpkgs (the default package repository), which is structu
 
 There is https://github.com/tweag/nickel[Nickel], an https://github.com/nickel-lang[alternative] to https://github.com/nickel-lang/nickel-nix[Nix Lang], https://www.tweag.io/blog/tags/nickel/[from tweag]. There's also a https://tvl.fyi/blog/rewriting-nix[reimplementation] of Nix itself (package manager, language, and all).
 
+On a slightly related note, the package repository is 3.7 gb at the time of writing, of which 3.5gb is the git history. This is sufficiently large that instead of fresh clones, it is faster to download a tarball of a specific revision.
++
+Homebrew used to avoid this issue with shallow clones, but this understandably put load on github when calculating later diffs / fetches. They began periodically squashing git history for their package repository, and then switched to an api/json (which is mutable, doesn't record history, and morally equivalent to a tarball of the latest commit), but this understandably put load on github when calculating later diffs / fetches. They began periodically squashing git history for the package reposiitory, and then switched to an api/json (which is mutable and morally equivalent to , doesn't record history,a tarball of the latest commit). Despite knowing this, I didn't internalize this because I have "developer" mode on for homebrew, which enables package maintainer features (and consequently git clones the brew package repository).
+
 === CLI
 
 The command line interface is hot garbage.
@@ -69,7 +73,9 @@ Its not always clear if and how commands translate between the old and new cli.
 This might just be marketing miscommunication (I read a number of blogs and tweets whilst learning), but I got the impression nix could manage not just my system configuration (packages, services, etc), but my user environment ("dotfiles", etc).
 
 It turns out user configuration is managed by a third party tool: https://github.com/nix-community/home-manager[home manager].
-Home Manager (and https://github.com/LnL7/nix-darwin[nix darwin] for those using the package manager on macos) are also defacto standards for those using nix for personal use
+Home Manager (and https://github.com/LnL7/nix-darwin[nix darwin] for those using the package manager on macos) are also defacto standards for those using nix for personal use.
+
+Declaring all my user/system configuration turned out to be ... needlessly verbose. Learning a new language and a bevy of configuration options was a very high bar. My current system of saving my dotfiles in git is plenty efficient. There are many tools to manage ur dotfiles, or you can user git directly. Similarly, I can manage my packages by with https://github.com/Homebrew/homebrew-bundle[`brew bundle`], which outputs a list of installed packages that can be restored from. While this is not reproducible (packages may break, be yanked, or updated), it is declarative _enough_ for me. Strictly speaking, its not declarative, as the file is a record of your installed packages. About once a month, I'll list my packages, remove anything unneeded, and restore from the file.
 
 == Security
 
@@ -103,6 +109,11 @@ Packages exist in many forms, with similar language being used to refer to all o
 The fact that there is a https://nixos.org/guides/nix-pills/[nix pills book] with 20 chapters and a somewhat obtuse https://nixos.org/manual/nix/stable/advanced-topics/distributed-builds.html[reference] does not bode well for nix's complexity.
 
 I read dozens of articles before piecing it all together, and boy was the borg ugly. There is massive variation in writing quality, features used (flakes, nix lang features, 3rd party libraries and tools), and documentation detail. Some articles just vomit their nix code.
+
+
+== Conclusion
+
+I don't need nix to manage my system, since my existing setup is as simple as it gets. Using it to replace dockerfile and developer environments is a killer app. I've already added flakes to a number of projects. Knowing that an environnement is only a `cd` away is such a blessing.
 
 == Links
 
