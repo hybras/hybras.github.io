@@ -36,7 +36,7 @@ By selectively disabling https://github.com/hybras/dotfiles/blob/e6f7a6f5af2b4c3
 
 * I left mcfly untouched
 
-* While `zsh-users` provides many excellant zsh plugins, it turns out I wasn't using `zsh-users/zsh-completions` _at all_. This plugin provides completions for dozens of commands. However, the only command for which it provides completions that I am using is `caffeinate`, and I use it rarely. I disabled this plugin.
+* While `zsh-users` provides many excellent zsh plugins, it turns out I wasn't using `zsh-users/zsh-completions` _at all_. This plugin provides completions for dozens of commands. However, the only command for which it provides completions that I am using is `caffeinate`, and I use it rarely. I disabled this plugin.
 
 I believed my shell plugins were the source of my slow startup, but all together they accounted for ~40 ms. Significant, but not worth optimizing. Where was the remaining 160 ms coming from?
 
