@@ -1,0 +1,8 @@
+---
+title: "Blog Oopsy"
+date: 2023-07-26T18:11:08-04:00
+tags: ['tweet', 'meta']
+---
+
+My blog was down for a few weeks. I tried to show my website to family in india a week ago and failed. Embarrassing.
+I think its because I temporarily switched the github repo to private, which disabled github pages (both the CI and the domain name). Oops.
