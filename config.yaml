@@ -1,4 +1,4 @@
-baseurl: "https://hybras.dev"
+baseurl: 'https://hybras.dev'
 # baseurl: "https://www.terpconnect.umd.edu/~vchari/"
 contentdir: content
 layoutdir: layouts
@@ -8,8 +8,8 @@ canonifyurls: true
 
 DefaultContentLanguage: en
 theme:
-  - "github.com/athul/archie"
-  - "gitlab.com/hybras/hugo-asciinema"
+  - 'github.com/athul/archie'
+  - 'gitlab.com/hybras/hugo-asciinema'
 metaDataFormat: yaml
 pygmentsUseClasses: true
 pygmentCodeFences: true
@@ -23,13 +23,13 @@ markup:
       unsafe: true
       hardWraps: true
   asciidocExt:
-    extensions: ["asciidoctor-html5s"]
+    extensions: ['asciidoctor-html5s']
 
 Params:
-  subtitle: "Musings, Failures, Life"
+  subtitle: 'Musings, Failures, Life'
   logo: profile.jpg
   favicon: favicon.ico
-  dateFormat: "January 2, 2006"
+  dateFormat: 'January 2, 2006'
   commit: false
   rss: true
   comments: true
@@ -61,16 +61,16 @@ Author:
 menu:
   main:
     - name: Blog
-      url: "posts"
+      url: /posts
       weight: 1
     - name: About
-      url: page/about/
+      url: /page/about/
       weight: 2
     - name: Resume
-      url: page/resume/
+      url: /page/resume/
       weight: 2
     - name: Tags
-      url: tags
+      url: /tags
       weight: 3
 
 security:
