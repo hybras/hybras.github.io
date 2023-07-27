@@ -1,19 +1,24 @@
 ---
 title: "Website Bloat"
 date: 2023-07-26T18:18:06-04:00
-tags: ['meta']
+tags: ['meta', 'hugo']
 ---
 
 I'm trying to join the https://512kb.club/[], a list of websites that are small.
+
+== Mission Statement
 
 Many of the blogs I read follow a minimalist approach, where content takes front and center. This approach used to be the default. I want to emulate them. Do my small part in combatting how bloated, privacy-invasive, and ad-driven the internet is now.
 
 I use a https://github.com/halogenica/beautifulhugo[theme] that by default puts me right on the edge of 512kb per page. I don't like this. Unfortunately, I have minimal web dev skills (a gaping hole in my resume). Using a https://www.cloudflare.com/learning/performance/static-site-generator/[static site generator], hugo, has enabled me to focus on writing. Managing the site's configuration takes a couple workdays a year.
 
-By average website standards, I'm pretty great. My website is 90% useable without js, and is much smaller. I used https://developer.chrome.com/docs/lighthouse/overview/[google lighthouse] and https://gtmetrix.com to analyze my site. They give high praise with "near perfect scores", and a long list of suggestions. But by the standards I _want_ to hold myself to, I'm doing poorly.
+By average website standards, I'm pretty great. My website is 90% useable without js, and is small. I used https://developer.chrome.com/docs/lighthouse/overview/[google lighthouse] and https://gtmetrix.com to analyze my site. They give high praise with "near perfect scores", and a long list of suggestions.
 
-My website theme uses :
+== The Problem Scope
 
+But by the standards I _want_ to hold myself to, I'm doing poorly. Requests to 3rd party resources, features I don't use, needless js/css. It all should go. Hugo themes are usually not modular, which leads them authors to try to meet many use cases and include lots of features.
+
+.My website theme uses :
 [%collapsible]
 ====
 * https://katex.org/[katex]: I write my site in asciidoc, which is capable of rendering the math server side/at build time. Also, I barely use math. My website has 2 usages of math expressions, both of which are extremely small.
@@ -24,6 +29,14 @@ My website theme uses :
 * https://fontawesome.com/[fontawesome]: Cool icons?? Disabling js results in a small amount of https://fonts.google.com/knowledge/glossary/tofu[tofu] across my site. It appears these icons are used for the links in my footer and in the article overviews on the homepage.
 ====
 
-Hugo themes are usually not modular, which leads them authors to try to meet many use cases and include lots of features.
+== Solution
 
-The solution is to change my theme. I could make my own theme, but that requires html, css, _and_ hugo templating. None of which I want to learn. A custom theme goes a long way to distinguishing myself (in my own eyes, I realize no one gives a shit). I'm jealous of https://aloso.github.io/[aloso's theme]
+The solution is to change my theme.
+
+I could make my own theme, but that requires html, css, _and_ hugo templating. None of which I want to learn. A custom theme goes a long way to distinguishing myself (in my own eyes, I realize no one gives a shit). I'm jealous of https://aloso.github.io/[aloso's theme]
+
+I could switch to a more minimal theme. It would be an excellent starting point for modifications, simpler themes are easier to understand.
+
+I could fork an existing theme and remove bloat. A little bit of css never hurt anyone. But I might break something, or figure out how to replace a feature. My existing theme is definitely in this category because it uses bootstrap css.
+
+Ultimately I decided to switch my theme to https://themes.gohugo.io/themes/archie/[archie].
