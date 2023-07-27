@@ -1,7 +1,3 @@
-[submodule "themes/beautifulhugo"]
-	path = themes/beautifulhugo
-	url = https://github.com/halogenica/beautifulhugo.git
-
 [submodule "themes/hugo-asciinema"]
 	path = themes/hugo-asciinema
 	url = https://gitlab.com/hybras/hugo-asciinema.git
