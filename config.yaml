@@ -77,4 +77,5 @@ security:
   enableInlineShortcodes: false
   exec:
     allow:
-    - '^asciidoctor$'
+      - '^asciidoctor$'
+      - '^go$'
