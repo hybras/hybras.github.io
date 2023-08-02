@@ -8,4 +8,4 @@ I am trying to optimize the [size of my website]. A scan revealed my https://dev
 
 I found a https://jaydenseric.com/blog/favicon-optimization[nice article] describing how to do this (with the same information available verbatim in github gists and stackoverflow). All these sources were marked out of date, but this is not _completely_ accurate.
 
-While Imagemagick no longer appears to optimize/shrink the final favicon, it is still useful to know to create shrunken intermediate assets. My original favicon was 80kb uncompressed, and now its 15. While this is still larger than the sum of the intermediates (1 + 2 + 4), its still large savings for me.
+While Imagemagick no longer appears to optimize/shrink the final favicon, it is still useful to know to create shrunken intermediate assets. My original favicon was 260kb uncompressed, and now its 15. While this is still larger than the sum of the intermediates (1 + 2 + 4), its still large savings for me.
