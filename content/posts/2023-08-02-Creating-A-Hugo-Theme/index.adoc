@@ -44,6 +44,10 @@ Here is a least common denominator for most hugo themes. Understanding this stru
 .Directory Layout
 [plantuml, format=svg]
 ----
+skinparam Legend {
+	BackgroundColor transparent
+	BorderColor transparent
+}
 legend
 Root
 |_ layout
