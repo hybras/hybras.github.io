@@ -23,7 +23,10 @@ markup:
       unsafe: true
       hardWraps: true
   asciidocExt:
-    extensions: ['asciidoctor-html5s']
+    extensions:
+    - 'asciidoctor-html5s'
+    - 'asciidoctor-diagram'
+  workingFolderCurrent: true
 
 Params:
   subtitle: 'Musings, Failures, Life'
