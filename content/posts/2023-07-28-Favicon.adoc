@@ -1,5 +1,6 @@
 ---
 title: Favicon
+date: '2023-07-28'
 description: "Documentation woes"
 tags: ['meta']
 ---
