@@ -58,3 +58,4 @@ build-iPhoneSimulator/
 # .rubocop-https?--*
 
 .direnv
+.asciidoctor
