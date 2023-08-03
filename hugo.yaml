@@ -26,7 +26,6 @@ markup:
     extensions:
     - 'asciidoctor-html5s'
     - 'asciidoctor-diagram'
-  workingFolderCurrent: true
 
 Params:
   subtitle: 'Musings, Failures, Life'
