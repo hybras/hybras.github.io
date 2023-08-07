@@ -8,7 +8,7 @@ canonifyurls: true
 
 DefaultContentLanguage: en
 theme:
-  - 'github.com/athul/archie'
+  - 'github.com/janraasch/hugo-bearblog'
   - 'gitlab.com/hybras/hugo-asciinema'
 metaDataFormat: yaml
 pygmentsUseClasses: true
@@ -29,14 +29,9 @@ markup:
 
 Params:
   subtitle: 'Musings, Failures, Life'
-  logo: profile.jpg
-  favicon: favicon.ico
-  dateFormat: 'January 2, 2006'
+  dateFormat: '2006-01-02'
   commit: false
   rss: true
-  comments: true
-  readingTime: true
-  wordCount: true
   # gcse: '012345678901234567890:abcdefghijk'
 
 Author:
@@ -66,7 +61,7 @@ menu:
       url: /posts
       weight: 1
     - name: About
-      url: /page/about/
+      url: /about/
       weight: 2
     - name: Resume
       url: /page/resume/
