@@ -76,3 +76,7 @@ security:
     allow:
       - '^asciidoctor$'
       - '^go$'
+
+module:
+  imports:
+    - path: 'github.com/janraasch/hugo-bearblog'
