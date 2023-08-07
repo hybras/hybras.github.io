@@ -107,5 +107,5 @@ end legend
 	</main>
 {{ end }}
 ----
-+
+
 This single page template doesn't do much. It wraps the page content in some semantic html. Notice how it defines a main section that will be included in baseof, instead of generating most of the html itself.
