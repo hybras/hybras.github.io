@@ -6,24 +6,13 @@
 
   outputs = { self, nixpkgs, flake-utils }:
     flake-utils.lib.eachDefaultSystem (system:
-      let pkgs = import nixpkgs { inherit system; }; 
-          gems = pkgs.bundlerEnv {
-            name = "hybras-site";
-            ruby = pkgs.ruby;
-            gemfile  = ./Gemfile;
-            lockfile = ./Gemfile.lock;
-            gemset   = ./gemset.nix;            
-          };
-      in
+      let pkgs = import nixpkgs { inherit system; }; in
         {
           devShells = {
             default = pkgs.mkShell {
               buildInputs = [
                 pkgs.hugo
-                pkgs.asciidoctor-with-extensions
                 pkgs.go
-                pkgs.bundix
-                gems
               ];
             };
           };
