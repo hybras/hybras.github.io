@@ -12,6 +12,7 @@
             default = pkgs.mkShell {
               buildInputs = [
                 pkgs.hugo
+                pkgs.asciidoctor-with-extensions
                 pkgs.go
               ];
             };
