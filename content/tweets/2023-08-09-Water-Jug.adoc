@@ -1,7 +1,7 @@
 ---
-title: "Water Jug.adoc"
-date: "2023-08-09T22:02:23-04:00"
-tags: ["tweet"]
+title: 'Water Jug'
+date: '2023-08-09T22:02:23-04:00'
+tags: ['tweet']
 ---
 
 My brother took the small water bottle, so I had to take the gallon water jug, the kind https://www.urbandictionary.com/define.php?term=lunk[lunks] take to the gym.
