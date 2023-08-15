@@ -4,7 +4,9 @@ My diary, technical writings, tweets, blog posts.
 
 == Building
 
-This site is built using hugo and asciidoctor (as a ruby gem, not from a system package manager).
+* Install nix (and maybe direnv/nix-direnv).
+* `nix develop` / `direnv allow`
+* `hugo build` / `hugo server`
 
 == Todo
 
