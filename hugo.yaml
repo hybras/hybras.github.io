@@ -19,9 +19,10 @@ markup:
       unsafe: true
       hardWraps: true
   asciidocExt:
+    backend: 'html5s'
     extensions:
-    - 'asciidoctor-html5s'
-    - 'asciidoctor-diagram'
+      - 'asciidoctor-html5s'
+      - 'asciidoctor-diagram'
 
 Params:
   subtitle: 'Musings, Failures, Life'
@@ -56,6 +57,13 @@ menu:
     - name: Tweets
       url: /tweets
       weight: 4
+
+taxonomies:
+  tag: tags
+  category: categories
+  series: series
+
+disableKinds: []
 
 security:
   enableInlineShortcodes: false
