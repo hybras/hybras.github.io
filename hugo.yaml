@@ -7,9 +7,6 @@ title: Hybras' Site
 canonifyurls: true
 
 DefaultContentLanguage: en
-theme:
-  - 'github.com/janraasch/hugo-bearblog'
-  - 'gitlab.com/hybras/hugo-asciinema'
 metaDataFormat: yaml
 enableEmoji: true
 
@@ -74,8 +71,3 @@ security:
     allow:
       - '^asciidoctor$'
       - '^go$'
-
-module:
-  imports:
-    - path: 'github.com/janraasch/hugo-bearblog'
-    - path: 'gitlab.com/hybras/hugo-asciinema'
