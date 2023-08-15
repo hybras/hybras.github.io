@@ -3,6 +3,7 @@ title: Favicon
 date: '2023-07-28'
 description: "Documentation woes"
 tags: ['meta']
+series: ['My Blog']
 ---
 
 I am trying to optimize the https://gtmetrix.com/reports/hybras.dev/73j62y7b/[size of my website]. A scan revealed my https://developer.mozilla.org/en-US/docs/Glossary/Favicon[favicon] was by far my largest asset, even bigger than my fonts (dw, those should be gone soon as well).

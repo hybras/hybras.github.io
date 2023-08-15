@@ -2,7 +2,7 @@
 title: My First Hugo Post!!!
 date: 2020-12-06
 subtitle: Beginning with hugo
-tags: ["hugo"]
+tags: ["hugo", "meta"]
 ---
 
 == What is this?

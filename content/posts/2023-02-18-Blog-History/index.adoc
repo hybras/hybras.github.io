@@ -2,6 +2,7 @@
 title: "My Blog's history"
 date: 2023-02-19
 tags: ['meta', 'jekyll', 'hugo', 'markdown', 'asciidoc']
+series: ['My Blog']
 ---
 
 WARNING: This post is written years after the fact. I tried to verify everything using the git histories linked at the end.

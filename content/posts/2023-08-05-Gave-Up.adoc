@@ -2,6 +2,7 @@
 title: "Gave Up on my Website"
 date: "2023-08-06T23:22:28-04:00"
 tags: ["hugo","meta", "css"]
+series: ['My Blog']
 ---
 
 I have given up on building a theme for my website. I learnt a lot about semantic html, hugo's api, and go templating. I put all this to good use and designed the html of my theme.

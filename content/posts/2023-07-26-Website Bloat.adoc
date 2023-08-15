@@ -2,6 +2,7 @@
 title: "Website Bloat"
 date: 2023-07-26T18:18:06-04:00
 tags: ['meta', 'hugo']
+series: ['My Blog']
 ---
 
 I'm trying to join the https://512kb.club/[], a list of websites that are small.

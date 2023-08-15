@@ -2,6 +2,7 @@
 title: "Multiple Feeds"
 date: 2023-01-03T11:13:56-05:00
 tags: ['meta']
+series: ['My Blog']
 ---
 
 When I started this blog, I wanted it to be exclusively technical stuff. I like good technical content. This blog has instead devolved into my diary. Some of these posts I keep private, some I publish.Its easier to write about my personal life, and I find it rewarding.
