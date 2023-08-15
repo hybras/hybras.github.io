@@ -8,16 +8,11 @@ This site is built using hugo and asciidoctor (as a ruby gem, not from a system 
 
 == Todo
 
-* https://github.com/asciidoctor/asciidoctor-extensions-lab[Extensions lab markdown link syntax]
-* https://utteranc.es
-* asciicast no js svg falback
-* https://github.com/hybras/hybras.github.io/commit/c489ca021c7fd373b7b252caa8aaf76e06cc57e1[Preserve jekyll site history]
-* Pakistan's hidden shame post
-* Mental health post
-** Fall Semester of my sophomore year, I saw a therapist at my school. I cannot recall if this was during or after a "depressive episode", but was certainly prompted by one. I atte
+* Post descriptions
 
 
 == Themeing
+
 https://retrolog.io/blog/creating-a-hugo-theme-from-scratch/
 https://draft.dev/learn/creating-hugo-themes
 https://gohugobrasil.netlify.app/themes/creating/
