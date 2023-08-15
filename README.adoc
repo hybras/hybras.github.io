@@ -12,8 +12,7 @@ My diary, technical writings, tweets, blog posts.
 
 * Post descriptions
 
-
-== Themeing
+== Theming
 
 https://retrolog.io/blog/creating-a-hugo-theme-from-scratch/
 https://draft.dev/learn/creating-hugo-themes
