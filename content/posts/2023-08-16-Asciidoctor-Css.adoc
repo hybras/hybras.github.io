@@ -1,0 +1,26 @@
+---
+title: "Asciidoctor Css"
+date: 2023-08-16T14:01:25-04:00
+description: I struggle to learn how asciidoctor uses css.
+tags: ['asciidoctor', 'css', 'static site generator']
+series: ['My Blog']
+---
+
+Asciidoctor implements a rich markup language with a nice syntax. I use it for notes, my website, and lecture materials.
+
+Unfortunately, its rich feature set https://docs.asciidoctor.org/asciidoctor/latest/html-backend/default-stylesheet/#why-provide-a-default[requires ccs support]. The https://github.com/asciidoctor/asciidoctor/blob/v2.0.19/src/stylesheets/asciidoctor.css[default style sheet] is several thousand lines and ~35kb before compression / minification. This presents a significant challenge when creating a minimal theme.
+
+I came across the https://github.com/darshandsoni/asciidoctor-skins[Asciidoctor Skins] project, and https://github.com/asciidoctor/asciidoctor-stylesheet-factory/[Stylesheet Factory]. Both provide a selection of themes that override parts of the default theme using standard tricks (variables, imports, rule precedence).
+
+The default stylesheet bears no comments, which would be helpful to understand which rules are cosmetic, add functionality, or improve cross browser compatibility.
+
+I don't want https://docs.asciidoctor.org/asciidoctor/latest/html-backend/default-stylesheet/#disable-or-modify-the-web-fonts[fonts], or https://docs.asciidoctor.org/asciidoctor/latest/html-backend/local-font-awesome/[font awesome icons] (though they really are awesome). I'm not worried about ancient or minimal browsers (mobile and desktop is enough headache).
+
+[Attributes]
+|===
+|Header column 1 |Header column 2 |Header column 3
+
+|Cell 1, row 1
+|Cell 2, row 1
+|Cell 3, row 1
+|===
