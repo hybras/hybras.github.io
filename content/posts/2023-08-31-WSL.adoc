@@ -1,0 +1,44 @@
+---
+title: "WSL Double"
+date: 2023-08-31T11:52:51-04:00
+---
+
+[NOTE]
+This is retelling of an experience I had while TA'ing https://www.cs.umd.edu/class/spring2022/cmsc330/[cmsc330]
+
+'''
+
+I was sitting in Office Hours, when a student came to me with a seemingly simple issue.
+He'd installed the requisite software and downloaded the assignments, and yet they were nowhere to be found.
+I dismissed him, and told him to reinstall everything. The install process took a lot of time, so I helped other students while he waited.
+
+[NOTE]
+We used Windows Subsystem for Linux in class to enable students to develop locally without needing to go through the complicated process of manually setting up a vm.
+It also enabled us to provide nearly identical instructions to students using windows or macos.
+
+He showed me a shell he'd opened, with the install logs present (apt-get is so chatty).
+I verified the software was available there, and asked what the problem was.
+He then proceeded to open another shell and demonstrate that the software was missing.
+I checked his path and noticed he'd downloaded the assignments. No issue there.
+I verified that in both shells, we were in the same working directory and logged in as the same user.
+Now I was truly miffed. I dismissed him again to help other students and mull this over in the background. I could see he was getting impatient.
+
+I returned to him once again and tried to sus out his environment. My first real clue was that the assignments folder was available in once shell, but not the other.
+I finally noticed that the title bars of the two shells were not the same. One read "ubuntu" and the other "wsl".
+I closed both of the shells and asked him to reopen them.
+He searched both of the previous terms in the windows start menu.
+
+Here I remembered that wsl supported running multiple linux distros at a time, similar to how one can run multiple vm's and containers at a time.
+Docker for Windows uses this feature, and I'd played around with it earlier.
+I listed the number of distros he had and was greeted with two versions of ubuntu.
+I checked the windows store (we'd directed students to install ubuntu from there, I consider installed distros from the windows store an excellent feature), and saw he'd installed both the LTS and the latest version of ubuntu.
+Our instructions were very clear in that only one distro should be installed, and wsl might have even installed the version of ubuntu we wanted around that time.
+Not sure where he got that idea.
+
+The issue as easily resolved by deleting one distro and completing the install instructions again.
+
+This was the only time I felt violent rage during my two years of TA experience. The student had been a little dismissive and impatient while I addressed his issue (it took about 1-2 hours, a lot of which was spent helping others). He couldn't explain how or why he'd done this.
+Surely, whilst installing the second version of ubuntu, he'd have notice another was already installed? They would have appeared side by side in the windows store!
+I'd spent so much time streamlining the setup instructions.
+
+After helping him, I took a break and walked around. I was very drained even hours later, when I vented to my friends
