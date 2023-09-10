@@ -23,5 +23,8 @@
 	"explorer.sortOrder": "mixed",
 	"[jsonc]": {
 		"editor.defaultFormatter": "dprint.dprint"
-	}
+	},
+	"asciidoc.preview.asciidoctorAttributes": {
+        "skip-front-matter": true
+    },
 }
