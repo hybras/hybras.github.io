@@ -1,7 +1,6 @@
 ---
 title: "Brotherly Love"
 date: 2023-09-09T14:57:03-04:00
-draft: true
 ---
 
 I love my brother. 
