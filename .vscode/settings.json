@@ -27,4 +27,5 @@
 	"asciidoc.preview.asciidoctorAttributes": {
         "skip-front-matter": true
     },
+	"explorer.excludeGitIgnore": true,
 }
