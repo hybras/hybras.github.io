@@ -4,7 +4,6 @@ date: 2021-08-06T20:24:13-04:00
 draft: true
 tags: ["diary"]
 ---
-:stem: latexmath
 
 ____
 My university announced that masks are required again as the delta variant of covid 19 spreads in the US.
@@ -35,5 +34,5 @@ If I infected someone's granny I'd never forgive myself.
 But between me and that granny there's half the country not giving a shit.
 
 I will comply will PG County's laws.
-But the urge to be a self centered asshole like ~stem:[\frac{1}{2}] of my country grows stronger.
+But the urge to be a self centered asshole like ~½ of my country grows stronger.
 Why should I reward their behavior by protecting them?
