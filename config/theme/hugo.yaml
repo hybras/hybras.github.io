@@ -1,7 +1,9 @@
 theme:
-  - 'hybras-theme'
+  - 'github.com/hybras/hybras-theme'
   - 'gitlab.com/hybras/hugo-asciinema'
 
 module:
+  replacements: 'github.com/hybras/hybras-theme -> ../../hybras-theme '
   imports:
+    - path: 'github.com/hybras/hybras-theme'
     - path: 'gitlab.com/hybras/hugo-asciinema'
