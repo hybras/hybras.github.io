@@ -1,8 +1,6 @@
 ---
 title: Perseverance's Landing
-bigimg: [{"desc": "Mission", "src": "mission-parts.jpg"}, {"desc": "Rocket Stages", "src": "rocket stage.jpg"}]
 date: 2021-02-14 16:15:54 -0400
-image: /posts/2021-02-14-perseverance/mission-parts.jpg
 tags: ["scholars"]
 ---
 
