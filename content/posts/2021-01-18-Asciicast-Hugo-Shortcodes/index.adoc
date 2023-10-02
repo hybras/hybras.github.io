@@ -7,7 +7,7 @@ tags: ["hugo"]
 ---
 
 ____
-Find the finished theme at https://gitlab.com/hybras/hugo-asciinema[the repo]
+Find the finished theme at https://github.com/hybras/hugo-asciinema[the repo]
 ____
 
 https://asciinema.org[Asciinema] records and replays your terminal sessions.
