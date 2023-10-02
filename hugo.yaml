@@ -68,6 +68,10 @@ disableKinds: []
 security:
   enableInlineShortcodes: false
   exec:
+    osEnv:
+      - '.*'
+      # - '^GEM_HOME$'
+      # - '^BUNDLE_BIN$'
     allow:
       - '^asciidoctor$'
       - '^go$'
