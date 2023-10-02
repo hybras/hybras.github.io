@@ -19,9 +19,9 @@ Also, hugo is friggin fast ❗
 
 == What's left?
 
-* +++<input type="checkbox" class="task-list-item-checkbox" disabled="disabled">++++++</input>+++Setup other themes
-* +++<input type="checkbox" class="task-list-item-checkbox" disabled="disabled">++++++</input>+++Transfer posts from my github jekyll site.
-* +++<input type="checkbox" class="task-list-item-checkbox" disabled="disabled">++++++</input>+++Enable other goldmark / features
-* +++<input type="checkbox" class="task-list-item-checkbox" disabled="disabled">++++++</input>+++Learn more about Hugo
-* +++<input type="checkbox" class="task-list-item-checkbox" disabled="disabled">++++++</input>+++Add my favicon
-* +++<input type="checkbox" class="task-list-item-checkbox" disabled="disabled">++++++</input>+++And more!
+* [ ] Setup other themes
+* [ ] Transfer posts from my github jekyll site.
+* [ ] Enable other goldmark / features
+* [ ] Learn more about Hugo
+* [ ] Add my favicon
+* [ ] And more!
