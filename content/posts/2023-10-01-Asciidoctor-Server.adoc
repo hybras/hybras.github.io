@@ -1,0 +1,104 @@
+---
+title: "Asciidoctor Server"
+date: 2023-10-01T22:25:37-04:00
+draft: true
+tags: ['hugo', 'asciidoctor', 'meta', 'dev']
+---
+:fn-hugo-forum: footnote:forum[https://discourse.gohugo.io/t/asciidoc-hugo-performance/10637/13]
+:fn-stiobhart: footnote:stiobhart[https://stiobhart.net/2020-04-18-hugo-asciidoctor]
+:fn-bogus-bench: footnote:bogus-bench[I didn't actually use a shell alias. I wrote a wrapper script that does the same thing and added it to my PATH]
+:fn-nix-pkg: footnote:nix-pkg[https://github.com/NixOS/nixpkgs/blob/nixos-23.05/pkgs/tools/typesetting/asciidoctor-with-extensions/Gemfile]
+:fn-docker-image: footnote:docker-image[https://github.com/asciidoctor/docker-asciidoctor#the-environment]
+
+== Background
+
+My hugo website has been building rather slowly of late, taking 8-10 seconds to build. This is with a site of ~125 pages and ~30 static assets.
+
+This shouldn't be possible, or at least not this bad. Hugo is a performant program. Its written go™️, is an executable™️, and uses templates™️ instead of scripting to extend itself. You can see I was a little naive when I made the decision to build my site in hugo.
+
+On ci, this has been slowly climbing as well. https://gitlab.com/hybras/hybras.gitlab.io/-/pipelines[Here are the logs back from when I hosted on gitlab]. As you can see, the time taken has been slowly but steadily climbing.
+
+[Gitlab Note]
+****
+I linked to gitlab because it keeps CI logs longer than github. However, the majority of the total CI time has been setting up the environment, not building. Dig deeper into the logs for just the build time, reported by hugo
+****
+
+It turns out other have run into the same issue.{fn-hugo-forum}{fn-stiobhart} Hugo is slow only when building a site written in asciidoc. Could it be asciidoctor that is slow?
+
+== Benchmarking
+
+Historical foolishness aside, lets gets some benchmarking in. I'm using hyperfine
+
+[Benchmarks]
+|===
+|bench name |command |time (sec)
+
+| stock
+| hugo
+| 8.9
+
+| No IO
+| hugo --renderToMemory
+| 9.0
+
+| cat {fn-bogus-bench}
+| alias asciidoctor=cat; hugo
+| 0.7
+
+| serial
+| fd -e adoc -x asciidoctor -o -
+| 6.2
+
+| batch
+| fd -e adoc -X asciidoctor -o -
+| 0.38
+
+| simple
+| echo "yeet" \| asciidoctor -
+| 0.254
+
+| No op | asciidoctor --help | 0.255
+|===
+
+These benchmarks make explicitly clear what the issue is. Asciidoctor is *blazingly* fast, converting the content of my website in nearly the same amount of time it takes to convert a single word. Hugo is also *blazingly* fast, converting a markdown site in the fraction of the time (hugo uses a go implementation of markdown). The problem isn't IO either.
+
+The problem is that asciidoctor has a massive startup time, of around a quarter of a second. This startup cost is repeatedly incurred because https://github.com/gohugoio/hugo/blob/da7983ac4b94d97d776d7c2405040de97e95c03d/markup/asciidocext/internal/converter.go#L69[hugo spawns a converter process per file]. This seems to wipeout whatever benefit is received from hugo's parallelism.
+
+== Breaking things
+
+[qanda]
+How can we avoid paying the startup costs?:: By running asciidoctor as a server
+Isn't that overkill? Gradle does the same thing and you hate it:: Yes, yes I do.
+How Can You Live With Yourself?:: I refuse to fork hugo to do this, and there's no way I can make asciidoctor faster.
+So How Exactly Will This Look?::
+I'll replace asciidoctor with a client that calls out to a server. Hugo will call this since its just doing `exec("asciidoctor")`.
+
+Initially I set out to to use some kind of IPC. I also wanted to write the client and server in rust. So I looked up rust ipc libraries and found a bunch.
+
+However, I realized writing the server in rust is so much work (I'd need to do ruby ffi since asciidoctor is written in ruby). Also, I didn't want an IPC library. I wanted a framework. I didn't want to handle serialization or opening and closing channels. Especially since each client would only be making a single request. I realized what I was looking for was an RPC framework that was supported in both ruby and rust.
+
+Googling turned up https://grpc.io[grpc] and https://capnproto.org/[capnproto]. capnproto doesn't have ruby support and the install steps mentioning compiling from source. Thats too scary 😱 for me. So grpc it was.
+
+Getting a poc working was fairly simple. The docs were very easy to follow and the tools itself was a joy. grpc also supported unix domain sockets. In the common case, communication could occur over a socket file within the website directory, avoiding having to copy a port number from server to client.
+
+* Hugo is deceived into calling the client instead of asciidoctor by adding a shell script to my path.
+* The script hard codes the server address and passes along all other args to the client
+* The client takes some cli args (a subset of those supported by the asciidoctor cli as well as the server address), reads the input from stdin, and passes those along through a grpc call.
+* The server receives the call and uses the asciidoctor api.
+* And back up the stack we go
+
+So here's the benchmark: 616 ± 44 ms! 0.7 seconds is a massive speedup! Unfortunately there are many shortcomings.
+
+=== Breaking bad
+
+The server is (effectively) single threated. Ruby has a https://en.wikipedia.org/wiki/Global_interpreter_lock[gil]. We sacrifice any parallelism by using the server (though this isn't a big deal).
+
+Users might? have to manually resize the server thread poll. Hugo doesn't have any rate limiting (why tf would it), so the server can quickly become overwhelmed. This occurred frequently in my testing. Since only 1 thread runs at a time, this effectively controls the number of concurrent requests (number of requests waiting to be handled).
+
+The server runs in its own environment. This breaks any features where asciidoctor reads/writes beyond the input file (like https://docs.asciidoctor.org/asciidoc/latest/directives/include/[includes] or https://docs.asciidoctor.org/diagram-extension/latest/[diagrams]).
+
+This also complicates installation. Asciidoctor is available as a https://formulae.brew.sh/formula/asciidoctor#default[package], sometime even with extensions bundled.{fn-docker-image} {fn-nix-pkg}. Running the server locks one out of these prepared packages. I do think telling people to manage their ruby gems is a bit much for something like a website.
+
+== Conclusion
+
+I do think we in software engineering sometime take on too much complexity in the name of performance. Do you think the tradeoffs are worth it?
