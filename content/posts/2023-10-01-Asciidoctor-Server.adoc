@@ -77,7 +77,7 @@ Initially I set out to to use some kind of IPC. I also wanted to write the clien
 
 However, I realized writing the server in rust is so much work (I'd need to do ruby ffi since asciidoctor is written in ruby). Also, I didn't want an IPC library. I wanted a framework. I didn't want to handle serialization or opening and closing channels. Especially since each client would only be making a single request. I realized what I was looking for was an RPC framework that was supported in both ruby and rust.
 
-Googling turned up https://grpc.io[grpc] and https://capnproto.org/[capnproto]. capnproto doesn't have ruby support and the install steps mentioning compiling from source. Thats too scary 😱 for me. So grpc it was.
+Googling turned up https://grpc.io[grpc] and https://capnproto.org/[capnproto]. capnproto doesn't have ruby support and the install steps mention compiling from source. Thats too scary 😱 for me. So grpc it was.
 
 Getting a poc working was fairly simple. The docs were very easy to follow and the tools itself was a joy. grpc also supported unix domain sockets. In the common case, communication could occur over a socket file within the website directory, avoiding having to copy a port number from server to client.
 
@@ -93,7 +93,7 @@ So here's the benchmark: 616 ± 44 ms! 0.7 seconds is a massive speedup! Unfortu
 
 The server is (effectively) single threated. Ruby has a https://en.wikipedia.org/wiki/Global_interpreter_lock[gil]. We sacrifice any parallelism by using the server (though this isn't a big deal).
 
-Users might? have to manually resize the server thread poll. Hugo doesn't have any rate limiting (why tf would it), so the server can quickly become overwhelmed. This occurred frequently in my testing. Since only 1 thread runs at a time, this effectively controls the number of concurrent requests (number of requests waiting to be handled).
+Users might? have to manually resize the server thread pool. Hugo doesn't have any rate limiting (why tf would it), so the server can quickly become overwhelmed. This occurred frequently in my testing. Since only 1 thread runs at a time, this effectively controls the number of concurrent requests (number of requests waiting to be handled).
 
 The server runs in its own environment. This breaks any features where asciidoctor reads/writes beyond the input file (like https://docs.asciidoctor.org/asciidoc/latest/directives/include/[includes] or https://docs.asciidoctor.org/diagram-extension/latest/[diagrams]).
 
