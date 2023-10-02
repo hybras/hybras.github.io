@@ -1,6 +1,7 @@
 ---
 title: "Speeding Up My Shell Startup"
 date: 2022-07-15
+description: Or, why you should be careful what you install
 ---
 
 > This material is not original, and is unscientific. You can find my shell config (among other things) at https://github.com/hybras/dotfiles

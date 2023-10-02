@@ -2,6 +2,7 @@
 title: "India Driving"
 date: 2023-07-21T04:28:12-04:00
 tags: ['india']
+description: Driving in India isn't so bad
 ---
 
 A lot of the content online about driving in India is not from Brown people, and comes across as holier than thou. I think India is solidly middle of the pack when it comes to road safety ... whatever that means.

@@ -2,6 +2,7 @@
 title: "Asciidoctor Server"
 date: 2023-10-01T22:25:37-04:00
 tags: ['hugo', 'asciidoctor', 'grpc', 'dev']
+description: Speeding up hugo + asciidoctor in a hacky way
 ---
 :fn-hugo-forum: footnote:forum[https://discourse.gohugo.io/t/asciidoc-hugo-performance/10637/13]
 :fn-stiobhart: footnote:stiobhart[https://stiobhart.net/2020-04-18-hugo-asciidoctor]

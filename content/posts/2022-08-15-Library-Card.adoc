@@ -2,6 +2,7 @@
 title: "Library Card"
 date: 2022-08-18T19:45:54-04:00
 tags: ["diary"]
+description: A mundane aspect of government
 ---
 
 I lost my local library card.

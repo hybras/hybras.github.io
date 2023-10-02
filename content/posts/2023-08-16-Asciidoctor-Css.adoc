@@ -1,7 +1,7 @@
 ---
 title: "Asciidoctor Css"
 date: 2023-08-16T14:01:25-04:00
-description: I struggle to learn how asciidoctor uses css.
+description: How asciidoctor use css?
 tags: ['asciidoctor', 'css', 'static site generator']
 series: ['My Blog']
 ---

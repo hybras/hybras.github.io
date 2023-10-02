@@ -2,6 +2,7 @@
 title: "Nix"
 date: 2023-05-25T19:19:22-04:00
 tags: ['nix']
+description: What I've learnt about using the package manager
 ---
 
 So I've been using nix on my mac (so not nixos) for a few weeks now. Here are my thoughts.

@@ -1,6 +1,7 @@
 ---
 title: "Trip to Smithsonian and DC"
 date: 2022-04-26
+description: I went on a school trip to the Smithsonian
 tags: ["scholars"]
 ---
 

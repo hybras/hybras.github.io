@@ -1,6 +1,7 @@
 ---
 title: "Fuck Stem"
 date: 2023-03-02
+description: \"Auditing\" non cs classes
 ---
 
 This semester, I occasionally decided to instead go to classes that seemed interesting.

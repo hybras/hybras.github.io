@@ -2,6 +2,7 @@
 title: "Venezuelans"
 date: 2023-05-22T18:35:54-04:00
 tags: ['diary']
+description: A non-racist joke about race (don't cancel me plez)
 draft: true
 ---
 

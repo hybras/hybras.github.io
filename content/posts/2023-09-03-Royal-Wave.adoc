@@ -1,6 +1,7 @@
 ---
 title: "Royal Wave"
 date: 2023-09-03T21:46:47-04:00
+description: A Childhood memory
 ---
 
 Memory Unlocked

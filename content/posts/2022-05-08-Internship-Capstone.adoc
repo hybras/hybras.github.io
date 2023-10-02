@@ -1,6 +1,7 @@
 ---
 title: Scholars Capstone - IEEE Internship
 date: 2022-05-05
+description: What did I work on during my summer 2021 internship?
 tags: ["scholars"]
 ---
 

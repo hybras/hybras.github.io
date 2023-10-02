@@ -1,6 +1,7 @@
 ---
 title: "Medical BS"
 date: 2023-06-30T20:59:53-04:00
+description: Wasting time and money on the doctor
 ---
 
 > This happened during the pandemic.

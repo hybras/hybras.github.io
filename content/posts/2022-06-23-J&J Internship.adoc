@@ -1,6 +1,7 @@
 ---
 title: "J&J Internship"
 date: 2022-06-23
+description: I got an internship for summer 2022.
 ---
 
 I got an internship at Johnson and Johnson, an American medical company.

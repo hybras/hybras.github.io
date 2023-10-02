@@ -1,7 +1,7 @@
 ---
 title: Favicon
 date: '2023-07-28'
-description: "Documentation woes"
+description: "Documentation woes as I try to make an icon"
 tags: ['meta']
 series: ['My Blog']
 ---

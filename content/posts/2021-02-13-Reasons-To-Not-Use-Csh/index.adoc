@@ -3,6 +3,7 @@ title: Top Ten Reasons not to use the C shell
 asciicast: true
 date: 2021-02-13 15:38:38 -0500
 subtitle: An ode to UMD's grace servers
+description: A mirrored post about csh's shortcomings
 tags: ["csh"]
 ---
 

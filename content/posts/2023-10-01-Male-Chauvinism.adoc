@@ -1,6 +1,7 @@
 ---
 title: "Male Chowvinism"
 date: "2023-10-01T15:24:04-04:00"
+description: Some gender norms transcend cultures
 ---
 
 [WARNING]
