@@ -16,11 +16,3 @@ The default stylesheet bears no comments, which would be helpful to understand w
 
 I don't want https://docs.asciidoctor.org/asciidoctor/latest/html-backend/default-stylesheet/#disable-or-modify-the-web-fonts[fonts], or https://docs.asciidoctor.org/asciidoctor/latest/html-backend/local-font-awesome/[font awesome icons] (though they really are awesome). I'm not worried about ancient or minimal browsers (mobile and desktop is enough headache).
 
-[Attributes]
-|===
-|Header column 1 |Header column 2 |Header column 3
-
-|Cell 1, row 1
-|Cell 2, row 1
-|Cell 3, row 1
-|===
