@@ -14,6 +14,7 @@
                 pkgs.hugo
                 pkgs.asciidoctor-with-extensions
                 pkgs.go
+                pkgs.ruby
               ];
             };
           };
