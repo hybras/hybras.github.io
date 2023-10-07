@@ -2,6 +2,7 @@
 title: "Fuck Stem"
 date: 2023-03-02
 description: \"Auditing\" non cs classes
+tags: ["diary"]
 ---
 
 This semester, I occasionally decided to instead go to classes that seemed interesting.

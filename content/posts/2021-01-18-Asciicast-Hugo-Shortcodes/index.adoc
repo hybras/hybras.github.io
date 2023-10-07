@@ -3,7 +3,7 @@ title: Hugo shortcodes for asciinema
 asciicast: true
 date: 2021-01-18 21:02:53 -0500
 description: A quick and dirty hugo shortcode for asciinema
-tags: ["hugo"]
+tags: ["hugo", "dev"]
 ---
 
 ____

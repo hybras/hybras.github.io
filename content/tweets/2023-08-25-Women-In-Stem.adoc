@@ -1,6 +1,7 @@
 ---
 title: Women in Stem
 date: 2023-08-25
+tags: ["diary"]
 ---
 
 [%hardbreaks]

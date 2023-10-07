@@ -2,7 +2,7 @@
 title: Rust's Small Standard Library
 date: 2021-03-10
 description: A short commentary on what is(n't) in rust's std
-tags: ["rust"]
+tags: ["rust", "dev"]
 ---
 
 ____

@@ -2,6 +2,7 @@
 title: "Woke Canada"
 date: 2023-09-29
 description: Most brown people are homophobic. sadge
+tags: ["diary"]
 ---
 
 I stayed over with some family friends whilst traveling (indian network go brr). Their son said the following to me.

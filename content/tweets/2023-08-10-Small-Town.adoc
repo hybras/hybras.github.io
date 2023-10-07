@@ -1,7 +1,7 @@
 ---
 title: "Small Town"
 date: "2023-08-10T22:41:26-04:00"
-tags: ["tweet"]
+tags: ["tweet", "diary"]
 ---
 
 American Films about small town life are bad. Too focused on "small town pride".

@@ -1,6 +1,7 @@
 ---
 title: "Creating a Hugo Theme"
 date: 2023-08-02
+tags: ["dev"]
 draft: true
 ---
 :imagesoutdir: content/posts/2023-08-02-Creating-A-Hugo-Theme

@@ -1,6 +1,7 @@
 ---
 title: "Cleaning My Drive"
 date: 2023-05-02T12:38:11-04:00
+tags: ["diary", "dev"]
 description: I get a ego boost by rifling through the trash
 ---
 

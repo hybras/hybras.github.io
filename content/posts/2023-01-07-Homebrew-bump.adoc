@@ -2,7 +2,7 @@
 title: "Homebrew Bump"
 date: 2023-01-07T13:59:13-05:00
 description: My struggles running homebrew in CI
-tags: ['homebrew']
+tags: ['homebrew', 'dev']
 ---
 
 NOTE: Skip the bit at the end of you don't want to know how deranged I am.

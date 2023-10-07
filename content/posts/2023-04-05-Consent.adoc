@@ -2,6 +2,7 @@
 title: "Adventures in Consent"
 date: 2023-04-06T11:32:42-04:00
 draft: true
+tags: ["diary"]
 ---
 :toc:
 

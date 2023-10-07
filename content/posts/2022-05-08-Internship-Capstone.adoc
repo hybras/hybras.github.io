@@ -2,7 +2,7 @@
 title: Scholars Capstone - IEEE Internship
 date: 2022-05-05
 description: What did I work on during my summer 2021 internship?
-tags: ["scholars"]
+tags: ["scholars", "diary"]
 ---
 
 My capstone was a software engineering internship at IEEE's IT department at their Piscataway, NJ office. I found the position on IEEE's job site, applied, interviewed, and got the position over the span of last April iirc. I applied to a couple dozen places and IEEE was one of the few that got back to me, much less followed up.

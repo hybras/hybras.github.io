@@ -2,6 +2,7 @@
 title: "Gated Community"
 date: 2023-09-01
 description: Urban design matters
+tags: ["diary"]
 ---
 
 I'm talking to my cousins grandmother (technically shes my aunt and the cousins are ... something, but whatever).

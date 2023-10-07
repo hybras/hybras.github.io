@@ -1,7 +1,7 @@
 ---
 title: "Nix"
 date: 2023-05-25T19:19:22-04:00
-tags: ['nix']
+tags: ['nix', 'dev']
 description: What I've learnt about using the package manager
 ---
 

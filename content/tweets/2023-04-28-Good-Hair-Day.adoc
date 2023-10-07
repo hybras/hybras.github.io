@@ -1,7 +1,8 @@
 ---
-title: "2023 04 28 Good Hair Day"
+title: "Good Hair Day"
 date: 2023-09-16T23:21:46-04:00
 draft: true
+tags: ["diary"]
 ---
 
 > This post is backdated several months.

@@ -2,7 +2,7 @@
 title: "Trip to Smithsonian and DC"
 date: 2022-04-26
 description: I went on a school trip to the Smithsonian
-tags: ["scholars"]
+tags: ["scholars", "diary"]
 ---
 
 We went the Smithsonian. I took the metro to DC for the first time. I was glad to have Dom and Zach with me to explain the route and how to purchase a metrocard. When we arrived to the station, 2 of the machines were not working. I used one, it ran out of cards, and of course promptly stopped working as well. I love public transportation in America so much.

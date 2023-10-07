@@ -2,7 +2,7 @@
 title: Favicon
 date: '2023-07-28'
 description: "Documentation woes as I try to make an icon"
-tags: ['meta']
+tags: ['meta', 'dev']
 series: ['My Blog']
 ---
 

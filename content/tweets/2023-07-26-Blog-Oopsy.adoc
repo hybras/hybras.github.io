@@ -1,7 +1,7 @@
 ---
 title: "Blog Oopsy"
 date: 2023-07-26T18:11:08-04:00
-tags: ['tweet', 'meta']
+tags: ['tweet', 'meta', 'dev']
 ---
 
 My blog was down for a few weeks. I tried to show my website to family in india a week ago and failed. Embarrassing.

@@ -2,7 +2,7 @@
 title: "Green Bank Excursion"
 date: 2021-10-16
 description: I went on a school trip to the Green Bank observatory in West Virginia
-tags: ["scholars"]
+tags: ["scholars", "diary"]
 ---
 
 NOTE: https://photos.app.goo.gl/AJ4FRULhHeL6aPXm6[Our Photo Album]

@@ -2,6 +2,7 @@
 title: "Brotherly Love"
 date: 2023-09-09T14:57:03-04:00
 description: Displays of masculinity differ between India and the west
+tags: ["diary"]
 ---
 
 I love my brother. 

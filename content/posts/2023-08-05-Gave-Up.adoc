@@ -2,7 +2,7 @@
 title: "Gave Up on my Website"
 date: "2023-08-06T23:22:28-04:00"
 description: Writing themes is a lot of work
-tags: ["hugo","meta", "css"]
+tags: ["hugo","meta", "css", "dev"]
 series: ['My Blog']
 ---
 

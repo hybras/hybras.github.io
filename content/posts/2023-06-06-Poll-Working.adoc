@@ -1,6 +1,7 @@
 ---
 title: "Poll Working"
-description: Up close and ugly with American democracy 
+description: Up close and ugly with American democracy
+tags: ["diary"]
 date: 2023-06-06
 ---
 

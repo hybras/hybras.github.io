@@ -3,7 +3,6 @@ title: "Revenge"
 date: 2023-05-25
 subtitle: "An analysis of my desire for revenge"
 description: "I had a fight with a couple of my friends, and I wanted revenge. I saw some parallel between my desire and why the USA's criminal justice system focuses on punishment (incarceration) over rehabilitation."
-image: ""
 tags: ['diary']
 ---
 

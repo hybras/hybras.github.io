@@ -1,6 +1,7 @@
 ---
 title: "Terpconnect Site"
 date: 2021-09-29
+tags: ["dev"]
 ---
 
 It doesn't matter if your mac / win / lin.

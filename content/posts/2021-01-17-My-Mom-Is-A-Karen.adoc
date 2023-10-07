@@ -2,6 +2,7 @@
 title: My Mom Is a Karen
 date: 2021-01-17 17:51:49 -0500
 draft: true
+tags: ["diary"]
 description: Ranting about my mom's behavior
 ---
 
