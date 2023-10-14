@@ -3,7 +3,7 @@ baseurl: 'https://hybras.dev'
 contentdir: content
 layoutdir: layouts
 publishdir: public
-title: Hybras' Site
+title: 'Nevertheless, she persisted'
 canonifyurls: true
 
 DefaultContentLanguage: en
