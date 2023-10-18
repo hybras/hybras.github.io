@@ -1,0 +1,29 @@
+---
+title: "Website CI Time"
+date: 2023-10-17T21:35:45-04:00
+tags: ["ci", "dev", "meta"]
+---
+
+****
+I'm starting to wonder if my custom blog setup is worth it.
+Blogging platforms looks so tantalizing: slick editors, no need to edit locally, and still use git and static site generators under the hood.
+For another time...
+****
+
+In a link:{{< ref "/posts/2023-10-01-Asciidoctor-Server">}}[previous post], I discussed the long build time of my website. However, this isn't the only thing bogging down my ci usage. Simply setting up the environment was taking 1-3 minutes.
+
+I tried to use nix in CI because it was easy.
+There were ready made github actions, and nix took care of installing everything reproducibly.
+I thought I would appreciate using the same environment in CI as locally.
+
+However, nix installs your entire dependency tree, all the way down to libc and a shell if needed.
+When working locally, all this is cached so your not redownloading the world every time you tweak your environment.
+Caching was not working in CI for whatever reasons, and only a few megabytes of dependencies out of several gigabytes were being cached.
+
+I switched to github actions that install each of my dependencies separately (one action for each of hugo, asciidoctor, and go).
+They all run in seconds when their caching works, and tens of seconds otherwise.
+And they use what the CI operating system provides, so only a few mb's of dependencies are downloaded instead of GB's.
+
+I reduced my CI time from 3 minutes to 1.
+I should have done this from the start instead of hopping on a bandwagon.
+Nix still seems cool though.
