@@ -1,6 +1,7 @@
 ---
 title: "Scrolling"
 date: 2023-10-05T18:04:03-04:00
+description: I am addicted to my computer
 tags: ["diary"]
 ---
 
