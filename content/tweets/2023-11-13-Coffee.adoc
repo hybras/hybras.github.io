@@ -1,0 +1,8 @@
+---
+title: "Coffee"
+date: 2023-11-13
+---
+
+Coffee might make me anxious.
+Needs more testing.
+Should be easy to test though because I drink coffee with milk and sugar, which masks the taste.
