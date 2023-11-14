@@ -28,7 +28,7 @@ I've also used (prefix each service name with google)
 * code (git hosting)
 
 I'm only 21, it shouldn't be possible for a single company to have let me down so much in just a few years.
-I used google domains because it was so fucking easy. I found a domain, clicked buy, and boom got a nice portal manage dns settings. I never used any other features.
+I used google domains because it was so fucking easy. I found a domain, clicked buy, and boom got a nice portal to manage dns settings. I never used any other features.
 Previously I was hosted at http://hybras.tech/[], through a github student discount. However, their web portal was confusing and apparently the registrar was owned by the Saudis.
 Screenshots of squarespace's portal do look promising.
 
