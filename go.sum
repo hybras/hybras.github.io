@@ -1,7 +1,5 @@
-github.com/hybras/hugo-asciinema v0.0.0-20231002200852-b402f93f5b54 h1:grWC4wOis7n7YXKkzbJ/jjn2vHTYmiGmPWLiRIaxSQc=
-github.com/hybras/hugo-asciinema v0.0.0-20231002200852-b402f93f5b54/go.mod h1:1nXjpKuldh39FoiF7ttnpKMkTy51fJlk24ByPkyXwds=
-github.com/hybras/hugo-asciinema v0.0.0-20231003011118-eb3d08f0b11a h1:om3DQD1pFhlGNvNfTF1UHIV/1Qey1YmY2mbwSuFwJbI=
-github.com/hybras/hugo-asciinema v0.0.0-20231003011118-eb3d08f0b11a/go.mod h1:1nXjpKuldh39FoiF7ttnpKMkTy51fJlk24ByPkyXwds=
+github.com/hybras/hugo-asciinema v0.0.0-20231028022536-ffc9215184b4 h1:8ZD08Shih+Azzko9VObWGRWOnra06iRclew+yzgHsT0=
+github.com/hybras/hugo-asciinema v0.0.0-20231028022536-ffc9215184b4/go.mod h1:1nXjpKuldh39FoiF7ttnpKMkTy51fJlk24ByPkyXwds=
 github.com/hybras/hybras-theme v0.0.0-20230815234638-d4d19fbc341b h1:vD/CKPOyRAPyOoc1MiPuX1/Rs3+AfShlQJ4yoo9v0ow=
 github.com/hybras/hybras-theme v0.0.0-20230815234638-d4d19fbc341b/go.mod h1:BVBVl7nGoy5QkopYapNTcGKjRfoQDQJ53J3r8SsCY1E=
 github.com/janraasch/hugo-bearblog v0.0.0-20230315152638-5fc1e03a7af2 h1:MKUv1AnrxuavzDHD0M0+gw6G9Ti3wa+HYxF/AOydXUU=
