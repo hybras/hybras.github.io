@@ -1,7 +1,6 @@
 ---
 title: "Eat It Raw"
 date: 2023-12-03T12:25:21-05:00
-draft: true
 ---
 
 These past few years, I've really enjoyed sampling / eating raw ingredients (sometimes also lightly roasted and with salt).
@@ -34,7 +33,6 @@ I didn't like / felt meh about
 * nutmeg
 * celery
 * black pepper (tastes good on stuff)
-
 
 Part of me wonders what the point of cooking is. /s
 
