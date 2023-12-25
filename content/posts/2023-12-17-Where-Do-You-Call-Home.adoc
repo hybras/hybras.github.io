@@ -3,7 +3,7 @@ title: "Where Do You Call Home"
 date: 2023-12-17T19:05:20-05:00
 ---
 
-> This is a response to Jason Kottke's post, since I am not a Kottke.org member.
+> This is a response to Jason Kottke's post, since I am not a Kottke.org member. +
 > https://kottke.org/23/12/where-do-you-call-home
 
 == Childhood
