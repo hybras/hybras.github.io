@@ -27,16 +27,6 @@ Params:
   commit: false
   rss: true
 
-Author:
-  name: hybras
-  email: vchari@terpmail.umd.edu
-  gitlab: hybras
-  github: hybras
-  twitter: hybras1
-  reddit: id9seeker
-  linkedin: vc-
-  stackoverflow: users/10725115/hybras
-
 menu:
   main:
     - name: Blog
