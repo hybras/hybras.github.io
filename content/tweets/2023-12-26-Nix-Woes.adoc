@@ -1,0 +1,13 @@
+---
+title: "Nix Woes"
+date: "2023-12-26T13:28:03-05:00"
+tags: ["tweet"]
+---
+
+I updated the nixpkgs input in one of my flakes from 23.05 to 23.11, and one of the packages I was using broke!
+What the hell?
+I knew this was a somewhat common occurrence in Nix.
+Leaves a sour taste in my mouth.
+This would never happen in debian.
+
+Probably because debian wouldn't even accept the package.
