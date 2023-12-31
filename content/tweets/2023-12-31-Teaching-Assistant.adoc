@@ -1,0 +1,9 @@
+---
+title: "Teaching Assistant"
+date: "2023-12-31T16:06:04-05:00"
+tags: ["tweet"]
+---
+
+http://web.archive.org/web/20221204081054/https://notes.ekzhang.com/reflections/teaching
+
+Post from ekzhang that captures my experience being a TA across a range of undergrad cs courses.
