@@ -16,7 +16,7 @@ Imagine a tree, where nodes alternate between having 2 and 3 children. The root 
 Calculate a recurrence for the number of nodes at depth stem:[i] (hint: work two levels at a time, express stem:[n\left(i\right)] in terms of stem:[n\left(i-2\right)]), and an an explicit formula for the same.
 ====
 
-image::/alternating_tree.png[]
+image::alternating_tree.png[]
 
 Being stubborn, I decided to write stem:[n\left(i\right)] in terms of stem:[n\left(i-1\right)]. The professor found this unexpected and recommended I appeal (he gave me a 0 and left a comment).
 There was a back and forth between us where I convinced his I was right, straight out of one of those rhetoric of teaching manuals. I got full points.
