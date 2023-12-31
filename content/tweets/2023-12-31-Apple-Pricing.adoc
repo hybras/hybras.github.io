@@ -1,0 +1,18 @@
+---
+title: "Apple Pricing"
+date: "2023-12-31T13:49:15-05:00"
+tags: ["tweet"]
+draft: true
+---
+
+I was curious about how much desktop's cost from various sellers, since I'm interested in building/buying one.
+Google returned Apple's India catalog while searching, so I peeked.
+
+A mac mini costs $600 in the US, and ~$750 in India.
+How is this possible?
+Aren't many of the parts made in China?
+Aren't the parts assembled in China?
+Surely it isn't due to the cost of shipping? (India is close by).
+
+The median income in India is far far lower.
+Who is apple selling its products too?
