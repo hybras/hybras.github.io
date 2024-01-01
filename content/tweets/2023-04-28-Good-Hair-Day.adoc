@@ -9,6 +9,7 @@ tags: ["diary"]
 
 A girl complimented my hair today. I was out with my fwb in the library.
 
+[%hardbreaks]
 A _girl_ complimented my hair.
 A girl complimented _my_ hair.
 A girl complimented my _hair_.
