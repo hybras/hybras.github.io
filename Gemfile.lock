@@ -38,7 +38,7 @@ GEM
     thread_safe (0.3.6)
 
 PLATFORMS
-  arm64-darwin-22
+  ruby
 
 DEPENDENCIES
   asciidoctor
