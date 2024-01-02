@@ -7,4 +7,4 @@ gem 'asciidoctor-revealjs'
 gem 'coderay'
 gem 'pygments.rb'
 gem 'rouge'
-gem 'asciidoctor-server', '~> 0.4.0'
+gem 'asciidoctor-server', '~> 0.4.0', group: :development
