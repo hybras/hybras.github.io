@@ -51,6 +51,8 @@ jobs:
       - name: Check env
         run: |
           which hugo
+          echo $CI
+          echo $GITHUB_ACTIONS
       - name: Install Ruby and Ruby Packages
         uses: ruby/setup-ruby@v1
         with:
