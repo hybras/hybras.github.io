@@ -46,6 +46,8 @@ jobs:
           go-version: '>=1.20.0'
       - name: Setup direnv
         uses: HatsuneMiku3939/direnv-action@v1
+        env:
+          CI: "true"
       - name: Check env
         run: |
           which hugo
