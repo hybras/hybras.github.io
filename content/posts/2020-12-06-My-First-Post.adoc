@@ -19,9 +19,9 @@ Also, hugo is friggin fast ❗
 
 == What's left?
 
-* [ ] Setup other themes
-* [ ] Transfer posts from my github jekyll site.
-* [ ] Enable other goldmark / features
-* [ ] Learn more about Hugo
-* [ ] Add my favicon
-* [ ] And more!
+* [x] Setup other themes
+* [x] Transfer posts from my github jekyll site.
+* [x] Enable other goldmark / features
+* [x] Learn more about Hugo
+* [x] Add my favicon
+* [x] And more!
