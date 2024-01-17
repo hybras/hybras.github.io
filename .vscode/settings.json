@@ -28,4 +28,7 @@
         "skip-front-matter": true
     },
 	"explorer.excludeGitIgnore": true,
+	"terminal.integrated.automationProfile.osx": {
+		"args": ["-i"]
+	}
 }
