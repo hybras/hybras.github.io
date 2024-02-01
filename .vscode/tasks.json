@@ -2,24 +2,33 @@
 	"version": "2.0.0",
 	"tasks": [
 		{
-			"type": "hugo",
-			"task": "",
-			"group": {
-				"kind": "build",
-				"isDefault": true
-			},
-			"problemMatcher": [],
-			"label": "hugo: Build site"
-		},
-		{
-			"type": "hugo",
-			"task": "server",
+			"label": "Hugo Server",
+			"type": "shell",
+			"command": "direnv exec . hugo server",
+
 			"group": {
 				"kind": "test",
-				"isDefault": true
+				"isDefault": true,
 			},
-			"problemMatcher": [],
-			"label": "hugo: Serve site"
-		}
+			"isBackground": true,
+			"presentation": {
+				"reveal": "always",
+				"panel": "new",
+				"close": true,
+			},
+			"runOptions": { "runOn": "folderOpen" },
+		},
+		{
+		"label": "Start asciidoctor server on startup",
+		"type": "shell",
+		"command": "direnv exec . asciidoctor-server",
+		"promptOnClose": false,
+		"presentation": {
+			"reveal": "always",
+			"panel": "new"
+		},
+		"isBackground": true,
+		"runOptions": { "runOn": "folderOpen" }
+		},
 	]
 }
