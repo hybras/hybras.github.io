@@ -1,6 +1,0 @@
-#!/usr/bin/env bash
-set -euo pipefail
-asciidoctor-server &>/dev/null &
-sleep "0.1"
-/nix/store/j5jv6nhqb17wi2g47cn4avqg7b4aghcs-hugo-0.111.3/bin/hugo "$@"
-kill "%1"
