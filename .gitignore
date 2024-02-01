@@ -2,3 +2,4 @@ public/
 _vendor/
 .hugo_build.lock
 .direnv
+.asciidoctor-server.sock
