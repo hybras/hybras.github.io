@@ -5,30 +5,28 @@
 			"label": "Hugo Server",
 			"type": "shell",
 			"command": "direnv exec . hugo server",
-
 			"group": {
 				"kind": "test",
 				"isDefault": true,
 			},
 			"isBackground": true,
+			"runOptions": { "runOn": "folderOpen" },
 			"presentation": {
 				"reveal": "always",
 				"panel": "new",
-				"close": true,
+				// "close": true,
 			},
-			"runOptions": { "runOn": "folderOpen" },
 		},
 		{
 		"label": "Start asciidoctor server on startup",
 		"type": "shell",
 		"command": "direnv exec . asciidoctor-server",
+		"isBackground": true,
+		"runOptions": { "runOn": "folderOpen" },
 		"promptOnClose": false,
 		"presentation": {
-			"reveal": "always",
 			"panel": "new"
 		},
-		"isBackground": true,
-		"runOptions": { "runOn": "folderOpen" }
 		},
 	]
 }
