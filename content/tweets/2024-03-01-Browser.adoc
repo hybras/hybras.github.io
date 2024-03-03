@@ -1,0 +1,26 @@
+---
+title: "Lid"
+date: "2024-02-23T18:18:29-05:00"
+tags: ["systems", "browser"]
+---
+
+> I just read the https://web.mit.edu/~simsong/www/ugh.pdf[unix haters handbook], so this "systems-thinking" is on my mind.
+
+My RSS reader has a bug where links can only be opened in the browser that ships with the OS, or the system default browser.
+This is despite having a setting to control which browser is used (setting it to something other than those two will fail).
+
+My default browser is an app that forwards to other applications based on user contributed rules.
+Fox example, when I click an onion link it automatically opens in tor, github links open in firefox (where I am signed in), etc.
+Uncategorized links are forwarded to a separate app, which displays a dialog to select the browser, similar to iOS and Android.
+
+I was sending (uncategorized) links to my laptop from my phone. It was getting tiresome selecting which browser to use for every link.
+I set my system browser to firefox, and forgot to switch it back.
+Later, I discovered links were not being opened with my chosen browsers.
+A minute or so of "debugging" helped me sort everything out.
+I incorrectly assumed it was a bug (well, a different bug) with my RSS reader.
+
+I am reminded of an article describing google's operations.
+Apparently, there are little to no manual overrides for many processes, including deployment.
+Any changes must be committed, and automation will apply changes.
+A similar system here (perhaps like nixOS) would have prevented this folly, because I would have a record of changes made.
+Such things feel like overkill for my silly machine.
