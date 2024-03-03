@@ -1,6 +1,6 @@
 ---
 title: "What's a Browser?"
-date: "2024-02-23T18:18:29-05:00"
+date: "2024-03-01"
 tags: ["systems", "browser"]
 ---
 
