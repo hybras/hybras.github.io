@@ -1,0 +1,16 @@
+---
+title: "Corporate Art"
+date: "2024-03-11"
+tags: ["tweet"]
+---
+
+Events on https://www.meetup.com/[meetup] and https://www.eventbrite.com/[eventbrite] are often crosslisted.
+
+The two websites have such similar UI's (and their logo's are of similar color) that I didn't even realize I was on eventbrite instead of meetup.
+
+I was looking for a meetup feature and couldn't find it.
+
+I ended up googling what I wanted (on meetup), and only then realized I was previously on eventbrite.
+
+https://kottke.org/[Kottke] also https://kottke.org/24/03/kottkeorg-redesigns-with-2024-vibes[redesigned his site] so have a similar appearance, all white and flat.
+It looks good, I guess.
