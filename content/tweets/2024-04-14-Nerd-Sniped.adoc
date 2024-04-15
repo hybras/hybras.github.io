@@ -1,0 +1,26 @@
+---
+title: "Nerd Sniped"
+date: "2024-04-14T21:53:17-04:00"
+tags: ["tweet"]
+---
+
+== Dark Mode
+
+I was nerd-sniped _twice_ in the past week.
+I love packaging software.
+
+All of my apps coodinate their dark mode with the OS.
+Its a common feature these days, especially since support for dark mode detection has been added to the browser (and can even be used without javascript using media queries!).
+My terminal, https://alacritty.org[alacritty], does not.
+It does have theme support, however.
+
+I found a https://github.com/bouk/dark-mode-notify[couple] macos https://github.com/saagarjha/DarkNight[applications] that will run a script when the dark mode changes.
+I can have said script change my terminal's theme accordingly.
+Thankfully, my terminal supports live reload for config changes.
+I packaged one of dark mode scripting apps, and now all my apps sync their themes!
+
+== Whatsapp TUI
+
+I got fed up with the whatsapp web client. I found https://github.com/normen/whatscli[whatscli] and https://github.com/d99kris/nchat/[nchat] as taui alternatives.
+Both worked for me.
+Nchat has telegram support as well, but I disabled that to build quicker.
