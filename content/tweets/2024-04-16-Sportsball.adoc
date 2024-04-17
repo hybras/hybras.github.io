@@ -1,0 +1,17 @@
+---
+title: "Sportsball"
+date: "2024-04-16T09:00:00"
+tags: ["tweet"]
+---
+
+I'm getting off the metro.
+The janitor and I get on the elevator together.
+He blasts a recap of the https://en.wikipedia.org/wiki/Washington_Capitals[Caps] game.
+
+[verse]
+Him: You follow hockey?
+Me: ...
+Him: Soccer?
+Me: I'm not really into sports
+Him: Damn, I always wondered what my life would've turned out. I feel like sports is my everything.
+Me: _Smiles sheepishly_
