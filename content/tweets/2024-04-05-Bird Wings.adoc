@@ -1,0 +1,9 @@
+---
+title: "Bird Wings"
+date: 2024-04-05T09:56:41-04:00
+tag: ["tweet"]
+---
+
+I looked up the various shapes of bird wings, to refresh my memory. The vast majority of top results are all the same, and I'm having trouble identifying the original source.
+
+image::/tweets/2024-04-05-bird-wings/bird_wings.png[]
