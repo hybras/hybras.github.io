@@ -1,0 +1,16 @@
+---
+title: "Off by One"
+date: "2024-04-23T13:35:50-04:00"
+tags: ["diary"]
+---
+:fn-justin: footnote:justin[A really good lecturer in math/cs at UMD. Very friendly and a good teacher]
+
+The semester I took crypto, Spring '23, https://www.math.umd.edu/~immortal/[Justin] also taught it.
+So for fun I would sit in his section every so often (my friend Oliver got in and I as jealous).
+
+Towards the end of semester, attendance dropped off so one day I came and there were about a dozen students out of ~80.
+This might've also been after an exam, and people often skip the next day to recover.
+
+Justin jokingly said those in attendance would get extra credit on the next assignment.
+
+I then outed myself as a student from another section, and informed him he'd have to amend his count.
