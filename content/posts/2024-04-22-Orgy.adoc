@@ -1,0 +1,65 @@
+---
+title: "The Orgy"
+date: 2024-04-22T22:01:50-04:00
+tags:  ["diary"]
+---
+:fn-grad: footnote:grad[I graduated a year early]
+:fn-cambridge-lounge: footnote:cambr[A nearby dorm with excellent lounges that I frequented sophomore year with my previous friend group]
+
+// Dedicated to Kelly Li, their friend group the Orgy, and the group house (The Jean House aka Jouse)
+
+== A New Friend
+
+I've been hanging out with a friend for several years now.
+We have many similar interests, and I like their energy.
+
+Initially, we kept running into each other at campus events sophomore year.
+We jelled well and would often talk alone before/after/during these events.
+We joked that we were the only two outspoken CS majors.
+I treasured these conversations.
+We traded lots of advice, especially when the other was feeling down.
+
+My Junior year,{fn-grad} I had a falling out with the previous year's friend group.
+By chance, we met again and they cheered me up.
+I decided to invest my time with their friend group instead, as we continued to encounter each other albeit at a reduced frequency.
+
+While I don't think we fit perfectly as people (an impossible thing?), they are dedicated to their friends (including me) and I feel honoured to return the favor when possible.
+
+== Their Friends, The Orgy
+
+They introduced me to their friend group, The Orgy, and they were all nice people as well.
+This friend group organizes hangouts frequently. The group also drink in moderation, which is nice for me to pace myself.
+
+The group had a "vetting period": you had to be invited to 2 events and then the members would vote
+
+We danced, eat candy, drew dot drawings, watched movies and TV (including an ATLA rewatch prior to the netflix remake), partied, traded valentines cards, snacked, and just lounged around.
+
+=== Junior Year Halloween
+
+My Junior year, we went trick-or-treating. The Orgy dressed as various eeveevolutions.
+As a last minute addition, I did not coordinate my outfit and dressed as Morticia Adams.
+
+I'm very forgetful, and predictably forgot several items at the end of the night.
+Orgy members carefully collected my things, kept them safe, and returned them to me.
+
+This was my first group interaction, and I felt so normal and accepted amongst them.
+
+== Their house
+
+In their final year of college{fn-grad}, (some of) the orgy rented a house.
+It became the common meeting point.
+
+It wasn't as accessible as Cambridge Lounge{fn-cambridge-lounge} (off campus location, and had to check if people were available ahead of time), but coming back on a monthly basis during my first year of work was incredibly worth it.
+
+They let me sleep on their couch anytime (perhaps I should've brought a blanket), and one of them even had a spare mattress I occasionally used.
+I was shown this hospitality even when I did not visit campus to visit them.
+
+I felt connected to campus during what would've been my senior year, and am very grateful.
+
+== Conclusion
+
+The orgy is graduating this year.
+We'll most likely scatter a moderate amount (perhaps within a 90 min radius of D.C.).
+
+I'm scared about what this means.
+Socializing as a working adult is harder.
