@@ -1,0 +1,11 @@
+---
+title: "Substack"
+date: "2024-04-22T20:18:37-04:00"
+tags: ["tweet"]
+---
+
+Despite having a perfectly functional website, substack is not useable without javascript.
+
+Instead of displaying content, and then using javascript to display a banner, they do the opposite: they display a banner and use javascript to load the content underneath.
+
+Its infuriating!
