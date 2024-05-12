@@ -10,6 +10,7 @@
 		"shortcodes",
 		"teleporting",
 		"Thanator",
+		"uncategorized",
 		"unintuitively",
 		"vaxxers"
 	],
@@ -20,7 +21,6 @@
 			"other": "on"
 		}
 	},
-	"explorer.sortOrder": "mixed",
 	"[jsonc]": {
 		"editor.defaultFormatter": "dprint.dprint"
 	},
@@ -28,4 +28,7 @@
         "skip-front-matter": true
     },
 	"explorer.excludeGitIgnore": true,
+	"github.copilot.enable": {
+		"asciidoc": false,
+	}
 }
