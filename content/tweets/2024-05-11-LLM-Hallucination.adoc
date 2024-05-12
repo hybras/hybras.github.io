@@ -1,0 +1,22 @@
+---
+title: "LLM Hallucination"
+date: "2024-05-11T17:10:04-04:00"
+tags: ["tweet"]
+---
+
+I dipped my toes into Github Copilot (henceforth, "the llm") these past couple days and it's been interesting.
+
+I've first used it at work because I've heard llm's are good was the minutiae of syntax.
+I was working in a templating language.
+llmwas great at generating the correct syntax, and switching back and forth between the template and the code was a breeze.
+It was also aware of what functions were available in the templating language, which was nice, using them to suggest snippets of code based on variable names.
+It correctly guessed my intent several times.
+There were a couple places where it forget closing quotes, but that was easy to notice and fix.
+
+Today I used it to write a github actions workflow, so automate publishing a project of mine.
+The project contains a few different packages (in go, ruby, and rust), and I wanted to publish them all at once.
+It successfully generated the workflow file (installing toolchains, wiring up secrets and environment variables).
+However, it hallucinated a publishing step (`go publish`) that didn't exist, presumably copying the ones for ruby and rust.
+
+Overall, very impressed with the llm.
+Spicy autocomplete feels like the future.
