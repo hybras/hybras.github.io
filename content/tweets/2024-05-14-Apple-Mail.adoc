@@ -1,0 +1,9 @@
+---
+title: "Apple Mail"
+date: "2024-05-14T21:03:10-04:00"
+tags: ["tweet"]
+---
+
+My heart skipped a beat.
+
+image::apple-inbox.png[]
