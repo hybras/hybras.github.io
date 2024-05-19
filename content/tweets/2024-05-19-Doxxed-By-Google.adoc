@@ -1,0 +1,12 @@
+---
+title: "Doxxed by Google"
+date: "2024-05-19T09:01:51-04:00"
+tags: ["tweet"]
+---
+
+I was looking up therapists.
+I found one and left a message using their listed phone number.
+Then I created a contact card in case I was called back.
+
+Google autofilled a second address from a google maps listing that appears to be a residential address.
+I'm worried it might be where they live.

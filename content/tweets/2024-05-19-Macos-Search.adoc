@@ -1,0 +1,15 @@
+---
+title: "Macos Search"
+date: "2024-05-19T11:23:32-04:00"
+tags: ["tweet"]
+---
+
+The quality of macOS spotlight search has declined.
+I keep receiving suggestions for websites, or menus within Settings.
+
+My muscle memory is interfering.
+I search up "Cal" (for calendar), but instead get calculator as the top result.
+Because its "predictive", it now thinks I want calculator now every time I search "Cal".
+This is despite my usage history.
+
+Is no way to modify search results?
