@@ -1,7 +1,7 @@
 ---
 title: "LLM Hallucination"
 date: "2024-05-11T17:10:04-04:00"
-tags: ["tweet"]
+tags: ["tweet", "dev"]
 ---
 
 I dipped my toes into Github Copilot (henceforth, "the llm") these past couple days and it's been interesting.
