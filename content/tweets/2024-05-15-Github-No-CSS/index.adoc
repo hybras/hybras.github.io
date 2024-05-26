@@ -1,0 +1,16 @@
+---
+title: "Github No CSS"
+date: "2024-05-15T07:00:00-04:00"
+publishDate: 2024-05-26
+tags: ["tweet"]
+draft: true
+---
+
+I opened github while connected to a terrible network.
+Not all the CSS loaded.
+I like the minimalist look.
+I'm not sure if this is an intentional example of graceful degradation from github.
+
+image::Screenshot 2024-05-15 at 7.01.27 PM.png[]
+
+image::Screenshot 2024-05-15 at 7.01.40 PM.png[]
