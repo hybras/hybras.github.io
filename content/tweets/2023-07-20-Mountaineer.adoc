@@ -1,7 +1,7 @@
 ---
 title: "Mountaineer"
 date: 2023-07-20T20:42:20-04:00
-tags: ['tweet']
+tags: ['tweet', 'india']
 ---
 
 I was at the airport. The security guard waving me down asked me "Are you a mountaineer?", in reference to my shirt. I couldn't understand him, and nervously uttered "I don't understand Hindi". He looked confused. He repeated it a couple more times before I realized he was referring to my shirt with a hiking logo. Eek

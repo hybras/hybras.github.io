@@ -1,7 +1,7 @@
 ---
 title: "India Driving Slogans"
 date: 2023-07-20T20:40:45-04:00
-tags: ['tweet']
+tags: ['tweet', 'india']
 ---
 
 I encountered many catchy slogans whilst traveling along Indian roadways (Maharashtra specifically). It was fun keeping an eye out for the signs, though I'm sure I missed a few.

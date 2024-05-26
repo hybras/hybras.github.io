@@ -1,6 +1,7 @@
 ---
 title: "Annie Besant"
 date: 2023-09-17T18:22:44-04:00
+tags: ['india']
 ---
 
 https://en.wikipedia.org/wiki/Annie_Besant
