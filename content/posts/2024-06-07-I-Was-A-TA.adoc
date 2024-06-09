@@ -1,0 +1,25 @@
+---
+title: "I Was a TA"
+date: 2024-06-07T19:33:43-04:00
+draft: true
+---
+
+Last wednesday, I was speaking to a colleague who went to the same university as me.
+It turned out I'd TA'd a class they took, and they went to office hours during my shift.
+
+[quote,Kevin Tang]
+____
+Yeah, you were like very unhelpful and that's how I knew you were smart.
+
+I asked this question about recursion in assembly, and you said something like "Oh yeah, just look at the stack trace".
+
+I basically didn't go to CS office hours after that.
+____
+
+I was floored hearing this.
+I don't remember this at all, but it definitely seems like something I'd say/do, especially off-hand.
+
+I'm ashamed I furthered the nerdy asshole stereotype.
+I'm sure I thought I was being helpful, but clearly I wasn't.
+
+I wonder if I do more harm then good in situations like this.
