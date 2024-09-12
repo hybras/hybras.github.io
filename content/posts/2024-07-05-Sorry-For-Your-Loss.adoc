@@ -1,7 +1,7 @@
 ---
 title: "Sorry for Your Loss"
 date: "2024-07-05T21:29:13-04:00"
-tags: ["facebook", "enshittification"]
+tags: ["diary", "dev", "facebook", "enshittification"]
 ---
 
 I recently started watching https://www.facebook.com/sorryforyourloss[Sorry For Your Loss].
@@ -14,6 +14,8 @@ NOTE: Isn't it crazy how capitalists just rewrite the rules? Facebook made this 
 Anyways, since the show is on facebook it exists in this nether realm.
 There is a lack of design for a viewing experience. It feels eery, like I am plumbing someone's innards.
 They have chucked a tv show into a (cancerous) social media site.
+
+image::facebook.png[]
 
 * The tv show's page looks like a normal facebook profile page, and is filled with the usual fb garbage (ads and "recommendations").
 
