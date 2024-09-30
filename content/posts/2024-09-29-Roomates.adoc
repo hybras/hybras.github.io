@@ -1,6 +1,7 @@
 ---
 title: "2024-09-29-Roomates"
 date: 2024-09-29T21:43:21-04:00
+description: A curious encounter with a potential tenant
 ---
 :fn-shilling: footnote:shill[I guess _I'm_ the one selling the apartment now, despite leaving]
 
