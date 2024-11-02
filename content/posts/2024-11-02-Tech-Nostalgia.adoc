@@ -1,0 +1,32 @@
++++
+title = "Tech Nostalgia"
+date = "2024-11-02T17:29:01-04:00"
+description = "I pine for idealized youthful experiences"
+tags = ["google", "dev"]
++++
+
+When I was younger, learning about technology sparked feelings of wonder, awe, and curiosity in me.
+I was so excited about the new iPhone/iOS/Android/Chrome/etc.
+
+Now I feel only drudgery.
+I know this is because the novelty of youth is gone, much of the software I use is mature, and reduced competition and innovation in tech (and many industries).
+
+The Nexus 6p (my first phone) had a unique feature: the ability to take photos with new geometries: full spheres, vertical and horizontal panoramas, fisheyes, a fake wide angle, and partial forms of all of the above paired with a wonderful viewing experience.
+The Pixel phone line inherited this feature, but lost it starting with the Pixel 8.
+I suspect this is related to Google's switch away from Qualcomm processors.
+They no longer wanted to maintain this feature, which required special software and hardware support.
+It seems the first few pixel's without Qualcomm chips did get the feature, then removed and restored it.
+
+I purchased a Pixel 8 without knowing it didn't have my favorite feature, and now I feel cheated and disappointed.
+Purchasing a new phone is easy, but damn.
+I felt like I had a super power.
+It encouraged me to take in my full surroundings, finding a good spot to photograph.
+And the photos were sooo slow to take, requiring my patience and presence of mind.
+Family and friends were regularly awed by my photos, which more than made up for my shaky hands or poor resolution.
+
+== Links
+
+* https://web.archive.org/web/20231022095402/https://www.androidpolice.com/the-pixel-8-killed-my-favorite-google-camera-feature/[Android Police]
+* https://web.archive.org/web/20231011201451/https://9to5google.com/2023/10/11/google-camera-photo-sphere-pixel-8/[9to5google]
+* https://support.google.com/pixelphone/thread/238953780/did-google-really-remove-the-photosphere-feature?hl=en[Google support]
+* https://xdaforums.com/t/photo-sphere-for-pixel-8.4635698/[XDA Forums]
