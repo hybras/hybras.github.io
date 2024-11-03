@@ -1,8 +1,9 @@
 ---
 title: "Indian Cuisine"
 date: 2023-10-06T18:30:30-04:00
-tags: ["diary"]
+tags: ["tweet"]
 ---
+:hardbreaks-option:
 
 [quote]
 ____
