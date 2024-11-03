@@ -10,7 +10,7 @@ I don't like my current town, and I don't like my current roommate (nothing seri
 Housing is unaffordable pretty much everywhere, and its resulted in some interesting characters coming by trying to replace me as a roommate.
 
 Today's prospective tenant came by motorcycle.
-He strode into our apartment with a very styling motorcycling outfit (it was black, windproof, made him look beefy).
+He strode into our apartment with a very stylish motorcycling outfit (it was black, windproof, made him look beefy).
 I thought he was cute.
 
 My current roommate is an immigrant, and I can tell he's unfamiliar with our guest's American mannerisms.
@@ -22,7 +22,7 @@ I decide to intervene in the conversation.{fn-shilling}
 So where do you work?::
 Oh, in a "far out suburb of DC"
 
-Why are you looking at our apartment unit then? We're closer to DC, and rent is higher here. You;d be much happier closer to work::
+Why are you looking at our apartment unit then? We're closer to DC, and rent is higher here. You'd be much happier closer to work::
 Oh rent seemed really high everywhere, so I'm just looking anywhere I can get.
 
 Oof yeah, but that doesn't quite answer my question?::
