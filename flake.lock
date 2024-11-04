@@ -12,11 +12,11 @@
         "rust-overlay": "rust-overlay"
       },
       "locked": {
-        "lastModified": 1715393636,
-        "narHash": "sha256-ThlDgcEm8Zc4Jtb5Kxhy5hHZ3yYl/Vt605+PwqVPD7s=",
+        "lastModified": 1730691704,
+        "narHash": "sha256-+xra1RTC3va2jYbq7SYdWWavM5w8NLc7MdQGR5srUfk=",
         "owner": "hybras",
         "repo": "asciidoctor-server",
-        "rev": "9f75c22eee6be5d5548e75cdbac73c18467bb1f0",
+        "rev": "a23ce8872d5490cf2178ee9caea127f233957110",
         "type": "github"
       },
       "original": {
