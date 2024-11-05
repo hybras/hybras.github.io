@@ -1,0 +1,54 @@
+---
+title: "Dark Mode"
+date: "2024-11-04T21:19:03-05:00"
+tags: ["diary"]
+---
+
+Back in the dark (actually, light) ages, websites did not have dark mode.
+So we installed https://darkreader.org/[browser extensions] that did so for us. Thus:
+
+----
+website_dark = extension_enabled
+----
+
+Where the above input could be set based on time of day or site domain. `extension_enabled = not_disabled && nighttime`
+
+'''
+
+Then browsers added their own (initially shoddy) dark modes. Thus:
+
+----
+website_dark = browser_dark_enabled || extension_enabled
+----
+
+'''
+
+Then operating system's followed suit, support for OS dark was retconned.
+
+----
+website_dark = browser_dark_enabled || extension_enabled
+browser_dark_enabled = os_dark
+extension_enabled = os_dark
+----
+
+'''
+
+And then, out of long night (day), css gained dark mode support. Websites could take matters into their own hands.
+
+----
+website_dark = browser_dark_enabled || extension_enabled || (website_supports_dark && os_dark)
+----
+
+'''
+
+I occasionally want to opt out of dark mode whilst web browsing.
+Perhaps the dark mode doesn't look good, or suit the type of website.
+Perhaps I want more brightness.
+
+Now that many https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme[websites natively support dark mode], I find that
+I must disable my OS's dark mode to switch back to the website's light theme.
+This (as intended!) lights up my whole computer.
+Its a bit ironic to have _this_ problem.
+I remember as a child desperately trying to avoid being flash banged as I snuck my laptop/phone under the covers.
+My eyes aren't sharp enough anymore to use dark mode during the day.
+Here I am seeking the opposite to break monotony.
