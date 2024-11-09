@@ -1,0 +1,20 @@
+---
+title: "Conferences Dying"
+date: 2024-11-09T14:22:46-05:00
+draft: true
+---
+
+I went to Lesbians who Tech this year (post forthcoming).
+During https://lesbianswhotech.org/about/leanne-pittsford/[the Founder's] speech, she mentioned how it was becoming harder for conferences to find sponsors, especially diversity initiatives.
+She also told us that the seed money for the conference was her brother's life insurance money (he died young, )
+
+A few days ago I learnt about XOXO conference, and was watching their recorded talks on youtube.
+While googling, I noticed this year's conference was marked as the final one.
+I found articles about the founders' being burnt out, struggling with sponsors, and never wanting to be forever.
+
+Ive had Strange Loop conference talks in my backlog for months now. I noticed their website's https cert had expired.
+I googled, https://web.archive.org/web/20241019230003/https://www.thestrangeloop.com/index.html[same thing].
+https://web.archive.org/web/20241109210000/https://old.reddit.com/r/ProgrammingLanguages/comments/112bnl6/why_is_strangeloop_the_conference_ending/[Founder burnout], reduced attendance, funding issues.
+
+I hope this isn't a trend.
+I found the posted content so hopeful, inspiring, enriching, and stimulating.
