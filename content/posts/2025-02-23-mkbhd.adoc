@@ -1,0 +1,16 @@
+---
+title: "Blogger Repetitiveness"
+date: 2025-02-23T01:45:01-05:00
+draft: true
+---
+
+I've decided to unsubscribe from MKBHD. I've been ignoring his videos for months now, despite enthusiastically adding him to my RSS reader (when I started using RSS). Too many product reviews of incremental improvements in consumer tech. Tech stagnation isn't his fault but does make him boring. Discounting those, a big chunk of his more "meaningful" content feels like paid sponsorship (like his Tim Cook interview or that Disney behind the scenes engineering tour). Maybe the final nails in the coffin were him speeding through a school zone and trying to cover it up with editing, attaching his name to ... a bad wallpaper app.
+I'm saddened by the loss of the joy I felt watching MKBHD as a kid.
+
+He joins Daniel Lemire, my other most recent removal. I found Lemire _far_ too repetitive. How many articles on simd, parsing, and performance can one dude write ... Jesus. I found his occasional science links interesting at first. His very rare personal post was an insight, he's just one of those conservatives who thinks merit is paramount, and white men happen to be the most meritorious. (Computer) Science is about rules and order!
+
+The common thread here is that both of them became repetitive, and thus I gained no value from their new content. The compression algorithm in my brain had reached peak efficiency, compressing their content to 0 bytes of space.
+Most of the other bloggers/youtubers I subscribe to don't post frequently enough for this to be a problem.
+Some of the ones that do (and veer into repetitiveness) include Cory Doctorow, Simon Willson, and Michael Tsai.
+I don't read Tsai's apple OS updates from Juli Clover, or Simon Wilson new AI thing of the week.
+I do like Doctorow's fire and brimstone style, for now.
