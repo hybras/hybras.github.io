@@ -59,6 +59,8 @@ jobs:
           bundler-cache: true
       - name: Go flags
         run: go env -w GOFLAGS="-mod=readonly"
+      - name: Start asciidoctor server
+        run: asciidoctor-server &
       - name: Build with Hugo
         env:
           # For maximum backward compatibility with Hugo modules
