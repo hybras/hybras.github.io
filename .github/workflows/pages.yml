@@ -50,6 +50,8 @@ jobs:
           repo: hybras/asciidoctor-server
           tag: v0.4.4
           cache: true
+      - name: Debug Env
+        run: asciidoctor-client --help
       - name: Setup direnv
         uses: HatsuneMiku3939/direnv-action@v1
       - name: Install Ruby and Ruby Packages
@@ -62,9 +64,7 @@ jobs:
       - name: Start asciidoctor server
         run: asciidoctor-server &
       - name: Debug Env
-        run: |
-          ls /opt/hostedtoolcache/hybras/asciidoctor-server/v0.4.4/linux-x64
-          env
+        run: asciidoctor-client --help
       - name: Build with Hugo
         env:
           # For maximum backward compatibility with Hugo modules
