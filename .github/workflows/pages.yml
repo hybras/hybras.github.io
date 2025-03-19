@@ -50,6 +50,7 @@ jobs:
           repo: hybras/asciidoctor-server
           tag: v0.4.4
           cache: true
+          name: asciidoctor-client
       - name: Debug Env
         run: asciidoctor-client --help
       - name: Setup direnv
