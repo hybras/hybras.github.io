@@ -51,16 +51,8 @@ jobs:
           tag: v0.4.4
           cache: true
           name: asciidoctor-client
-      - name: Env Vars
-        run: |
-          echo "BUNDLE_BIN=$PWD/.direnv/bin" >> $GITHUB_ENV
-          echo "GEM_HOME=$PWD/.direnv/ruby" >> $GITHUB_ENV
-          echo "GOBIN=$PWD/.direnv/go/bin" >> $GITHUB_ENV
-          echo "GOPATH=$PWD/.direnv/go" >> $GITHUB_ENV
-          echo "$PWD/.direnv/ruby/bin" >> $GITHUB_PATH
-          echo "$GOBIN" >> $GITHUB_PATH
-          echo "$BUNDLE_BIN" >> $GITHUB_PATH
-          echo "$PWD/scripts" >> $GITHUB_PATH
+      - name: Setup direnv
+        uses: HatsuneMiku3939/direnv-action@v1
       - name: Install Ruby and Ruby Packages
         uses: ruby/setup-ruby@v1
         with:
