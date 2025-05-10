@@ -56,8 +56,10 @@ jobs:
       - name: Install Ruby and Ruby Packages
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.1.4'
+          ruby-version: .ruby-version
           bundler-cache: true
+        env:
+          BUNDLER_WITHOUT: development
       - name: Go flags
         run: go env -w GOFLAGS="-mod=readonly"
       - name: Start asciidoctor server
