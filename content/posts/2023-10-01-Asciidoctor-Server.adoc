@@ -10,6 +10,8 @@ description: Speeding up hugo + asciidoctor in a hacky way
 :fn-nix-pkg: footnote:nix-pkg[https://github.com/NixOS/nixpkgs/blob/nixos-23.05/pkgs/tools/typesetting/asciidoctor-with-extensions/Gemfile]
 :fn-docker-image: footnote:docker-image[https://github.com/asciidoctor/docker-asciidoctor#the-environment]
 
+NOTE: https://github.com/hybras/asciidoctor-server[Source code]
+
 == Background
 
 My hugo website has been building rather slowly of late, taking 8-10 seconds to build. This is with a site of ~125 pages and ~30 static assets.
