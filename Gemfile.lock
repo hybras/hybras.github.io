@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/hybras/asciidoctor-extensions-lab.git
-  revision: 4c5755f5ddf1d12cdf7f37b6857ac9fb1af44f1e
+  revision: 6140be5de4c9d623fca3419015d2a27aaf7aa3e5
   branch: main
   specs:
     asciidoctor-extensions-lab (0.1.0)
