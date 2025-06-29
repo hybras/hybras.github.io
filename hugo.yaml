@@ -35,8 +35,6 @@ menu:
     - name: About
       url: /about/
       weight: 2
-    - name: Resume
-      url: /page/resume/
       weight: 2
     - name: Tags
       url: /tags
