@@ -17,6 +17,12 @@ markup:
       hardWraps: true
   asciidocExt:
     backend: 'html5s'
+    attributes:
+      note-caption: "ℹ️ Note"
+      tip-caption: "💡 Tip"
+      important-caption: "❗ Important"
+      caution-caption: "⚠️ Caution" # Using warning emoji for caution
+      warning-caption: "🛑 Warning"
     extensions:
       - 'asciidoctor-html5s'
       - 'asciidoctor-diagram'
