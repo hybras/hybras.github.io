@@ -3,7 +3,7 @@ theme:
   - 'github.com/hybras/hugo-asciinema'
 
 module:
-  replacements: 'github.com/hybras/hybras-theme -> ../../hugo-theme '
+  replacements: 'github.com/hybras/hybras-theme -> ../../hugo-theme'
   imports:
     - path: 'github.com/hybras/hybras-theme'
     - path: 'github.com/hybras/hugo-asciinema'
