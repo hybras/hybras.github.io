@@ -6,7 +6,7 @@ draft: true
 ---
 
 
-https://livingwage.mit.edu/[Living wage] is about $30 in major US metro areas. Lets do some example math for tipping a waiter.
+[A Living wage](https://livingwage.mit.edu/) is about $30 in major US metro areas. Lets do some example math for tipping a waiter.
 
 Oh shit.
 None of my math is correct because min wage = tips + tipped wage. I was assuming that living wage = min wage + tips, but its actually living wage = tips + more tips.
