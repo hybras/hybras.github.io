@@ -38,33 +38,40 @@ Historical foolishness aside, lets gets some benchmarking in. I'm using hyperfin
 | stock
 | hugo
 | 8.9
+| How long it takes to build my website with no changes.
 
 | No IO
 | hugo --renderToMemory
 | 9.0
+| The difference between this and the stock benchmark shows how much time is spent writing to disk.
 
 | cat {fn-bogus-bench}
 | alias asciidoctor=cat; hugo
 | 0.7
+| How long it takes to build a website where no conversion to html occurs. The difference between this and the stock benchmark shows how much time is spent on conversion (a lot)
 
 | serial
 | fd -e adoc -x asciidoctor -o -
 | 6.2
+| This benchmark shows long it takes to convert the site, minus the time taken to stitch the pages together
 
 | batch
 | fd -e adoc -X asciidoctor -o -
 | 0.38
+| How long does converting the entire site take, when done as a single conversion.
 
 | simple
 | echo "yeet" \| asciidoctor -
 | 0.254
+| A reference benchmark. How long it takes to convert a single simple document
 
 | No op | asciidoctor --help | 0.255
+| Another reference benchmark. How long it takes merely to start the converter ( but not convert anything)
 |===
 
-These benchmarks make explicitly clear what the issue is. Asciidoctor is *blazingly* fast, converting the content of my website in nearly the same amount of time it takes to convert a single word. Hugo is also *blazingly* fast, converting a markdown site in the fraction of the time (hugo uses a go implementation of markdown). The problem isn't IO either.
+The large difference between the stock and the cat benchmarks shows that a significant portion of build time is spent on conversion. When this conversion is batched, it is speedy. Similarly, when conversion is not performed at all, my website is again built quickly. Asciidoctor is *blazingly* fast, converting the content of my website in nearly the same amount of time it takes to convert a single word. Hugo is also *blazingly* fast, converting a markdown site in the fraction of the time (hugo uses a go implementation of markdown). The problem isn't IO either.
 
-The problem is that asciidoctor has a massive startup time, of around a quarter of a second. This startup cost is repeatedly incurred because https://github.com/gohugoio/hugo/blob/da7983ac4b94d97d776d7c2405040de97e95c03d/markup/asciidocext/internal/converter.go#L69[hugo spawns a converter process per file]. This seems to wipeout whatever benefit is received from hugo's parallelism.
+The problem is that asciidoctor has a massive startup time, of around a quarter of a second. Hugo does not batch its conversions, instead https://github.com/gohugoio/hugo/blob/da7983ac4b94d97d776d7c2405040de97e95c03d/markup/asciidocext/internal/converter.go#L69[spawning a converter process per file]. This repeatedly incurs the startup time penalty, wiping out whatever benefit is received from hugo's parallelism.
 
 == Breaking things
 
