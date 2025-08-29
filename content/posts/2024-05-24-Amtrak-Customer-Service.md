@@ -6,13 +6,13 @@ description: Amtrak's customer service is amazing.
 
 Amtrak's customer service is amazing.
 
-== Rebooking
+## Rebooking
 
 Several times, I have had to rebook tickets. The ticket counter always rebooked me free of charge, finding the best combination or closest station and delay time.
 Trains have been delayed, I've missed my train, I even needed to make an emergency pit stop once.
 While the issues were annoying, the ticket counters made the best of bad situations.
 
-== Bikes
+## Bikes
 
 You can bring your bike aboard the train.
 
@@ -20,12 +20,12 @@ The first time I did this, departing from a major station, the staff knew to loo
 They all knew my destination.
 The racks also convert to shelves, so they wanted me first so I'd get the space I needed before other passengers used them.
 
-== Boarding
+## Boarding
 
 The staff become a well oiled machine.
 
-* They look for the elderly and families young children and help them cut the line.
-* They carry luggage for the elderly and disabled.
-* They direct passengers to escalators, elevators, and stairs based on luggage.
+- They look for the elderly and families young children and help them cut the line.
+- They carry luggage for the elderly and disabled.
+- They direct passengers to escalators, elevators, and stairs based on luggage.
 
 One time, during a busy time of the year (end of the fall college semester, winter holidays), the conductor saved trains cars for those boarding at later stations.
