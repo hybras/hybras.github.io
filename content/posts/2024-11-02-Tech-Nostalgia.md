@@ -26,14 +26,14 @@ Family and friends were regularly awed by my photos, which more than made up for
 
 https://photos.app.goo.gl/jfX4MhHeLCqtnijP6
 
-== Links
+## Links
 
-* https://web.archive.org/web/20231022095402/https://www.androidpolice.com/the-pixel-8-killed-my-favorite-google-camera-feature/[Android Police]
-* https://web.archive.org/web/20231011201451/https://9to5google.com/2023/10/11/google-camera-photo-sphere-pixel-8/[9to5google]
-* https://support.google.com/pixelphone/thread/238953780/did-google-really-remove-the-photosphere-feature?hl=en[Google support]
-* https://xdaforums.com/t/photo-sphere-for-pixel-8.4635698/[XDA Forums]
-* https://www.zdnet.com/article/google-brings-back-360-degree-photo-sphere-mode-but-only-on-some-pixel-phones/
-* https://youtu.be/YZ5J1_gkVhE?si=Qa0KBpYM-Y7IGtaA&t=369
-* https://www.youtube.com/watch?v=yOHd9fr95dE
-* https://www.reddit.com/r/GooglePixel/comments/1b1lj2a/photo_sphere_is_back_in_pixel_camera/
-* https://www.howtogeek.com/photo-sphere-is-the-best-pixel-camera-feature-google-removed/
+- [Android Police](https://web.archive.org/web/20231022095402/https://www.androidpolice.com/the-pixel-8-killed-my-favorite-google-camera-feature/)
+- [9to5google](https://web.archive.org/web/20231011201451/https://9to5google.com/2023/10/11/google-camera-photo-sphere-pixel-8/)
+- [Google support](https://support.google.com/pixelphone/thread/238953780/did-google-really-remove-the-photosphere-feature?hl=en)
+- [XDA Forums](https://xdaforums.com/t/photo-sphere-for-pixel-8.4635698/)
+- [ZDNet](https://www.zdnet.com/article/google-brings-back-360-degree-photo-sphere-mode-but-only-on-some-pixel-phones/)
+- [YouTube 1](https://youtu.be/YZ5J1_gkVhE?si=Qa0KBpYM-Y7IGtaA&t=369)
+- [YouTube 2](https://www.youtube.com/watch?v=yOHd9fr95dE)
+- [Reddit](https://www.reddit.com/r/GooglePixel/comments/1b1lj2a/photo_sphere_is_back_in_pixel_camera/)
+- [HowToGeek](https://www.howtogeek.com/photo-sphere-is-the-best-pixel-camera-feature-google-removed/)

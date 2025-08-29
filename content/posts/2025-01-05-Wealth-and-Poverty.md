@@ -1,0 +1,44 @@
+---
+title: "Wealth and Poverty"
+date: 2025-01-05T22:57:46-05:00
+tags: ["diary"]
+description: "My thoughts on Robert Reich's Wealth and Poverty Course"
+---
+
+Last year, I watched Robert Reich's lecture series / college class, [Wealth and Poverty](https://robertreich.substack.com/p/welcome-to-my-class).
+
+Mr. Reich was the former Secretary of Labor under US president Bill Clinton, and recently retired from a professorship at UC Berkeley (where he taught the above course).
+As Secretary, he was responsible for the last increase in Federal minimum wage, a huge achievement.
+Reich remains active online on social media and on his website (I don't like substack but it sure has made blogging easy).
+
+As an aside, he had a Dolly Parton clip on his site, which the tv show The Orville also pays homage too.
+I gotta get on the dolly train.
+
+
+## Course Summary
+
+The lecture series was _sooo_ informative about where inequality in America comes from. 
+
+- Wages havent kept pace with inflation, cost of living, or productivity.
+  - Unionization has declined, part of a larger trend of reduced social organizing of all kinds, and also spurred by anti-labor laws like "Right to work"
+  - Most sectors of the economy have become oligopolies or monopolies through lack of antitrust enforcement. This allow them to reduce wages and increase prices.
+- Our taxation system gives massive breaks to the wealthy:
+  - we dont have a wealth tax (capital gains does touch the principal, only growth)
+  - private colleges recieve tax breaks well in excess of public institutins
+  - local public services are typically funded by regressive property taxes
+  - The above two put together mean that public education isnt as good as it should be
+  - the income tax is very regressive, and would need to be replaced with UBI for people at the bottom
+  - The IRS is underfunded and can't go after the rich (regardless of whether the lack of taxes they pay is legal or not)
+  - affordable housing and college was only provided to white people during the 60s-80s
+- Towns bitterly fight for segregation by opposing affordable, dense housing and public transit, increasing commuting costs for all.
+  - Urbanist groups point out this also artifically raises the cost of maintenance beyond what many towns can afford
+- When mega-corporations fail, they are bailed out with amazing loans. Similar financial assistance is never availible to humans.
+- The availible public assistance is "monotonic", someone with assistance will never reach the income/wealth of someone not on assitance, dooming this person to remain on/eligible for assitance forever. This is done by capping eligibility with strict cutoffs, or through miniscule benefits. This necessarily means benefits do not reduce inequality or poverty.
+- Our healthcare sucks.
+- Socially minded enterprise cannot reduce inequality because they are often funded through "stolen wealth" (through aforementiond taxation and low wages)
+
+## What I Learnt
+
+For a variety of reasons, our political system disenfranchises vast swaths of the population.
+From at least the bottom 40% of our nation to perhaps the bottom 80-90% as well.
+No one is coming to save us, except ourselves.

@@ -1,6 +1,8 @@
 ---
+title: Jesse Singal Sucks
 draft: true
 ---
+
 I read the first few paragraphs of "Temporary Celibacy As Avoidance” (not a subscriber, couldn’t read it all). I think my situation is somewhat similar. I didn’t sign up for an account because your comments section didn’t seem the most welcoming to trans people (regardless of your own views).
 
 On the face of it, I think I fit your Trans Red Flags template: somewhat confused about my gender, heavily influenced by online discourse, other confounding mental health issues, not willing to admit reasonable discussion even with (most) family and friends. I especially identified with the “diktat” part.
