@@ -33,7 +33,7 @@ Historical foolishness aside, lets gets some benchmarking in. I'm using hyperfin
 
 [Benchmarks]
 |===
-|bench name |command |time (sec)
+|bench name |command |time (sec) |Description
 
 | stock
 | hugo
