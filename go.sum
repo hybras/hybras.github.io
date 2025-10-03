@@ -2,5 +2,5 @@ github.com/hybras/hugo-asciinema v0.0.0-20240509221705-b34d645dd35e h1:ALmqkoNwd
 github.com/hybras/hugo-asciinema v0.0.0-20240509221705-b34d645dd35e/go.mod h1:1nXjpKuldh39FoiF7ttnpKMkTy51fJlk24ByPkyXwds=
 github.com/hybras/hybras-theme v0.0.0-20230815234638-d4d19fbc341b h1:vD/CKPOyRAPyOoc1MiPuX1/Rs3+AfShlQJ4yoo9v0ow=
 github.com/hybras/hybras-theme v0.0.0-20230815234638-d4d19fbc341b/go.mod h1:BVBVl7nGoy5QkopYapNTcGKjRfoQDQJ53J3r8SsCY1E=
-github.com/janraasch/hugo-bearblog v0.0.0-20250509165909-c541ece2bd1f h1:xa5+DO0FzkPkxkWEZtdGaE2+whCmrD0baJiZuD+Wt+U=
-github.com/janraasch/hugo-bearblog v0.0.0-20250509165909-c541ece2bd1f/go.mod h1:qVJ3S3qhkRf6smf5f8vveeV/QX3ui8poHckF6Ykt9AU=
+github.com/janraasch/hugo-bearblog v0.0.0-20250821143536-e43c252b8dde h1:Jz/iVz8mpFCXD+x1Tk903svu80nmJQ6sMwSrc+e83CY=
+github.com/janraasch/hugo-bearblog v0.0.0-20250821143536-e43c252b8dde/go.mod h1:qVJ3S3qhkRf6smf5f8vveeV/QX3ui8poHckF6Ykt9AU=
