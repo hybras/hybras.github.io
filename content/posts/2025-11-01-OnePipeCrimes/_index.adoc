@@ -1,0 +1,15 @@
+---
+title: "OnePipeCrimes"
+date: 2025-11-03T21:40:07-05:00
+tags: ['dev', 'diary']
+summary: Sheer organizational dysfunction makes me burnout
+---
+
+****
+In the https://ludic.mataroa.blog[tradition] of https://www.youtube.com/watch?v=3t6L-FlfeaI[great engineers] before https://rachelbythebay.com/w/[me], I will now return to Mother Earth as https://youtu.be/RzTg7YXuy34?t=4312[Sita once did].
+
+If you find yourself identifying a bit with this text, seek help.
+****
+
+
+I have come to a genuinely terrifying conclusion .... no one in OnePipeCrimes understands how pipelines (or software engineering) works.
