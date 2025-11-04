@@ -1,0 +1,35 @@
+---
+title: "Part 1 - Skipidee Doo"
+date: 2025-11-03T21:40:07-05:00
+tags: ['dev', 'diary']
+---
+
+A customer opened a support ticket with an interesting issue:
+Nothing was deploying anymore to their staging environment.
+A cursory look at their deployment config file showed a number of resources that should've been deployed.
+The customer's test and production deployments were healthy, and their staging configuration was identical to the others.
+
+I read the customer's CI/CD logs, where they have helpfully pointed out the error message: +
+`no resources found to deploy to staging`.
+
+I consult the deployment logic my department had written, but there is nothing for me there. While it _is_ a tangled mess, there is nothing to suggest a customer's configuration would be summarily ignored.
+
+Suddenly, I remember that the customers' configuration is not what it seems. It undergoes a significant amount of pre-processing earlier in the pipeline code, nearly at the beginning. I locate the relevant log line: `staging resources using wrong aws account. omitting all staging resources from configuration`. I use this to find the relevant pipeline logic.
+From here I deduce that the customer's CI/CD server and aws account do not match.
+
+Some context: Engineers in my company are assigned a CI/CD server, AWS account, and a department. This is partly a performance optimization (a company of our size requires a fleet of CI/CD servers), and partly a security boundary (departments cannot access each others' cloud resources). Our pipeline code checks that all three fields match in a customer's configuration. In this case, rather than throwing an error, we chose to (almost silently) filter out seemingly incorrect input.
+
+The great distance between the deployment and filtering logic suggests they were written at different times, and to interact as little as possible. I know this to be true from my department's oral history. The deployment logic was written first, and security and performance were considered later as we scaled. I briefly consider moving the filtering logic (and log statements) closer to the deployment logic, so at least a customer could understand what happened by reading the logs in a single sitting.
+
+Alas, I am flooded with dread.
+A peer might question me on why this was being moved, with no functionality added or removed (so that my head hurts less thinking about this).
+My manager would demand explanation: what metric justifies this change? (the metric being people can read the logs now because they make sense)
+A senior engineer would block me, asserting that it is advantageous to have the filtering happen as early as possibly. After all, we must fail as fast as possible due to bad customer input (never mind that we never actually failed or threw an error until it was too late).
+
+And why did we never throw an error? To support the usecase where _not everything_ is filtered out. But if that is the case, then the filtering logic *IS* deployment logic and they should sit together. Then, a customer can read their logs together, and a DevOps engineer could understand how the two interact without switching back/forth.
+
+I realize no one in my department is empathetic enough to understand what I'm talking about.
+They all have Big Brains and no problems following hundreds of nonsensical log lines.
+Truly I am blessed to work amongst such skilled people.
+
+I instruct the customer to switch to the correct AWS account.
