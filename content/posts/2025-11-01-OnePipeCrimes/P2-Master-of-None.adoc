@@ -1,0 +1,52 @@
+---
+title: "Part 2 - Master of None"
+date: 2025-11-03T21:40:07-05:00
+draft: true
+tags: ['dev', 'diary']
+---
+
+****
+NOTE: I fully support the usage of inclusive language within software engineering. Ironically, I think using "main" instead of "master" would help people understand this whole problem better.
+****
+
+A customer opened a support ticket with the following pipeline error: `master branch is out of date. Production deployment is newer than master. Last deployment is commit XXX`.
+
+I am at once struck by the insanity of this error message. 
+"Master branch is out of date?"
+Does one understand the meaning of the word master?
+https://youtu.be/m2YY9_NfW8w[Nevertheless I persisted] to help this hapless customer.
+
+I locate commit XXX in their git history and am enlightened.
+The commit was made by the dependency upgrade bot, and pushed to the branch `hotfix`.
+Within my company, this git branch is special.
+_It is allowed to bypass master and deploy to production_.
+Pipelines that run against this branch skip many steps (like tests), in order to deploy more rapidly.
+This is ostensibly to permit .... hotfixes.
+Pull requests must be opened into this branch, but the dependency upgrade bot (with the assistance of yet another auto-approval bot, of course) can merge its PR's without human intervention.
+
+The bot menagerie should then merge `hotfix` into master, ensuring all is well and our Source of Truth remains pure and untainted.
+For this customer, this second most critical step failed due to a race condition.
+Between `hotfix` successfully deploying and the "reconciliation" pr being opened, the customer merged another change (as customers tend to do) to master.
+The reconciliation PR then ran into a merge conflict.
+Since the reconciliation PR was created by automation, the customers ignored it (many such dependency upgrade PR's are opened, but fail to merge, leading to https://en.wikipedia.org/wiki/Alarm_fatigue[alarm fatigue])
+And thus their master branch was in fact, not the master.
+
+I wondered how I could share my opinion without sounding like an entitled brat.
+This is not how Pull Requests, pipelines, or automated dependency upgrades are supposed to work.
+The dependency upgrade bot should open one and only one PR against master.
+Rather than an auto-approval bot (which is hardcoded to approve and dependency bot PRs), the PR should simply merge once its green (using auto-merge logic that applies to all PRs). And the hotfix branch (with its skipped tests) shouldn't exist. Or at least, we shouldn't be using it for automated / routine changes.
+
+My colleagues and I understood this to be a frequent and tiresome issue.
+Customer could waste hours trying to remedy the Reconciliation PR.
+My manager was looking for easy wins, simple changes we could make to better the customer experience.
+
+Another mid-level engineer announced they had the fix!
+I was stupefied.
+Had they truly deleted all this nonsense?
+My hopes raised, this was my chance to explain how I felt and participate as a teammate!
+I looked closer.
+They had updated the error message with steps on how to remedy the reconciliation PR.
+
+I privately noted that these would not help my support customer.
+They had deleted all the automated branches and pr's whilst tidying their repository (understandable).
+I guided them threw a fairly complicated merge process that involved necromancing the relevant bot commits.
