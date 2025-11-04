@@ -39,11 +39,11 @@ jobs:
       - name: Install Hugo
         uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: 'latest'
+          hugo-version: '0.149.1'
       - name: Install Golang
         uses: actions/setup-go@v6
         with:
-          go-version: '>=1.23.0'
+          go-version: '1.24'
       - name: Install asciidoctor Client
         uses: sigoden/install-binary@v1.2.0
         with:
