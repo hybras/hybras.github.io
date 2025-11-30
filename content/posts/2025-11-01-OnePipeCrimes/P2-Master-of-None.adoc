@@ -2,6 +2,7 @@
 title: "Part 2 - Master of None"
 date: 2025-11-03T21:40:07-05:00
 tags: ['dev', 'diary']
+draft: true
 ---
 
 ****

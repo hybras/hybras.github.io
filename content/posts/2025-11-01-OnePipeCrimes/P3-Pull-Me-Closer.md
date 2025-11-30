@@ -2,6 +2,7 @@
 title: "Part 3 - Pull Me Closer"
 date: 2025-11-03T21:40:07-05:00
 tags: ['dev', 'diary']
+draft: true
 ---
 
 Our operations org has its own PR review bot, a truly nifty utility.

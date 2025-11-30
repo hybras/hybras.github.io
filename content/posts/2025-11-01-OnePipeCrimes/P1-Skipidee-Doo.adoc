@@ -2,6 +2,7 @@
 title: "Part 1 - Skipidee Doo"
 date: 2025-11-03T21:40:07-05:00
 tags: ['dev', 'diary']
+draft: true
 ---
 
 A customer opened a support ticket with an interesting issue:

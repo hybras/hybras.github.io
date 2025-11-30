@@ -3,6 +3,7 @@ title: "OnePipeCrimes"
 date: 2025-11-03T21:40:07-05:00
 tags: ['dev', 'diary']
 summary: Sheer organizational dysfunction makes me burnout
+draft: true
 ---
 
 ****
