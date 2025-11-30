@@ -1,0 +1,10 @@
+{{ partialCached "asciinema.html" . (.Param "asciicast") }}
+
+{{/* Custom enhancements CSS */}}
+{{ $customCSS := resources.Get "css/custom-enhancements.css" }}
+{{ if $customCSS }}
+{{ $customCSS = $customCSS | resources.Minify }}
+<style>
+    {{ $customCSS.Content | safeCSS }}
+</style>
+{{ end }}

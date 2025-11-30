@@ -4,18 +4,16 @@
     {{ if .Data.Singular }}
     <h3 style="margin-bottom:0">Filtering for "{{ .Title }}"</h3>
     <small>
-        <a href="{{ " blog" | relURL }}">Remove filter</a>
+        <a href="{{ " posts" | relURL }}">Remove filter</a>
     </small>
     {{ end }}
     <ul class="blog-posts">
         {{ range .Pages }}
         <li>
             <span>
-                <i>
-                    <time datetime='{{ .Date.Format "2006-01-02" }}' pubdate>
-                        {{ .Date.Format (default "02 Jan, 2006" .Site.Params.dateFormat) }}
-                    </time>
-                </i>
+                <time datetime='{{ .Date.Format "2006-01-02" }}' pubdate>
+                    {{ .Date.Format (default "02 Jan, 2006" .Site.Params.dateFormat) }}
+                </time>
             </span>
             <a href="{{ .Permalink }}">{{ .Title }}</a>
         </li>
@@ -28,9 +26,9 @@
     {{ if .Data.Singular }}
     {{else}}
     <small>
-        <div>
+        <div class="tag-cloud">
             {{ range .Site.Taxonomies.tags }}
-            <a href="{{ .Page.Permalink }}">#{{ .Page.Title }}</a>&nbsp;
+            <a href="{{ .Page.Permalink }}">#{{ .Page.Title }}</a>
             {{ end }}
         </div>
     </small>

@@ -1,0 +1,36 @@
+{{ define "main" }}
+<content>
+    <article>
+        <header>
+            <h1>{{ .Title }}</h1>
+            {{ if or .Date .Params.tags .Params.series }}
+            <div class="post-meta">
+                {{ if .Date }}
+                <time datetime='{{ .Date.Format "2006-01-02" }}' pubdate>
+                    {{ .Date.Format (default "2006-01-02" .Site.Params.dateFormat) }}
+                </time>
+                {{ end }}
+                {{ if .Params.tags }}
+                <span class="tags">
+                    {{ range $index, $tag := .Params.tags }}
+                    {{ if $index }}, {{ end }}
+                    <a href="{{ " tags/" | relURL }}{{ $tag | urlize }}">#{{ $tag }}</a>
+                    {{ end }}
+                </span>
+                {{ end }}
+                {{ if .Params.series }}
+                <span class="series">
+                    {{ range .Params.series }}
+                    <a href="{{ " series/" | relURL }}{{ . | urlize }}">{{ . }}</a>
+                    {{ end }}
+                </span>
+                {{ end }}
+            </div>
+            {{ end }}
+        </header>
+        <div class="post-content">
+            {{ .Content }}
+        </div>
+    </article>
+</content>
+{{ end }}
