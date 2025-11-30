@@ -9,7 +9,7 @@ tags: ["diary"]
 ----
 This occurred during the summer, but I'm only writing about it now. 
 
-Also, I'm aware the title is misspelled.
+// The title is not mispelled
 ----
 
 My father has a classmate who married a czech woman.

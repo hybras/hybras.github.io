@@ -39,7 +39,7 @@ And I don't want to give up my driving ability, even though I drive infrequently
 
 == The Eye Doctor
 
-Fortunately, I live in an [.line-through]#artificially induced tumour# city{fn-city} and have a several eye doctors within walking/biking distance.
+Fortunately, I live in an [.line-through]#very posh# city{fn-city} and have a several eye doctors within walking/biking distance.
 I pick the closest one.
 
 They correct my insurance mixup (I confused my general insurance and eye insurance, fuck America).
@@ -76,7 +76,7 @@ The sales associate encourages me to shop around, but her caring and self-assure
 I check my insurance's coverage for glasses: I pay a flat $20 for lenses, and $120 towards frames.
 I estimate I will pay $40 each for two pairs of glasses.
 
-Fortunately, I live in an [.line-through]#artificially induced tumour# city footnote:cities[] and have a several glasses stores within walking/biking distance.
+Fortunately, I live in a [.line-through]#very posh# city footnote:cities[] and have a several glasses stores within walking/biking distance.
 I visit several and discover a disturbing pattern.
 
 The sticker price of glasses / lenses is artificially inflated at stores that accept insurance (which is most of them).

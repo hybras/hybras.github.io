@@ -9,7 +9,7 @@ I've liked it a lot.
 It is cathartic seeing grief portrayed, even if you don't think its a good portrayal.
 I hope to post a review soon.
 
-NOTE: Isn't it crazy how capitalists just rewrite the rules? Facebook made this amazing show, and https://www.primetimer.com/features/sorry-for-your-loss-facebook-watch-shutdown[then just as easily threw it away].
+NOTE: Isn't it crazy how companies can just rewrite the rules? Facebook made this amazing show, and https://www.primetimer.com/features/sorry-for-your-loss-facebook-watch-shutdown[then just as easily threw it away].
 
 Anyways, since the show is on facebook it exists in this nether realm.
 There is a lack of design for a viewing experience. It feels eery, like I am plumbing someone's innards.
@@ -19,10 +19,23 @@ image::facebook.png[]
 
 * The tv show's page looks like a normal facebook profile page, and is filled with the usual fb garbage (ads and "recommendations").
 
-* In (what is now normal) facebook fashion, there is no clear delineation between the show and the garbage on the page.
+* In (what is now normal) facebook fashion, there is no clear delineation between the show itself and everything else
 
 * There is no playlist, and episodes are in the "videos" section of the fb page (a design meant to easily surface posted media, not movies/tv)
 
 * When watching an episode, the next episodes are in "related videos", not "next up", or "this season". This is a design meant to make it easier to got caught in stream of short attention grabbing videos. Since an algorithm decides what to put under "related", its not always the next episode.
 
 * The video player mutes when you pause or scroll down. There is an assumption that there is a stream of short, annoying videos to scroll through and/or ignore.
+
+== Nether Realm
+
+So what did I mean earlier by "nether realm"?
+Yes, the viewing experience is poor but ... 
+This wonderful show remains free, publicly accessible, and easy to find (surprising given our SEO driven world).
+
+Elizabeth Olsen beautifully portrays her grief. She is driven, she is incapacitated, and is often both at once.
+She tries so hard to understand her husband's reason's for suicide, even as it pushes her away from her memory of him.
+A much richer interpretation than as the Scarlet Witch in Wandavision.
+We see her painstakingly piece together the most mundane and all-consuming truth: that her husband was a flawed and awesome person and there is no smoking gun, just a person who needed help.
+
+And all this is on a random facebook page?

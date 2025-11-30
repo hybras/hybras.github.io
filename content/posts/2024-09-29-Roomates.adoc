@@ -30,7 +30,9 @@ He mentions offhand something needing a place for his young children when they'r
 
 _My roommate is visibly shocked._
 
-I put two and two together. Young man with kids part time. LMFAO. Sounds like a standard military divorce.
+I put two and two together.
+
+//  Young man with kids part time. LMFAO. Sounds like a standard military divorce.
 
 Is that your custody arrangement?::
 Yup
@@ -53,12 +55,14 @@ Well (immigrant) community is important to me. I'm sure I could buy 10 houses in
 
 Sounds self inflicted.
 
-A little bit man, a little bit. I also don't wanna be the only brown person somewhere you clueless cunt.
+A little bit man, a little bit. 
 
-Oh you know, there's a lot of brown families who rent out their finished basements to young families. Its a great way to get started here. The price is usually set for two working adults, but you might make it work::
+// I also don't wanna be the only brown person somewhere you clueless cunt.
+
+Oh you know, there's a lot of immigrant families who rent out their finished basements to young families. Its a great way to get started here. The price is usually set for two working adults, but you might make it work::
 Man the racism up here is crazy. People always say the south is worse but the things I've heard since I've gotten here..
 
-I'm from the North East, things are certainly better there. Not sure what you meant by racist though, was simply stating a fact about the local immigrant population  (of which I am a part)
+I'm from the North East, things are certainly better there. Not sure what you meant by racist though, was simply stating a fact about the local immigrant population  (of which I am a part):: {}
 
 So you do realize this is an apartment? Not much room here for kids?::
 Eh, I know how to make do. When I have them over I usually take them to my boat
