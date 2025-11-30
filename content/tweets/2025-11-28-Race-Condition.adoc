@@ -1,0 +1,62 @@
+---
+title: "Race Condition"
+date: "2025-11-28T17:51:38-05:00"
+publishDate: 2025-11-21
+tags: ["tweet"]
+---
+
+I wrote a nice wrapper for some glue code a colleague wrote.
+They liked my API, and gave me merge perms on the glue code's repo.
+_Nice_ ... street cred.
+
+Later my colleague asked me to look into a race condition.
+I looked into it briefly, but wasn't convinced it was a race.
+I pointed out that the error handling was broken.
+
+Still later, a third party contributor saw my comments and offered to fix the error handling.
+I took this as the impetus to look into the race again.
+My colleague did a good job documenting the issue, and had implemented a hotfix (a retry) so it felt like a good oppurtunity for a followup.
+
+I became convinced it was indeed a race condition after reading my colleagues issue docs and taking a cursory look at the API's called by my colleagues glue code.
+I was also fairly certain of what kind of race condition is was.
+
+Armed with the knowledge of what to look for, I went a few levels deeper down the stack.
+I found where the database calls were, and confirmed the issue.
+I documented my findings, and sent it to the owning team and my colleague.
+
+== Thoughts
+
+=== Workload
+
+I was supposed to take the day off, but instead spent 4-5 hours looking into the issue.
+This is bad.
+I tired myself quite a bit, for not much gain (negative gain when considering I needed the break).
+Not entirely sure why I couldn't stop.
+
+=== Street Cred
+
+Several people congratulated me for finding the issue.
+Their praise felt good.
+
+And I partly did for their praise.
+And partly because I was sucked in.
+And partly because I wanted to feel efficacious.
+
+But also partly for their anti-praise?
+To show to them, and myself, that it was possible.
+Not special.
+
+And for that ... their praise hurt me.
+
+=== Am I replaceable?
+
+An llm could forseeably have done this.
+I'll need to check.
+
+Most people don't have the patience, careful eye, and context to catch this stuff.
+Does that matter when the machines can read now?
+
+== Conclusion
+
+I felt productive and I got to help people.
+I hope that's enough.
