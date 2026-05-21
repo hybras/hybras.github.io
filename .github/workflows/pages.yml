@@ -60,6 +60,10 @@ jobs:
           bundler-cache: true
         env:
           BUNDLER_WITHOUT: development
+      - uses: actions/cache@v5
+        with:
+          path: resources
+          key: hugo-resources
       - name: Go flags
         run: go env -w GOFLAGS="-mod=readonly"
       - name: Start asciidoctor server
