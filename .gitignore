@@ -5,3 +5,4 @@ _vendor/
 .asciidoctor-server.sock
 .bundle/
 .vscode/
+resources/_gen
