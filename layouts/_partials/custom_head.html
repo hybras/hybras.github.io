@@ -1,10 +1,10 @@
 {{ partialCached "asciinema.html" . (.Param "asciicast") }}
 
-{{/* Custom enhancements CSS */}}
-{{ $customCSS := resources.Get "css/custom-enhancements.css" }}
-{{ if $customCSS }}
-{{ $customCSS = $customCSS | resources.Minify }}
+{{/* Minimalist theme override CSS */}}
+{{ $themeCSS := resources.Get "css/minimalist-theme.css" }}
+{{ if $themeCSS }}
+{{ $themeCSS = $themeCSS | resources.Minify }}
 <style>
-    {{ $customCSS.Content | safeCSS }}
+    {{ $themeCSS.Content | safeCSS }}
 </style>
 {{ end }}
