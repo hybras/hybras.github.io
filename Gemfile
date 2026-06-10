@@ -1,6 +1,8 @@
 source 'https://rubygems.org'
 
 gem 'asciidoctor'
+# asciidoctor needs ruby 3.4 for now 
+# https://github.com/asciidoctor/asciidoctor/issues/4684
 gem 'asciidoctor-diagram'
 gem 'asciidoctor-extensions-lab',
     '~> 0.1.0',
